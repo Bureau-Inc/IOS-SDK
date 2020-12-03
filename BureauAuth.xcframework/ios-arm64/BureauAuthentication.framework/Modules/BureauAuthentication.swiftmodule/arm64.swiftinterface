@@ -1,0 +1,30 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)
+// swift-module-flags: -target arm64-apple-ios13.2 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BureauAuthentication
+@_exported import BureauAuthentication
+import Foundation
+import Swift
+public class BureauAuth {
+  public enum Mode {
+    case sandbox
+    case production
+    public static func == (a: BureauAuthentication.BureauAuth.Mode, b: BureauAuthentication.BureauAuth.Mode) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
+    public func hash(into hasher: inout Swift.Hasher)
+  }
+  public class Builder {
+    public init()
+    public func setClientId(clientId: Swift.String) -> BureauAuthentication.BureauAuth.Builder
+    public func setCallBackUrl(callBackUrl: Swift.String) -> BureauAuthentication.BureauAuth.Builder
+    public func setTimeout(timeoutinSeconds: Swift.Int) -> BureauAuthentication.BureauAuth.Builder
+    public func setMode(mode: BureauAuthentication.BureauAuth.Mode) -> BureauAuthentication.BureauAuth.Builder
+    public func build() -> BureauAuthentication.BureauAuth
+    @objc deinit
+  }
+  public func makeAuthCall(mobile: Swift.String, correlationId: Swift.String) -> Swift.String
+  @objc deinit
+}
+extension BureauAuthentication.BureauAuth.Mode : Swift.Equatable {}
+extension BureauAuthentication.BureauAuth.Mode : Swift.Hashable {}
