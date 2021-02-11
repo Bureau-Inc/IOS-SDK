@@ -22,6 +22,9 @@ class SuccessViewController: UIViewController {
     }
     
 
+    @IBAction func onClickButtonLogout(_ sender: Any) {
+        self.dismiss(animated: false, completion: nil)
+    }
     /*
     // MARK: - Navigation
 

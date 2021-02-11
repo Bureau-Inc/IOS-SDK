@@ -10,12 +10,16 @@ import UIKit
 
 class LoginViewController: UIViewController {
     
+    let activityView = UIActivityIndicatorView(style: .gray)
+    
     @IBOutlet weak var textFieldPhoneNumber: UITextField!
+    @IBOutlet weak var imagePhoneVerified: UIImageView!
+    
     var correlationId = String()
     var count = 1
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
     
     @IBAction func buttonLogin(_ sender: Any) {
@@ -25,21 +29,24 @@ class LoginViewController: UIViewController {
         
         //BureauSilentAuth SDK
         let authSDKObj = BureauAuth.Builder()
-            .setClientId(clientId: "e72a4414-a416-4872-8eea-6b51d6cd96e1")
+            .setClientId(clientId: "d5f5e426-e616-4a8a-a4d0-13408618dcfd")
             .setMode(mode: .sandbox)
             .setTimeout(timeoutinSeconds: 60)
             .build()
         
         guard let phoneNumberValue = self.textFieldPhoneNumber.text else {
-            self.showAlert(message: "Enter mobile Number")
-            return}
-        // Call this API in background thread, otherwise it will freeze the UI
-        DispatchQueue.global(qos: .userInitiated).async {
-                let response = authSDKObj.makeAuthCall(mobile: "91\(phoneNumberValue)", correlationId: self.correlationId)
-                print(response)
-                self.callUserInfoAPI()
+            self.showAlert(message: "Enter valid mobile Number")
+            return
+            
         }
         
+        showActivityIndicatory()
+        // Call this API in background thread, otherwise it will freeze the UI, since semaphore is used for timeout
+        DispatchQueue.global(qos: .userInitiated).async {
+            let response = authSDKObj.makeAuthCall(mobile: "91\(phoneNumberValue)", correlationId: self.correlationId)
+            print(response)
+            self.callUserInfoAPI()
+        }
     }
     
     //User info API
@@ -51,7 +58,7 @@ class LoginViewController: UIViewController {
         var request = URLRequest(url: URL(string: finalUrl)!)
         request.timeoutInterval = 1
         request.httpMethod = "GET"
-        request.setValue("ZTcyYTQ0MTQtYTQxNi00ODcyLThlZWEtNmI1MWQ2Y2Q5NmUxOmYxODRjZDc4NjQyZDM2YmIzMzI3YWU5YTE2NDg4YTM0NWVkMTI3MGYxODU4MGQ5MjUwNWY4ZDMyMGQ1MWRkYTIK", forHTTPHeaderField: "Authorization")
+        request.setValue("ZDVmNWU0MjYtZTYxNi00YThhLWE0ZDAtMTM0MDg2MThkY2ZkOjBlYjVmODljLWFmZjItNDVhNC1iNTI5LTk1Zjc1MDBmNDIwZA==", forHTTPHeaderField: "Authorization")
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")
         
         let session = URLSession.shared
@@ -61,6 +68,7 @@ class LoginViewController: UIViewController {
                     let json = try JSONSerialization.jsonObject(with: data!) as! Dictionary<String, AnyObject>
                     if let mobileNumberValue = json["mobileNumber"] as? String{
                         DispatchQueue.main.async {
+                            self.stopActivityIndicatory()
                             let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
                             let newViewController = storyBoard.instantiateViewController(withIdentifier: "success") as! SuccessViewController
                             newViewController.mobileNumber = mobileNumberValue
@@ -69,7 +77,7 @@ class LoginViewController: UIViewController {
                         }
                     }else{
                         if let codePresent = json["code"] as? Int{
-                            //if code == 202100, make the api call again
+                            //if code == 202100, make the api call again for 10 times
                             if codePresent == 202100{
                                 if self.count <= 10{
                                     self.count += 1
@@ -80,14 +88,32 @@ class LoginViewController: UIViewController {
                                     return
                                 }
                             }else{
+                                DispatchQueue.main.async {
+                                    self.stopActivityIndicatory()
+                                    if let message = json["message"] as? String{
+                                        self.showAlert(message: message)
+                                    }
+                                }
                                 return
                             }
                         }else{
+                            DispatchQueue.main.async {
+                                self.stopActivityIndicatory()
+                                self.showAlert(message: "Error occured, please try again")
+                            }
                             return
                         }
                     }
                 } catch {
-                    print("error")
+                    DispatchQueue.main.async {
+                        self.stopActivityIndicatory()
+                        self.showAlert(message: "Error occured, please try again")
+                    }
+                }
+            }else{
+                DispatchQueue.main.async {
+                    self.stopActivityIndicatory()
+                    self.showAlert(message: "Error occured, please try again")
                 }
             }
         })
@@ -99,6 +125,16 @@ class LoginViewController: UIViewController {
         alert.addAction(UIAlertAction(title:  NSLocalizedString("ok", comment: ""), style: UIAlertAction.Style.default, handler: nil))
         alert.popoverPresentationController?.sourceView = self.view
         self.present(alert, animated: true, completion: nil)
+    }
+    
+    func showActivityIndicatory() {
+        activityView.center = self.view.center
+        self.view.addSubview(activityView)
+        activityView.startAnimating()
+    }
+    
+    func stopActivityIndicatory() {
+        activityView.stopAnimating()
     }
 }
 

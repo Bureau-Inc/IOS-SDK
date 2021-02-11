@@ -12,6 +12,7 @@ enum NetworkError: Error {
     case server
 }
 
+//Builder class
 public class BureauAuth {
     private let components: URLComponents
     private let cleintId : String?
@@ -109,8 +110,10 @@ public class BureauAuth {
         return response
     }
     
+    //main url function
     private func fireURL(mobileNumber: String,correlationId: String,finalise: Bool,completionHandler: @escaping FireAPICompletion){
         var response = "ERROR: Unknown HTTP Response"
+        //initiate api
         if !finalise{
             let queryItems = [URLQueryItem(name: "clientId", value: cleintId), URLQueryItem(name: "correlationId", value: correlationId),URLQueryItem(name: "msisdn", value: mobileNumber),URLQueryItem(name: "callbackUrl", value: callBackUrl)]
             var urlComps = URLComponents(string: "\(components.host ?? "https://api.bureau.id/v2/auth/")initiate")!
@@ -118,6 +121,7 @@ public class BureauAuth {
             let finalUrl = urlComps.url!.absoluteString
             response = HTTPRequester.performGetRequest(URL(string: finalUrl))
         }else{
+            //finalise api
             let queryItems = [URLQueryItem(name: "clientId", value: cleintId), URLQueryItem(name: "correlationId", value: correlationId)]
             var urlComps = URLComponents(string: "\(components.host ?? "https://api.bureau.id/v2/auth/")finalize")!
             urlComps.queryItems = queryItems
@@ -137,6 +141,7 @@ public class BureauAuth {
         completionHandler(response, nil)
     }
     
+    //redirect url handler
     private func fireRedirectURL(url:String) -> String {
         var response = "ERROR: Unknown HTTP Response"
         if let urlValue = URL(string: url){
