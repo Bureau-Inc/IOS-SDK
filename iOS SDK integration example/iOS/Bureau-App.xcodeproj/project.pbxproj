@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D21233E625D6B4D30007DCF9 /* BureauAuth.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21233E125D6B4CE0007DCF9 /* BureauAuth.xcframework */; };
+		D21233E725D6B4D30007DCF9 /* BureauAuth.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D21233E125D6B4CE0007DCF9 /* BureauAuth.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D282723E252B0108002C9DB5 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D282723D252B0108002C9DB5 /* SuccessViewController.swift */; };
+		D2FC5AE1251F270D00CB060E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FC5AE0251F270D00CB060E /* AppDelegate.swift */; };
+		D2FC5AE3251F270D00CB060E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FC5AE2251F270D00CB060E /* SceneDelegate.swift */; };
+		D2FC5AE5251F270D00CB060E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FC5AE4251F270D00CB060E /* LoginViewController.swift */; };
+		D2FC5AE8251F270D00CB060E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2FC5AE6251F270D00CB060E /* Main.storyboard */; };
+		D2FC5AEA251F271000CB060E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2FC5AE9251F271000CB060E /* Assets.xcassets */; };
+		D2FC5AED251F271000CB060E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2FC5AEB251F271000CB060E /* LaunchScreen.storyboard */; };
+		D2FC5AF8251F271000CB060E /* SilentAuthCheckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FC5AF7251F271000CB060E /* SilentAuthCheckTests.swift */; };
+		D2FC5B03251F271000CB060E /* SilentAuthCheckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FC5B02251F271000CB060E /* SilentAuthCheckUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2FC5AF4251F271000CB060E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2FC5AD5251F270D00CB060E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2FC5ADC251F270D00CB060E;
+			remoteInfo = SilentAuthCheck;
+		};
+		D2FC5AFF251F271000CB060E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2FC5AD5251F270D00CB060E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2FC5ADC251F270D00CB060E;
+			remoteInfo = SilentAuthCheck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D21233E825D6B4D30007DCF9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D21233E725D6B4D30007DCF9 /* BureauAuth.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D21233E125D6B4CE0007DCF9 /* BureauAuth.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = BureauAuth.xcframework; sourceTree = "<group>"; };
+		D282723D252B0108002C9DB5 /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
+		D2FC5ADD251F270D00CB060E /* Bureau-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bureau-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2FC5AE0251F270D00CB060E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2FC5AE2251F270D00CB060E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D2FC5AE4251F270D00CB060E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D2FC5AE7251F270D00CB060E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2FC5AE9251F271000CB060E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2FC5AEC251F271000CB060E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2FC5AEE251F271000CB060E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2FC5AF3251F271000CB060E /* Bureau-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bureau-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2FC5AF7251F271000CB060E /* SilentAuthCheckTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilentAuthCheckTests.swift; sourceTree = "<group>"; };
+		D2FC5AF9251F271000CB060E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2FC5AFE251F271000CB060E /* Bureau-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bureau-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2FC5B02251F271000CB060E /* SilentAuthCheckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilentAuthCheckUITests.swift; sourceTree = "<group>"; };
+		D2FC5B04251F271000CB060E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2FC5ADA251F270D00CB060E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21233E625D6B4D30007DCF9 /* BureauAuth.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2FC5AF0251F271000CB060E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2FC5AFB251F271000CB060E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2FC5AD4251F270D00CB060E = {
+			isa = PBXGroup;
+			children = (
+				D2FC5ADF251F270D00CB060E /* Bureau-App */,
+				D2FC5AF6251F271000CB060E /* Bureau-AppTests */,
+				D2FC5B01251F271000CB060E /* Bureau-AppUITests */,
+				D2FC5ADE251F270D00CB060E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2FC5ADE251F270D00CB060E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2FC5ADD251F270D00CB060E /* Bureau-App.app */,
+				D2FC5AF3251F271000CB060E /* Bureau-AppTests.xctest */,
+				D2FC5AFE251F271000CB060E /* Bureau-AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2FC5ADF251F270D00CB060E /* Bureau-App */ = {
+			isa = PBXGroup;
+			children = (
+				D21233E125D6B4CE0007DCF9 /* BureauAuth.xcframework */,
+				D2FC5AE0251F270D00CB060E /* AppDelegate.swift */,
+				D2FC5AE2251F270D00CB060E /* SceneDelegate.swift */,
+				D2FC5AE4251F270D00CB060E /* LoginViewController.swift */,
+				D282723D252B0108002C9DB5 /* SuccessViewController.swift */,
+				D2FC5AE6251F270D00CB060E /* Main.storyboard */,
+				D2FC5AE9251F271000CB060E /* Assets.xcassets */,
+				D2FC5AEB251F271000CB060E /* LaunchScreen.storyboard */,
+				D2FC5AEE251F271000CB060E /* Info.plist */,
+			);
+			path = "Bureau-App";
+			sourceTree = "<group>";
+		};
+		D2FC5AF6251F271000CB060E /* Bureau-AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2FC5AF7251F271000CB060E /* SilentAuthCheckTests.swift */,
+				D2FC5AF9251F271000CB060E /* Info.plist */,
+			);
+			path = "Bureau-AppTests";
+			sourceTree = "<group>";
+		};
+		D2FC5B01251F271000CB060E /* Bureau-AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2FC5B02251F271000CB060E /* SilentAuthCheckUITests.swift */,
+				D2FC5B04251F271000CB060E /* Info.plist */,
+			);
+			path = "Bureau-AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2FC5ADC251F270D00CB060E /* Bureau-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2FC5B07251F271000CB060E /* Build configuration list for PBXNativeTarget "Bureau-App" */;
+			buildPhases = (
+				D2FC5AD9251F270D00CB060E /* Sources */,
+				D2FC5ADA251F270D00CB060E /* Frameworks */,
+				D2FC5ADB251F270D00CB060E /* Resources */,
+				D21233E825D6B4D30007DCF9 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bureau-App";
+			productName = SilentAuthCheck;
+			productReference = D2FC5ADD251F270D00CB060E /* Bureau-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2FC5AF2251F271000CB060E /* Bureau-AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2FC5B0A251F271000CB060E /* Build configuration list for PBXNativeTarget "Bureau-AppTests" */;
+			buildPhases = (
+				D2FC5AEF251F271000CB060E /* Sources */,
+				D2FC5AF0251F271000CB060E /* Frameworks */,
+				D2FC5AF1251F271000CB060E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2FC5AF5251F271000CB060E /* PBXTargetDependency */,
+			);
+			name = "Bureau-AppTests";
+			productName = SilentAuthCheckTests;
+			productReference = D2FC5AF3251F271000CB060E /* Bureau-AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2FC5AFD251F271000CB060E /* Bureau-AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2FC5B0D251F271000CB060E /* Build configuration list for PBXNativeTarget "Bureau-AppUITests" */;
+			buildPhases = (
+				D2FC5AFA251F271000CB060E /* Sources */,
+				D2FC5AFB251F271000CB060E /* Frameworks */,
+				D2FC5AFC251F271000CB060E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2FC5B00251F271000CB060E /* PBXTargetDependency */,
+			);
+			name = "Bureau-AppUITests";
+			productName = SilentAuthCheckUITests;
+			productReference = D2FC5AFE251F271000CB060E /* Bureau-AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2FC5AD5251F270D00CB060E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Keyvalue;
+				TargetAttributes = {
+					D2FC5ADC251F270D00CB060E = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
+					};
+					D2FC5AF2251F271000CB060E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D2FC5ADC251F270D00CB060E;
+					};
+					D2FC5AFD251F271000CB060E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D2FC5ADC251F270D00CB060E;
+					};
+				};
+			};
+			buildConfigurationList = D2FC5AD8251F270D00CB060E /* Build configuration list for PBXProject "Bureau-App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2FC5AD4251F270D00CB060E;
+			productRefGroup = D2FC5ADE251F270D00CB060E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2FC5ADC251F270D00CB060E /* Bureau-App */,
+				D2FC5AF2251F271000CB060E /* Bureau-AppTests */,
+				D2FC5AFD251F271000CB060E /* Bureau-AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2FC5ADB251F270D00CB060E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2FC5AED251F271000CB060E /* LaunchScreen.storyboard in Resources */,
+				D2FC5AEA251F271000CB060E /* Assets.xcassets in Resources */,
+				D2FC5AE8251F270D00CB060E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2FC5AF1251F271000CB060E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2FC5AFC251F271000CB060E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2FC5AD9251F270D00CB060E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2FC5AE5251F270D00CB060E /* LoginViewController.swift in Sources */,
+				D282723E252B0108002C9DB5 /* SuccessViewController.swift in Sources */,
+				D2FC5AE1251F270D00CB060E /* AppDelegate.swift in Sources */,
+				D2FC5AE3251F270D00CB060E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2FC5AEF251F271000CB060E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2FC5AF8251F271000CB060E /* SilentAuthCheckTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2FC5AFA251F271000CB060E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2FC5B03251F271000CB060E /* SilentAuthCheckUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2FC5AF5251F271000CB060E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2FC5ADC251F270D00CB060E /* Bureau-App */;
+			targetProxy = D2FC5AF4251F271000CB060E /* PBXContainerItemProxy */;
+		};
+		D2FC5B00251F271000CB060E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2FC5ADC251F270D00CB060E /* Bureau-App */;
+			targetProxy = D2FC5AFF251F271000CB060E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2FC5AE6251F270D00CB060E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2FC5AE7251F270D00CB060E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2FC5AEB251F271000CB060E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2FC5AEC251F271000CB060E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2FC5B05251F271000CB060E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2FC5B06251F271000CB060E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2FC5B08251F271000CB060E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GS528Q8583;
+				INFOPLIST_FILE = "Bureau-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SilentAuthCheck.bureau;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2FC5B09251F271000CB060E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GS528Q8583;
+				INFOPLIST_FILE = "Bureau-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SilentAuthCheck.bureau;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D2FC5B0B251F271000CB060E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GS528Q8583;
+				INFOPLIST_FILE = SilentAuthCheckTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = keyvalue.SilentAuthCheckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bureau-App.app/Bureau-App";
+			};
+			name = Debug;
+		};
+		D2FC5B0C251F271000CB060E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GS528Q8583;
+				INFOPLIST_FILE = SilentAuthCheckTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = keyvalue.SilentAuthCheckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bureau-App.app/Bureau-App";
+			};
+			name = Release;
+		};
+		D2FC5B0E251F271000CB060E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GS528Q8583;
+				INFOPLIST_FILE = SilentAuthCheckUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = keyvalue.SilentAuthCheckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SilentAuthCheck;
+			};
+			name = Debug;
+		};
+		D2FC5B0F251F271000CB060E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GS528Q8583;
+				INFOPLIST_FILE = SilentAuthCheckUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = keyvalue.SilentAuthCheckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SilentAuthCheck;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2FC5AD8251F270D00CB060E /* Build configuration list for PBXProject "Bureau-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2FC5B05251F271000CB060E /* Debug */,
+				D2FC5B06251F271000CB060E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2FC5B07251F271000CB060E /* Build configuration list for PBXNativeTarget "Bureau-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2FC5B08251F271000CB060E /* Debug */,
+				D2FC5B09251F271000CB060E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2FC5B0A251F271000CB060E /* Build configuration list for PBXNativeTarget "Bureau-AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2FC5B0B251F271000CB060E /* Debug */,
+				D2FC5B0C251F271000CB060E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2FC5B0D251F271000CB060E /* Build configuration list for PBXNativeTarget "Bureau-AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2FC5B0E251F271000CB060E /* Debug */,
+				D2FC5B0F251F271000CB060E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2FC5AD5251F270D00CB060E /* Project object */;
+}
