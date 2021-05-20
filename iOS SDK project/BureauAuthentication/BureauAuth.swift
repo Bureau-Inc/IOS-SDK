@@ -83,33 +83,31 @@ public class BureauAuth {
     
     typealias FireAPICompletion =  (_ respose :String?, _ error: NetworkError?) -> Void
     // API exposed to the SDK
+
     public func makeAuthCall(mobile: String,correlationId: String) -> String{
-        var response = ""
-        let semaphore = DispatchSemaphore(value: 0)
-        DispatchQueue.global(qos: .background).async {
-            //Initiate URL - fireURL API with finalise Bool as False
-            self.fireURL(mobileNumber: mobile, correlationId: correlationId,finalise: false) { (apiResponse, networkError) in
-//                if let _ = apiResponse{
-//                    //Finalise URL - fireURL API with finalise Bool as True
-//                    self.fireURL(mobileNumber: mobile, correlationId: correlationId, finalise: true) { (finaliseApiResponse, networkError) in
-//                        if let responseValue = finaliseApiResponse{
-//                            response = responseValue
-//                        }
-//                    }
-//                }else{
-//                    response = "Error"
-//                }
-                semaphore.signal()
-            }
-        }
-        let timeoutInSeconds = timeOut ?? 10
-        if semaphore.wait(timeout: .now() + .seconds(timeoutInSeconds)) == .timedOut {
-            response = "timeout"
-        }
-        return response
-    }
+          var response = ""
+          let semaphore = DispatchSemaphore(value: 0)
+        print("Bureau SDK Logs - make auth call");
+          DispatchQueue.global(qos: .background).async {
+              //Initiate URL - fireURL API with finalise Bool as False
+              self.fireURL(mobileNumber: mobile, correlationId: correlationId,finalise: false) { (apiResponse, networkError) in
+                    if let responseValue = apiResponse {
+                       response = responseValue
+                    } else {
+                      response = "Error"
+                    }
+                  semaphore.signal()
+              }
+          }
+          let timeoutInSeconds = timeOut ?? 10
+          if semaphore.wait(timeout: .now() + .seconds(timeoutInSeconds)) == .timedOut {
+              response = "timeout"
+          }
+          return response
+      }
     
     private func fireURL(mobileNumber: String,correlationId: String,finalise: Bool,completionHandler: @escaping FireAPICompletion){
+        print("Bureau SDK Logs - fireURL: ", mobileNumber);
         var response = "ERROR: Unknown HTTP Response"
         if !finalise{
             let queryItems = [URLQueryItem(name: "clientId", value: cleintId), URLQueryItem(name: "correlationId", value: correlationId),URLQueryItem(name: "msisdn", value: mobileNumber),URLQueryItem(name: "callbackUrl", value: callBackUrl)]
@@ -138,6 +136,7 @@ public class BureauAuth {
     }
     
     private func fireRedirectURL(url:String) -> String {
+        print("Bureau SDK Logs - fireURLRedirect: ", url);
         var response = "ERROR: Unknown HTTP Response"
         if let urlValue = URL(string: url){
             response = HTTPRequester.performGetRequest(urlValue)
