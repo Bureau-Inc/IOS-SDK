@@ -89,16 +89,16 @@ public class BureauAuth {
         DispatchQueue.global(qos: .background).async {
             //Initiate URL - fireURL API with finalise Bool as False
             self.fireURL(mobileNumber: mobile, correlationId: correlationId,finalise: false) { (apiResponse, networkError) in
-                if let _ = apiResponse{
-                    //Finalise URL - fireURL API with finalise Bool as True
-                    self.fireURL(mobileNumber: mobile, correlationId: correlationId, finalise: true) { (finaliseApiResponse, networkError) in
-                        if let responseValue = finaliseApiResponse{
-                            response = responseValue
-                        }
-                    }
-                }else{
-                    response = "Error"
-                }
+//                if let _ = apiResponse{
+//                    //Finalise URL - fireURL API with finalise Bool as True
+//                    self.fireURL(mobileNumber: mobile, correlationId: correlationId, finalise: true) { (finaliseApiResponse, networkError) in
+//                        if let responseValue = finaliseApiResponse{
+//                            response = responseValue
+//                        }
+//                    }
+//                }else{
+//                    response = "Error"
+//                }
                 semaphore.signal()
             }
         }
