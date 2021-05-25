@@ -26,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		870JxDYV2/Cy4Kp3o+6w6P5dB1Q=
+		jpOYIgLo0tHkn+G+JBmu08Xvbbo=
 		</data>
 		<key>Modules/BureauAuthentication.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/BureauAuthentication.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		vKrvaX7l5w95652VeHulg31eV3A=
+		4r21Q5aqhe9LqncAjlCpaqx7/Jw=
 		</data>
 		<key>Modules/BureauAuthentication.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/BureauAuthentication.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		vKrvaX7l5w95652VeHulg31eV3A=
+		4r21Q5aqhe9LqncAjlCpaqx7/Jw=
 		</data>
 		<key>Modules/BureauAuthentication.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/BureauAuthentication.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		wza80d45gcoc64vtjeaQjjfdg5E=
+		IcuYXV0oHm7AdDlgqf4Ac3nfWpE=
 		</data>
 		<key>Modules/BureauAuthentication.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Modules/BureauAuthentication.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		wza80d45gcoc64vtjeaQjjfdg5E=
+		IcuYXV0oHm7AdDlgqf4Ac3nfWpE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -136,7 +136,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dYMuguWUh2qc2WLtjVWBhXlof8JL9uGcsKN1DiMYcLQ=
+			0oLm80N+XQCS2UtKnfOJMWmREmCU7vZpTFIix/N/0Fw=
 			</data>
 		</dict>
 		<key>Modules/BureauAuthentication.swiftmodule/arm64.swiftdoc</key>
@@ -157,7 +157,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dYMuguWUh2qc2WLtjVWBhXlof8JL9uGcsKN1DiMYcLQ=
+			0oLm80N+XQCS2UtKnfOJMWmREmCU7vZpTFIix/N/0Fw=
 			</data>
 		</dict>
 		<key>Modules/BureauAuthentication.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -178,7 +178,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MnN0qwdElzIFq7wmtNPx20B4zRNy1bJCxYcbBy5VhZA=
+			qBqL+8TM8P6hMmXb4a8KtwykFnatGJdNLuqtByB4JWM=
 			</data>
 		</dict>
 		<key>Modules/BureauAuthentication.swiftmodule/x86_64.swiftdoc</key>
@@ -199,7 +199,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MnN0qwdElzIFq7wmtNPx20B4zRNy1bJCxYcbBy5VhZA=
+			qBqL+8TM8P6hMmXb4a8KtwykFnatGJdNLuqtByB4JWM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

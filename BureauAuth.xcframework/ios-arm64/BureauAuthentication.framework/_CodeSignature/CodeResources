@@ -26,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		HloJ+Z6KYJ9LTSmN1FpoZesGVz4=
+		hCD/GmWKVO+xbdMPHg5EzwZIAlA=
 		</data>
 		<key>Modules/BureauAuthentication.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/BureauAuthentication.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Q0VY9JWdX8om2iY9j/8hxKWNBVE=
+		iS0Ney6L09dtlKbY2bxRfeC0XFU=
 		</data>
 		<key>Modules/BureauAuthentication.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/BureauAuthentication.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		Q0VY9JWdX8om2iY9j/8hxKWNBVE=
+		iS0Ney6L09dtlKbY2bxRfeC0XFU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -112,7 +112,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			h+e1f0PInc/lEwXj3pgszR9O2AvJpFor0m3+zmyIZfw=
+			uplm/fkmQtKciac1zpZqfwtm2bnkLhqSwj+50W3JCoo=
 			</data>
 		</dict>
 		<key>Modules/BureauAuthentication.swiftmodule/arm64.swiftdoc</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			h+e1f0PInc/lEwXj3pgszR9O2AvJpFor0m3+zmyIZfw=
+			uplm/fkmQtKciac1zpZqfwtm2bnkLhqSwj+50W3JCoo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
