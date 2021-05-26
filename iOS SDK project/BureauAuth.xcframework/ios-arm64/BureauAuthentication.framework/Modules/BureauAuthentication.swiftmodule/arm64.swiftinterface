@@ -20,6 +20,7 @@ import Swift
     public func setCallBackUrl(callBackUrl: Swift.String) -> BureauAuthentication.BureauAuth.Builder
     public func setTimeout(timeoutinSeconds: Swift.Int) -> BureauAuthentication.BureauAuth.Builder
     public func setMode(mode: BureauAuthentication.BureauAuth.Mode) -> BureauAuthentication.BureauAuth.Builder
+    public func enableWifi() -> BureauAuthentication.BureauAuth.Builder
     public func build() -> BureauAuthentication.BureauAuth
     @objc deinit
   }

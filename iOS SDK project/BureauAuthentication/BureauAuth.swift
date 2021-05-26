@@ -12,14 +12,39 @@ enum NetworkError: Error {
     case server
 }
 
+extension URLSession {
+    func synchronousDataTask(urlrequest: URLRequest) -> (data: Data?, response: URLResponse?, error: Error?) {
+        var data: Data?
+        var response: URLResponse?
+        var error: Error?
+
+        let semaphore = DispatchSemaphore(value: 0)
+
+        let dataTask = self.dataTask(with: urlrequest) {
+            data = $0
+            response = $1
+            error = $2
+
+            semaphore.signal()
+        }
+        dataTask.resume()
+
+        _ = semaphore.wait(timeout: .distantFuture)
+
+        return (data, response, error)
+    }
+}
+
+
 public class BureauAuth {
     private let components: URLComponents
     private let clientId : String?
     private let mode : Mode?
     private let callBackUrl : String?
     private let timeOut: Int?
+    private let wifiEnabled: Bool?
     
-    private init(components: URLComponents,clientId: String?,mode:  Mode?,callBackUrl: String?,timeOut: Int?) {
+    private init(components: URLComponents,clientId: String?,mode:  Mode?,callBackUrl: String?,timeOut: Int?,wifiEnabled: Bool) {
         self.components = components
         self.clientId = clientId
         if let modeValue = mode{
@@ -29,6 +54,7 @@ public class BureauAuth {
         }
         self.callBackUrl = callBackUrl
         self.timeOut = timeOut
+        self.wifiEnabled = wifiEnabled
     }
     
     public enum Mode {
@@ -42,13 +68,15 @@ public class BureauAuth {
         private var mode = Mode.production
         private var callBackUrl : String?
         private var timeOut: Int?
+        private var wifiEnabled: Bool?
         
         public init() {
             self.components = URLComponents()
             self.clientId = ""
-            self.mode = Mode.production
+            self.mode = Mode.sandbox
             self.callBackUrl = String()
             self.timeOut = 10
+            self.wifiEnabled = false
         }
         
         public func setClientId(clientId: String) -> Builder {
@@ -71,13 +99,18 @@ public class BureauAuth {
             return self
         }
         
+        public func enableWifi() -> Builder{
+            self.wifiEnabled = true
+            return self
+        }
+        
         public func build() -> BureauAuth {
             if self.mode == .production{
                 self.components.host = "https://api.bureau.id/v2/auth/"
             }else{
                 self.components.host = "https://api.sandbox.bureau.id/v2/auth/"
             }
-            return BureauAuth(components: self.components, clientId: self.clientId, mode: self.mode, callBackUrl: self.callBackUrl, timeOut: self.timeOut)
+            return BureauAuth(components: self.components, clientId: self.clientId, mode: self.mode, callBackUrl: self.callBackUrl, timeOut: self.timeOut,wifiEnabled: self.wifiEnabled ?? false)
         }
     }
     
@@ -90,17 +123,29 @@ public class BureauAuth {
           if mode==Mode.sandbox{
             print("Bureau SDK:","Bureau SDK Transaction Mobile: ",mobile," CorrelationID: ",correlationId," clientID: ",clientId ?? "DEFCLIENTID"," timeout: ",timeOut ?? -1);
           }
-          DispatchQueue.global(qos: .background).async {
-              //Initiate URL - fireURL API with finalise Bool as False
-              self.fireURL(mobileNumber: mobile, correlationId: correlationId) { (apiResponse, networkError) in
-                    if let responseValue = apiResponse {
-                       response = responseValue
-                    } else {
-                      response = "Error"
-                    }
-                  semaphore.signal()
-              }
-          }
+        if wifiEnabled ?? false{
+            DispatchQueue.global(qos: .background).async {
+                print("Bureau SDK:","Wifi Enabled")
+                //Initiate URL - fireURL API with finalise Bool as False
+                self.fireURL(mobileNumber: mobile, correlationId: correlationId) {(apiResponse, networkError) in
+                      if let responseValue = apiResponse {
+                         response = responseValue
+                      } else {
+                        response = "Error"
+                      }
+                    semaphore.signal()
+                }
+            }
+        }else{
+            print("Bureau SDK:","Wifi Disabled")
+            DispatchQueue.global(qos: .background).async {
+                //Initiate URL - fireURL API with finalise Bool as False
+                print("Bureau SDK:","FireNormalURL")
+                response = self.fireNormalURl(mobileNumber: mobile, correlationId: correlationId)
+                semaphore.signal()
+            }
+            
+        }
           let timeoutInSeconds = timeOut ?? 10
           if semaphore.wait(timeout: .now() + .seconds(timeoutInSeconds)) == .timedOut {
             if mode==Mode.sandbox{
@@ -110,6 +155,41 @@ public class BureauAuth {
           }
           return response
       }
+    
+    private func fireNormalURl(mobileNumber: String, correlationId: String) -> String{
+        
+        if mode==Mode.sandbox{
+            print("Bureau SDK:","fireNormalURL correlationID : ", correlationId);
+        }
+        
+        let errorResponse = "ERROR: Unknown HTTP Response"
+        
+        let queryItems = [URLQueryItem(name: "clientId", value: clientId), URLQueryItem(name: "correlationId", value: correlationId),URLQueryItem(name: "msisdn", value: mobileNumber),URLQueryItem(name: "callbackUrl", value: callBackUrl)]
+        
+        var urlComps = URLComponents(string: "\(components.host ?? "https://api.bureau.id/v2/auth/")initiate")!
+        urlComps.queryItems = queryItems
+
+        let finalUrl = urlComps.url!.absoluteString
+        guard let finalUrlObject = URL(string: finalUrl) else { return errorResponse }
+
+        let request = URLRequest(url: finalUrlObject)
+        print("Bureau SDK:","FireNormalUrl Sending Get request: ",finalUrl)
+
+        let (_, response, error) = URLSession.shared.synchronousDataTask(urlrequest: request)
+        let httpResponse = response as? HTTPURLResponse
+
+        print("Bureau SDK:","urlresponse: ",response ?? "Nil Response")
+
+        if httpResponse?.statusCode != 200 {
+            //error scenario
+            print("Bureau SDK:","Task ended with status: \(String(describing: error))")
+            return errorResponse
+        }else {
+            //success scenario
+            print("Bureau SDK: ","Transaction Successful")
+            return "HTTP/1.1 200 success"
+        }
+    }
     
     private func fireURL(mobileNumber: String,correlationId: String,completionHandler: @escaping FireAPICompletion){
         if mode==Mode.sandbox{

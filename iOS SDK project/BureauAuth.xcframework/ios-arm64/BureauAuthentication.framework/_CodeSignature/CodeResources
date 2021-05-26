@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/BureauAuthentication-Swift.h</key>
 		<data>
-		HoZlUNr7Ul0FORlrjxcXSOHuYTo=
+		T+u2ThRhCKxdsp/jHu63ZFmtmKc=
 		</data>
 		<key>Headers/BureauAuthentication.h</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/BureauAuthentication.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		FPoZPL5h8NFnYOCMD3o3FxpGaQc=
+		IEelJh7KKEmePL2KDTH2zsWlDkc=
 		</data>
 		<key>Modules/BureauAuthentication.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		iS0Ney6L09dtlKbY2bxRfeC0XFU=
+		ta0qUpaXB8FxIh372Ml3CGfpbaY=
 		</data>
 		<key>Modules/BureauAuthentication.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/BureauAuthentication.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		FPoZPL5h8NFnYOCMD3o3FxpGaQc=
+		IEelJh7KKEmePL2KDTH2zsWlDkc=
 		</data>
 		<key>Modules/BureauAuthentication.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		iS0Ney6L09dtlKbY2bxRfeC0XFU=
+		ta0qUpaXB8FxIh372Ml3CGfpbaY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -63,7 +63,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OIVZe3VSPKW7+tcWYSPb+sPkgHQC+mVYuTV7LAP9+Yw=
+			Ymz4H0hiMeKIJkpHb5pWxQ6uB1Rq1PgcYKS408yxboI=
 			</data>
 		</dict>
 		<key>Headers/BureauAuthentication.h</key>
@@ -105,14 +105,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pdPMya+T01sYr60uvErOg4JUIhhwRViuHXzPomL7JVE=
+			P4MKwKRll2/Z0KyBREUCOMzvIYSpMBoT4iJesTa3Zk8=
 			</data>
 		</dict>
 		<key>Modules/BureauAuthentication.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uplm/fkmQtKciac1zpZqfwtm2bnkLhqSwj+50W3JCoo=
+			oaalb7mA3+12OZmtyi5z4rqi8MLsjbbZV9UyUV36AvM=
 			</data>
 		</dict>
 		<key>Modules/BureauAuthentication.swiftmodule/arm64.swiftdoc</key>
@@ -126,14 +126,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pdPMya+T01sYr60uvErOg4JUIhhwRViuHXzPomL7JVE=
+			P4MKwKRll2/Z0KyBREUCOMzvIYSpMBoT4iJesTa3Zk8=
 			</data>
 		</dict>
 		<key>Modules/BureauAuthentication.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uplm/fkmQtKciac1zpZqfwtm2bnkLhqSwj+50W3JCoo=
+			oaalb7mA3+12OZmtyi5z4rqi8MLsjbbZV9UyUV36AvM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
