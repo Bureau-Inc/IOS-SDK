@@ -24,7 +24,8 @@ let bureauObj = BureauAuth.Builder()
 let response = bureauObj.makeAuthCall(mobile: "", correlationId: "")
 
 ```
-If makeAuthCall() method returns the AuthenticationStatus without error(timeout,Error,ERROR: Unknown HTTP Response) you can go ahead and wait for the callback from Bureau servers or poll the [userinfo API](https://docs.bureau.id/openapi/pin-point/tag/PinPoint/paths/~1userinfo/get/).
+
+If makeAuthCall() method returns 'True' you can go ahead and wait for the callback from Bureau servers or poll the [userinfo API](https://docs.bureau.id/openapi/pin-point/tag/PinPoint/paths/~1userinfo/get/).
 For an example SDK usage, please take a look [here](https://github.com/Bureau-Inc/IOS-SDK/tree/master/iOS%20SDK%20integration%20example)
 ## Minimum iOS Version
 iOS 11
