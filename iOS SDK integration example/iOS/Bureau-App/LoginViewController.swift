@@ -45,7 +45,7 @@ class LoginViewController: UIViewController {
         // Call this API in background thread, otherwise it will freeze the UI, since semaphore is used for timeout
         DispatchQueue.global(qos: .userInitiated).async {
             let response = authSDKObj.makeAuthCall(mobile: "91\(phoneNumberValue)", correlationId: self.correlationId)
-            print(response)
+            print("Response: ",response)
             self.callUserInfoAPI()
         }
     }
@@ -120,6 +120,7 @@ class LoginViewController: UIViewController {
         })
         task.resume()
     }
+    
     
     func showAlert(message: String){
         let alert = UIAlertController(title:  NSLocalizedString("alert", comment: ""), message: message, preferredStyle: UIAlertController.Style.alert)

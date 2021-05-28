@@ -4,6 +4,8 @@
 @_exported import BureauAuthentication
 import Foundation
 import Swift
+import os.log
+import os
 @_hasMissingDesignatedInitializers public class BureauAuth {
   public enum Mode {
     case sandbox

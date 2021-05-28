@@ -24,7 +24,7 @@ import Swift
     public func build() -> BureauAuthentication.BureauAuth
     @objc deinit
   }
-  public func makeAuthCall(mobile: Swift.String, correlationId: Swift.String) -> Swift.String
+  public func makeAuthCall(mobile: Swift.String, correlationId: Swift.String) -> Swift.Bool
   @objc deinit
 }
 extension BureauAuthentication.BureauAuth.Mode : Swift.Equatable {}
