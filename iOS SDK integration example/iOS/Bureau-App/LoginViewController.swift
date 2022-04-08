@@ -30,8 +30,8 @@ class LoginViewController: UIViewController {
         
         //BureauSilentAuth SDK
         let authSDKObj = BureauAuth.Builder()
-            .setClientId(clientId: "d5f5e426-e616-4a8a-a4d0-13408618dcfd")
-            .setMode(mode: .sandbox)
+            .setClientId(clientId: "a4a57c2d-d4f2-470d-964f-742327025c84")
+            .setMode(mode: .production)
             .setTimeout(timeoutinSeconds: 60)
             .build()
         
@@ -52,14 +52,14 @@ class LoginViewController: UIViewController {
     
     //User info API
     func callUserInfoAPI(){
-        let queryItems = [URLQueryItem(name: "correlationId", value: correlationId)]
-        var urlComps = URLComponents(string: "https://api.sandbox.bureau.id/v2/auth/userinfo")!
+        let queryItems = [URLQueryItem(name: "transactionId", value: self.correlationId)]
+        var urlComps = URLComponents(string: "https://api.bureau.id/v2/auth/userinfo")!
         urlComps.queryItems = queryItems
         let finalUrl = urlComps.url!.absoluteString
         var request = URLRequest(url: URL(string: finalUrl)!)
         request.timeoutInterval = 1
         request.httpMethod = "GET"
-        request.setValue("ZDVmNWU0MjYtZTYxNi00YThhLWE0ZDAtMTM0MDg2MThkY2ZkOjBlYjVmODljLWFmZjItNDVhNC1iNTI5LTk1Zjc1MDBmNDIwZA==", forHTTPHeaderField: "Authorization")
+        request.setValue("$babab5b5-404c-4180-8e49-a24b0c924f3ca5f4d902-c29a-4478-ab19-884dc896ec05$", forHTTPHeaderField: "X-Bureau-Auth-API-Key")
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")
         
         let session = URLSession.shared

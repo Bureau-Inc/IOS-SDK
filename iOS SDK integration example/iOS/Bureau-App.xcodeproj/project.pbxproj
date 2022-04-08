@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D21233E625D6B4D30007DCF9 /* BureauAuth.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21233E125D6B4CE0007DCF9 /* BureauAuth.xcframework */; };
-		D21233E725D6B4D30007DCF9 /* BureauAuth.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D21233E125D6B4CE0007DCF9 /* BureauAuth.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B3B999B428000C8900B384EE /* BureauAuth.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B999B328000C8900B384EE /* BureauAuth.xcframework */; };
+		B3B999B528000C8900B384EE /* BureauAuth.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B3B999B328000C8900B384EE /* BureauAuth.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D282723E252B0108002C9DB5 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D282723D252B0108002C9DB5 /* SuccessViewController.swift */; };
 		D2FC5AE1251F270D00CB060E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FC5AE0251F270D00CB060E /* AppDelegate.swift */; };
 		D2FC5AE3251F270D00CB060E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FC5AE2251F270D00CB060E /* SceneDelegate.swift */; };
@@ -38,13 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		D21233E825D6B4D30007DCF9 /* Embed Frameworks */ = {
+		B3B999B628000C8A00B384EE /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D21233E725D6B4D30007DCF9 /* BureauAuth.xcframework in Embed Frameworks */,
+				B3B999B528000C8900B384EE /* BureauAuth.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,7 +52,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D21233E125D6B4CE0007DCF9 /* BureauAuth.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = BureauAuth.xcframework; sourceTree = "<group>"; };
+		B3B999B328000C8900B384EE /* BureauAuth.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = BureauAuth.xcframework; sourceTree = "<group>"; };
 		D282723D252B0108002C9DB5 /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
 		D2FC5ADD251F270D00CB060E /* Bureau-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bureau-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2FC5AE0251F270D00CB060E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D21233E625D6B4D30007DCF9 /* BureauAuth.xcframework in Frameworks */,
+				B3B999B428000C8900B384EE /* BureauAuth.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +96,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B3B999B228000C8900B384EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3B999B328000C8900B384EE /* BureauAuth.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D2FC5AD4251F270D00CB060E = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +111,7 @@
 				D2FC5AF6251F271000CB060E /* Bureau-AppTests */,
 				D2FC5B01251F271000CB060E /* Bureau-AppUITests */,
 				D2FC5ADE251F270D00CB060E /* Products */,
+				B3B999B228000C8900B384EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,7 +128,6 @@
 		D2FC5ADF251F270D00CB060E /* Bureau-App */ = {
 			isa = PBXGroup;
 			children = (
-				D21233E125D6B4CE0007DCF9 /* BureauAuth.xcframework */,
 				D2FC5AE0251F270D00CB060E /* AppDelegate.swift */,
 				D2FC5AE2251F270D00CB060E /* SceneDelegate.swift */,
 				D2FC5AE4251F270D00CB060E /* LoginViewController.swift */,
@@ -160,7 +168,7 @@
 				D2FC5AD9251F270D00CB060E /* Sources */,
 				D2FC5ADA251F270D00CB060E /* Frameworks */,
 				D2FC5ADB251F270D00CB060E /* Resources */,
-				D21233E825D6B4D30007DCF9 /* Embed Frameworks */,
+				B3B999B628000C8A00B384EE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
