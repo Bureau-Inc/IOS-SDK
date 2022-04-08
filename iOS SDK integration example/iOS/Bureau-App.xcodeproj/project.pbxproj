@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B3B999B428000C8900B384EE /* BureauAuth.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B999B328000C8900B384EE /* BureauAuth.xcframework */; };
-		B3B999B528000C8900B384EE /* BureauAuth.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B3B999B328000C8900B384EE /* BureauAuth.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B3B999B72800193400B384EE /* BureauAuth.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B999B328000C8900B384EE /* BureauAuth.xcframework */; };
+		B3B999B82800193400B384EE /* BureauAuth.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B3B999B328000C8900B384EE /* BureauAuth.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D282723E252B0108002C9DB5 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D282723D252B0108002C9DB5 /* SuccessViewController.swift */; };
 		D2FC5AE1251F270D00CB060E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FC5AE0251F270D00CB060E /* AppDelegate.swift */; };
 		D2FC5AE3251F270D00CB060E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FC5AE2251F270D00CB060E /* SceneDelegate.swift */; };
@@ -38,13 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		B3B999B628000C8A00B384EE /* Embed Frameworks */ = {
+		B3B999B92800193400B384EE /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B3B999B528000C8900B384EE /* BureauAuth.xcframework in Embed Frameworks */,
+				B3B999B82800193400B384EE /* BureauAuth.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3B999B428000C8900B384EE /* BureauAuth.xcframework in Frameworks */,
+				B3B999B72800193400B384EE /* BureauAuth.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,7 +168,7 @@
 				D2FC5AD9251F270D00CB060E /* Sources */,
 				D2FC5ADA251F270D00CB060E /* Frameworks */,
 				D2FC5ADB251F270D00CB060E /* Resources */,
-				B3B999B628000C8A00B384EE /* Embed Frameworks */,
+				B3B999B92800193400B384EE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
