@@ -76,7 +76,7 @@ public class BureauAuth {
             self.mode = Mode.sandbox
             self.callBackUrl = String()
             self.timeOut = 10
-            self.wifiEnabled = false
+            self.wifiEnabled = true
         }
         
         public func setClientId(clientId: String) -> Builder {
