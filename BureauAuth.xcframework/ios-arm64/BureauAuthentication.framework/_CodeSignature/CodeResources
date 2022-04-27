@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/BureauAuthentication-Swift.h</key>
 		<data>
-		HoZlUNr7Ul0FORlrjxcXSOHuYTo=
+		T+u2ThRhCKxdsp/jHu63ZFmtmKc=
 		</data>
 		<key>Headers/BureauAuthentication.h</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/BureauAuthentication.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		RJJKmp4+bKbCHbxn1iAdfR9ONZY=
+		glZeoyteCIdkcUb4yYG0VI1XlDM=
 		</data>
 		<key>Modules/BureauAuthentication.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		uIWEfwwi3GzVs4ZN6O5nN56gOK0=
+		eRSgEcBljNXRpsYXi8JNMtYXNDk=
 		</data>
 		<key>Modules/BureauAuthentication.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/BureauAuthentication.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		RJJKmp4+bKbCHbxn1iAdfR9ONZY=
+		glZeoyteCIdkcUb4yYG0VI1XlDM=
 		</data>
 		<key>Modules/BureauAuthentication.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		uIWEfwwi3GzVs4ZN6O5nN56gOK0=
+		eRSgEcBljNXRpsYXi8JNMtYXNDk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -63,7 +63,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OIVZe3VSPKW7+tcWYSPb+sPkgHQC+mVYuTV7LAP9+Yw=
+			Ymz4H0hiMeKIJkpHb5pWxQ6uB1Rq1PgcYKS408yxboI=
 			</data>
 		</dict>
 		<key>Headers/BureauAuthentication.h</key>
@@ -105,14 +105,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			g4Imn4N41/RfYEboJn6XBKqPYn0atmWoLYyiUmS46Jg=
+			dQGyCfOHP0pbjqXspq1/jbZSfj7rsAq2oVP4fHaTPhE=
 			</data>
 		</dict>
 		<key>Modules/BureauAuthentication.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jY5k9uBQ167mdVhmov6ngGBha7KL7LYeo/RIuZln09M=
+			MJKp4HJaiv0BfgLuEGKuWz/oBHkZFYidjcOGQVNVsYA=
 			</data>
 		</dict>
 		<key>Modules/BureauAuthentication.swiftmodule/arm64.swiftdoc</key>
@@ -126,14 +126,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			g4Imn4N41/RfYEboJn6XBKqPYn0atmWoLYyiUmS46Jg=
+			dQGyCfOHP0pbjqXspq1/jbZSfj7rsAq2oVP4fHaTPhE=
 			</data>
 		</dict>
 		<key>Modules/BureauAuthentication.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jY5k9uBQ167mdVhmov6ngGBha7KL7LYeo/RIuZln09M=
+			MJKp4HJaiv0BfgLuEGKuWz/oBHkZFYidjcOGQVNVsYA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

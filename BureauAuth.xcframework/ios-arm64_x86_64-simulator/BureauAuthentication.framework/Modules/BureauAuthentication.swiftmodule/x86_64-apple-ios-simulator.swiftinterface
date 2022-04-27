@@ -4,8 +4,6 @@
 @_exported import BureauAuthentication
 import Foundation
 import Swift
-import os.log
-import os
 @_hasMissingDesignatedInitializers public class BureauAuth {
   public enum Mode {
     case sandbox
@@ -22,10 +20,11 @@ import os
     public func setCallBackUrl(callBackUrl: Swift.String) -> BureauAuthentication.BureauAuth.Builder
     public func setTimeout(timeoutinSeconds: Swift.Int) -> BureauAuthentication.BureauAuth.Builder
     public func setMode(mode: BureauAuthentication.BureauAuth.Mode) -> BureauAuthentication.BureauAuth.Builder
+    public func enableWifi() -> BureauAuthentication.BureauAuth.Builder
     public func build() -> BureauAuthentication.BureauAuth
     @objc deinit
   }
-  public func makeAuthCall(mobile: Swift.String, correlationId: Swift.String) -> Swift.String
+  public func makeAuthCall(mobile: Swift.String, correlationId: Swift.String) -> Swift.Bool
   @objc deinit
 }
 extension BureauAuthentication.BureauAuth.Mode : Swift.Equatable {}
