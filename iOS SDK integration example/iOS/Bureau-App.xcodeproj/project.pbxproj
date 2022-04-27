@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B31B4A2A28193B900037252B /* BureauAuth.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31B4A20281936D80037252B /* BureauAuth.xcframework */; };
-		B31B4A2B28193B900037252B /* BureauAuth.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B31B4A20281936D80037252B /* BureauAuth.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B3800C362819651400AB06CF /* BureauAuth.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31B4A20281936D80037252B /* BureauAuth.xcframework */; };
+		B3800C372819651400AB06CF /* BureauAuth.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B31B4A20281936D80037252B /* BureauAuth.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D282723E252B0108002C9DB5 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D282723D252B0108002C9DB5 /* SuccessViewController.swift */; };
 		D2FC5AE1251F270D00CB060E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FC5AE0251F270D00CB060E /* AppDelegate.swift */; };
 		D2FC5AE3251F270D00CB060E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FC5AE2251F270D00CB060E /* SceneDelegate.swift */; };
@@ -38,13 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		B31B4A2C28193B900037252B /* Embed Frameworks */ = {
+		B3800C382819651400AB06CF /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B31B4A2B28193B900037252B /* BureauAuth.xcframework in Embed Frameworks */,
+				B3800C372819651400AB06CF /* BureauAuth.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B31B4A2A28193B900037252B /* BureauAuth.xcframework in Frameworks */,
+				B3800C362819651400AB06CF /* BureauAuth.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,7 +168,7 @@
 				D2FC5AD9251F270D00CB060E /* Sources */,
 				D2FC5ADA251F270D00CB060E /* Frameworks */,
 				D2FC5ADB251F270D00CB060E /* Resources */,
-				B31B4A2C28193B900037252B /* Embed Frameworks */,
+				B3800C382819651400AB06CF /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
