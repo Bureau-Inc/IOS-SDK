@@ -76,7 +76,7 @@ public class BureauAuth {
             self.mode = Mode.sandbox
             self.callBackUrl = String()
             self.timeOut = 10
-            self.wifiEnabled = false
+            self.wifiEnabled = true
         }
         
         public func setClientId(clientId: String) -> Builder {
@@ -99,8 +99,8 @@ public class BureauAuth {
             return self
         }
         
-        public func enableWifi() -> Builder{
-            self.wifiEnabled = true
+        public func disableWifiSwitchOver() -> Builder{
+            self.wifiEnabled = false
             return self
         }
         
@@ -117,22 +117,22 @@ public class BureauAuth {
     typealias FireAPICompletion =  (_ respose :String?, _ error: NetworkError?) -> Void
     // API exposed to the SDK
 
-    public func makeAuthCall(mobile: String,correlationId: String) -> String{
-          var response = ""
-          let semaphore = DispatchSemaphore(value: 0)
-          if mode==Mode.sandbox{
+    public func makeAuthCall(mobile: String,correlationId: String) -> Bool{
+        var response = ""
+        let semaphore = DispatchSemaphore(value: 0)
+        if mode==Mode.sandbox{
             print("Bureau SDK:","Bureau SDK Transaction Mobile: ",mobile," CorrelationID: ",correlationId," clientID: ",clientId ?? "DEFCLIENTID"," timeout: ",timeOut ?? -1);
-          }
+        }
         if wifiEnabled ?? false{
             DispatchQueue.global(qos: .background).async {
                 print("Bureau SDK:","Wifi Enabled")
                 //Initiate URL - fireURL API with finalise Bool as False
                 self.fireURL(mobileNumber: mobile, correlationId: correlationId) {(apiResponse, networkError) in
-                      if let responseValue = apiResponse {
-                         response = responseValue
-                      } else {
+                    if let responseValue = apiResponse {
+                        response = responseValue
+                    } else {
                         response = "Error"
-                      }
+                    }
                     semaphore.signal()
                 }
             }
@@ -146,15 +146,20 @@ public class BureauAuth {
             }
             
         }
-          let timeoutInSeconds = timeOut ?? 10
-          if semaphore.wait(timeout: .now() + .seconds(timeoutInSeconds)) == .timedOut {
+        let timeoutInSeconds = timeOut ?? 10
+        if semaphore.wait(timeout: .now() + .seconds(timeoutInSeconds)) == .timedOut {
             if mode==Mode.sandbox{
-              print("Bureau SDK:","Timeout Exiting")
+                print("Bureau SDK:","Timeout Exiting")
             }
+            print("Bureau SDK:","Timeout Exiting")
             response = "timeout"
-          }
-          return response
-      }
+        }
+        if response.contains("200"){
+            return true
+        }else{
+            return false
+        }
+    }
     
     private func fireNormalURl(mobileNumber: String, correlationId: String) -> String{
         
