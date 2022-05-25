@@ -30,8 +30,8 @@ class LoginViewController: UIViewController {
         
         //BureauSilentAuth SDK
         let authSDKObj = BureauAuth.Builder()
-            .setClientId(clientId: "a4a57c2d-d4f2-470d-964f-742327025c84")
-            .setMode(mode: .production)
+            .setClientId(clientId: "5b2333b1-79f5-4202-9089-c3e3a5bba246")
+            .setMode(mode: .sandbox)
             .setTimeout(timeoutinSeconds: 60)
             .build()
         

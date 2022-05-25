@@ -29,9 +29,9 @@ class LoginViewController: UIViewController {
         
         //BureauSilentAuth SDK
         let authSDKObj = BureauAuth.Builder()
-            .setClientId(clientId: "d5f5e426-e616-4a8a-a4d0-13408618dcfd")
+            .setClientId(clientId: "5b2333b1-79f5-4202-9089-c3e3a5bba246")
             .setMode(mode: .sandbox)
-            .setTimeout(timeoutinSeconds: 60)
+            .setTimeout(timeoutinSeconds: 180)
             .build()
         
         guard let phoneNumberValue = self.textFieldPhoneNumber.text else {
