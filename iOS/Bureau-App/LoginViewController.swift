@@ -49,6 +49,17 @@ class LoginViewController: UIViewController {
         }
     }
     
+    private func verifyResponse(response: String) -> Bool{
+        ///acceptabel response code 200-299
+        let acceptableCodeRegex = ".*[2][0-9][0-9].*"
+        let result = response.range(
+            of: acceptableCodeRegex,
+            options: .regularExpression
+        )
+        
+        return result != nil
+    }
+    
     //User info API
     func callUserInfoAPI(){
         let queryItems = [URLQueryItem(name: "correlationId", value: correlationId)]

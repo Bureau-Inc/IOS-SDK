@@ -154,7 +154,10 @@ public class BureauAuth {
             print("Bureau SDK:","Timeout Exiting")
             response = "timeout"
         }
-        if response.contains("200"){
+        
+        let responseString = String(response.prefix(20))
+        
+        if verifyResponse(response: responseString){
             return true
         }else{
             return false
@@ -243,5 +246,16 @@ public class BureauAuth {
             return "ERROR: Unknown HTTP Response"
         }
         return response
+    }
+    
+    private func verifyResponse(response: String) -> Bool{
+        ///acceptabel response code 200-299
+        let acceptableCodeRegex = ".*[2][0-9][0-9].*"
+        let result = response.range(
+            of: acceptableCodeRegex,
+            options: .regularExpression
+        )
+        
+        return result != nil
     }
 }
