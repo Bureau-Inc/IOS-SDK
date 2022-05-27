@@ -119,6 +119,11 @@
         return toReturn;
     }
     
+    NSLog (@"Local addresses = %@", localAddresses);
+    NSLog (@"Remote addresses = %@", remoteAddresses);
+    NSLog (@"Local address = %@", localAddress);
+    NSLog (@"Remote address = %@", remoteAddress);
+    
     // Bind the socket to the local address
     bind(sock, localAddress.sockaddr, localAddress.size);
     

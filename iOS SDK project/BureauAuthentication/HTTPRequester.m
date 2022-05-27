@@ -112,6 +112,12 @@
         return toReturn;
     }
     
+
+    NSLog (@"Local addresses = %@", localAddresses);
+    NSLog (@"Remote addresses = %@", remoteAddresses);
+    NSLog (@"Local address = %@", localAddress);
+    NSLog (@"Remote address = %@", remoteAddress);
+    
     // Create a new socket
     int sock = socket(localAddress.sockaddr->sa_family, SOCK_STREAM, 0);
     if(sock == -1) {
@@ -122,8 +128,10 @@
     // Bind the socket to the local address
     bind(sock, localAddress.sockaddr, localAddress.size);
     
+    NSLog(@"Trying to estabish socket connection: ");
     // Connect to the remote address using the socket
     status = connect(sock, remoteAddress.sockaddr, remoteAddress.size);
+    
     if (status) {
         freeaddrinfo(addrinfoPointer);
         NSString *toReturn =  @"ERROR: CANNOT CONNECT SOCKET TO REMOTE ADDRESS";

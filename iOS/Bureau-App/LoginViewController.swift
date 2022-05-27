@@ -29,7 +29,7 @@ class LoginViewController: UIViewController {
         
         //BureauSilentAuth SDK
         let authSDKObj = BureauAuth.Builder()
-            .setClientId(clientId: "d5f5e426-e616-4a8a-a4d0-13408618dcfd")
+            .setClientId(clientId: "xxx--clienId--xxx")
             .setMode(mode: .sandbox)
             .setTimeout(timeoutinSeconds: 60)
             .build()
@@ -49,6 +49,17 @@ class LoginViewController: UIViewController {
         }
     }
     
+    private func verifyResponse(response: String) -> Bool{
+        ///acceptabel response code 200-299
+        let acceptableCodeRegex = ".*[2][0-9][0-9].*"
+        let result = response.range(
+            of: acceptableCodeRegex,
+            options: .regularExpression
+        )
+        
+        return result != nil
+    }
+    
     //User info API
     func callUserInfoAPI(){
         let queryItems = [URLQueryItem(name: "correlationId", value: correlationId)]
@@ -58,7 +69,7 @@ class LoginViewController: UIViewController {
         var request = URLRequest(url: URL(string: finalUrl)!)
         request.timeoutInterval = 1
         request.httpMethod = "GET"
-        request.setValue("ZDVmNWU0MjYtZTYxNi00YThhLWE0ZDAtMTM0MDg2MThkY2ZkOjBlYjVmODljLWFmZjItNDVhNC1iNTI5LTk1Zjc1MDBmNDIwZA==", forHTTPHeaderField: "Authorization")
+        request.setValue("authorization_token", forHTTPHeaderField: "Authorization")
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")
         
         let session = URLSession.shared

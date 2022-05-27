@@ -3,7 +3,7 @@ Apple clang version 13.1.6 (clang-1316.0.21.2.3)
 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.sdk
 iPhoneOS15.4.sdk
 /Users/abhinand/Library/Developer/Xcode/DerivedData/BureauAuthentication-dnxgfvuiaxckjxhcnvtfuawrffxt/Build/Intermediates.noindex/ArchiveIntermediates/BureauAuthentication/IntermediateBuildFilesPath/BureauAuthentication.build/Release-iphoneos/BureauAuthentication.build/DerivedSources/BureauAuthentication_vers.c
-/Users/abhinand/Desktop/sandbox/Bureau/IOS-SDK/iOS SDK project
+/Users/abhinand/Desktop/sandbox/bureau/IOS-SDK/iOS SDK project
 +[HTTPRequester performGetRequest:]
 ___35+[HTTPRequester performGetRequest:]_block_invoke
 ___35+[HTTPRequester performGetRequest:]_block_invoke_2
@@ -34,37 +34,38 @@ _OBJC_SELECTOR_REFERENCES_.22
 _OBJC_SELECTOR_REFERENCES_.24
 _OBJC_SELECTOR_REFERENCES_.28
 _OBJC_SELECTOR_REFERENCES_.30
-_OBJC_SELECTOR_REFERENCES_.36
-_OBJC_SELECTOR_REFERENCES_.42
 _OBJC_SELECTOR_REFERENCES_.44
-_OBJC_SELECTOR_REFERENCES_.48
+_OBJC_SELECTOR_REFERENCES_.52
 _OBJC_SELECTOR_REFERENCES_.54
-_OBJC_SELECTOR_REFERENCES_.60
-_OBJC_SELECTOR_REFERENCES_.76
-_OBJC_SELECTOR_REFERENCES_.80
-_OBJC_SELECTOR_REFERENCES_.84
-_OBJC_CLASSLIST_REFERENCES_$_.87
-_OBJC_SELECTOR_REFERENCES_.91
-_OBJC_SELECTOR_REFERENCES_.93
-_OBJC_SELECTOR_REFERENCES_.95
-_OBJC_SELECTOR_REFERENCES_.97
-_OBJC_SELECTOR_REFERENCES_.99
-_OBJC_CLASSLIST_REFERENCES_$_.110
-_OBJC_SELECTOR_REFERENCES_.112
-_OBJC_SELECTOR_REFERENCES_.114
-_OBJC_SELECTOR_REFERENCES_.118
-___block_descriptor_48_e8_32s40r_e25_v32?0"NSString"8Q16^B24l
-_OBJC_SELECTOR_REFERENCES_.121
-_OBJC_CLASSLIST_REFERENCES_$_.124
-_OBJC_SELECTOR_REFERENCES_.126
+_OBJC_SELECTOR_REFERENCES_.58
+_OBJC_SELECTOR_REFERENCES_.64
+_OBJC_SELECTOR_REFERENCES_.70
+_OBJC_SELECTOR_REFERENCES_.86
+_OBJC_SELECTOR_REFERENCES_.90
+_OBJC_SELECTOR_REFERENCES_.94
+_OBJC_CLASSLIST_REFERENCES_$_.97
+_OBJC_SELECTOR_REFERENCES_.101
+_OBJC_SELECTOR_REFERENCES_.103
+_OBJC_SELECTOR_REFERENCES_.105
+_OBJC_SELECTOR_REFERENCES_.107
+_OBJC_SELECTOR_REFERENCES_.109
+_OBJC_CLASSLIST_REFERENCES_$_.120
+_OBJC_SELECTOR_REFERENCES_.122
+_OBJC_SELECTOR_REFERENCES_.124
 _OBJC_SELECTOR_REFERENCES_.128
+___block_descriptor_48_e8_32s40r_e25_v32?0"NSString"8Q16^B24l
+_OBJC_SELECTOR_REFERENCES_.131
+_OBJC_CLASSLIST_REFERENCES_$_.134
 _OBJC_SELECTOR_REFERENCES_.136
 _OBJC_SELECTOR_REFERENCES_.138
+_OBJC_SELECTOR_REFERENCES_.146
+_OBJC_SELECTOR_REFERENCES_.148
 __OBJC_$_CLASS_METHODS_HTTPRequester
 __OBJC_METACLASS_RO_$_HTTPRequester
 __OBJC_CLASS_RO_$_HTTPRequester
 /Users/abhinand/Desktop/sandbox/Bureau/IOS-SDK/iOS SDK project/BureauAuthentication/HTTPRequester.m
-BureauAuthentication/HTTPRequester.m
+Bureau/IOS-SDK/iOS SDK project/BureauAuthentication/HTTPRequester.m
+/Users/abhinand/Desktop/sandbox
 llvm.loop.mustprogress
 __destroy_helper_block_e8_32s40r
 __copy_helper_block_e8_32s40r
@@ -90,11 +91,11 @@ __OBJC_$_INSTANCE_VARIABLES_SocketAddress
 __OBJC_$_PROP_LIST_SocketAddress
 __OBJC_CLASS_RO_$_SocketAddress
 /Users/abhinand/Desktop/sandbox/Bureau/IOS-SDK/iOS SDK project/BureauAuthentication/SocketAddress.m
-BureauAuthentication/SocketAddress.h
-BureauAuthentication/SocketAddress.m
+Bureau/IOS-SDK/iOS SDK project/BureauAuthentication/SocketAddress.h
+Bureau/IOS-SDK/iOS SDK project/BureauAuthentication/SocketAddress.m
 /Users/abhinand/Desktop/sandbox/Bureau/IOS-SDK/iOS SDK project/BureauAuthentication/sslfuncs.c
 ssl_write
-BureauAuthentication/sslfuncs.c
+Bureau/IOS-SDK/iOS SDK project/BureauAuthentication/sslfuncs.c
 ssl_read
 _$sSo12NSURLSessionC20BureauAuthenticationE19synchronousDataTask10urlrequest10Foundation0E0VSg4data_So13NSURLResponseCSg8responses5Error_pSg5errortAF10URLRequestV_tF
 _$s10Foundation4DataVSgSo13NSURLResponseCSgs5Error_pSgIegggg_So6NSDataCSgAGSo7NSErrorCSgIeyByyy_TR
@@ -120,12 +121,13 @@ _$s8Dispatch0A13WorkItemFlagsVACs10SetAlgebraAAWl
 _$sSay8Dispatch0A13WorkItemFlagsVGSayxGSTsWl
 _$s8Dispatch0A13WorkItemFlagsVACs10SetAlgebraAAWlTm
 _$sSay8Dispatch0A13WorkItemFlagsVGMa
-_$sS2SSysWl
-_$s20BureauAuthentication0A4AuthC04makeC4Call6mobile13correlationIdSbSS_SStFyycfU_TA
 _$s20BureauAuthentication0A4AuthC13fireNormalURl33_C34F76E4E86D1A7D7595C5D7009F176BLL12mobileNumber13correlationIdS2S_SStF
 _$s20BureauAuthentication0A4AuthC15fireRedirectURL33_C34F76E4E86D1A7D7595C5D7009F176BLL3urlS2S_tF
 _$s20BureauAuthentication0A4AuthC7BuilderCfdTm
 _$s20BureauAuthentication0A4AuthC7BuilderCfDTm
+_$sS2SSysWl
+_$s10Foundation6LocaleVSgWOh
+_$s20BureauAuthentication0A4AuthC04makeC4Call6mobile13correlationIdSbSS_SStFyycfU_TA
 _$s20BureauAuthentication0A4AuthC4ModeOSHAASQWb
 _$s20BureauAuthentication0A4AuthC4ModeOAESQAAWl
 _$s20BureauAuthentication0A4AuthCMU
@@ -146,12 +148,11 @@ __swift_FORCE_LOAD_$_swiftCompatibility51
 __swift_FORCE_LOAD_$_swiftCompatibilityDynamicReplacements
 __swift_FORCE_LOAD_$_swiftCompatibilityConcurrency
 _$s10Foundation3URLVSgWOh
-_$s10Foundation6LocaleVSgWOh
 _$s10Foundation4DataVSgWOe
 _$s10Foundation4DataV15_RepresentationOWOe
 _$sypSgWOc
 _$sypSgWOh
-_$s10Foundation3URLVSgWOhTm
+_$s10Foundation6LocaleVSgWOhTm
 _$sypWOb
 _$sSo13NSURLResponseCMa
 _$sSo17OS_dispatch_queueCMaTm
@@ -175,6 +176,8 @@ _$s20BureauAuthentication0A4AuthC4mode33_C34F76E4E86D1A7D7595C5D7009F176BLLAC4Mo
 _$s20BureauAuthentication0A4AuthC11callBackUrl33_C34F76E4E86D1A7D7595C5D7009F176BLLSSSgvpWvd
 _$s20BureauAuthentication0A4AuthC7timeOut33_C34F76E4E86D1A7D7595C5D7009F176BLLSiSgvpWvd
 _$s20BureauAuthentication0A4AuthC11wifiEnabled33_C34F76E4E86D1A7D7595C5D7009F176BLLSbSgvpWvd
+_symbolic _____Sg 10Foundation6LocaleV
+_$s10Foundation6LocaleVSgMD
 _symbolic SS
 _symbolic _____yypG s23_ContiguousArrayStorageC
 _$ss23_ContiguousArrayStorageCyypGMD
@@ -227,8 +230,6 @@ __swift_FORCE_LOAD_$_swiftCompatibility50_$_BureauAuthentication
 __swift_FORCE_LOAD_$_swiftCompatibility51_$_BureauAuthentication
 __swift_FORCE_LOAD_$_swiftCompatibilityDynamicReplacements_$_BureauAuthentication
 __swift_FORCE_LOAD_$_swiftCompatibilityConcurrency_$_BureauAuthentication
-_symbolic _____Sg 10Foundation6LocaleV
-_$s10Foundation6LocaleVSgMD
 _symbolic _____Sg 10Foundation3URLV
 _$s10Foundation3URLVSgMD
 _symbolic _____Sg 10Foundation13URLComponentsV
@@ -295,7 +296,7 @@ objectdestroy.14
 objectdestroy.11
 $sSo17OS_dispatch_queueCMa
 $sypWOb
-$s10Foundation3URLVSgWOh
+$s10Foundation6LocaleVSgWOh
 $sypSgWOc
 $s20BureauAuthentication0A4AuthCMr
 $s20BureauAuthentication0A4AuthCMa
@@ -311,16 +312,16 @@ __swift_memcpy1_1
 $s20BureauAuthentication0A4AuthCMU
 $s20BureauAuthentication0A4AuthC4ModeOAESQAAWl
 $s20BureauAuthentication0A4AuthC4ModeOSHAASQWb
+$s20BureauAuthentication0A4AuthC04makeC4Call6mobile13correlationIdSbSS_SStFyycfU_TA
+$s20BureauAuthentication0A4AuthC04makeC4Call6mobile13correlationIdSbSS_SStFyycfU_
+objectdestroy.5
+$sS2SSysWl
 deinit
 fireRedirectURL
 fireNormalURl
 $sSS12_createEmpty19withInitialCapacitySSSi_tFZ
 $sSS12_createEmpty19withInitialCapacitySSSi_tFZTf4nd_n
 $sSiSQsSQ2eeoiySbx_xtFZTW
-$s20BureauAuthentication0A4AuthC04makeC4Call6mobile13correlationIdSbSS_SStFyycfU_TA
-$s20BureauAuthentication0A4AuthC04makeC4Call6mobile13correlationIdSbSS_SStFyycfU_
-objectdestroy.5
-$sS2SSysWl
 $sSay8Dispatch0A13WorkItemFlagsVGMa
 $s8Dispatch0A13WorkItemFlagsVACs10SetAlgebraAAWl
 block_destroy_helper
@@ -329,9 +330,14 @@ $s20BureauAuthentication0A4AuthC04makeC4Call6mobile13correlationIdSbSS_SStFyycfU
 $s20BureauAuthentication0A4AuthC04makeC4Call6mobile13correlationIdSbSS_SStFyycfU0_
 objectdestroy.2
 $sIeg_IeyB_TR
-__swift_instantiateConcreteTypeFromMangledName
 objectdestroy
+__swift_instantiateConcreteTypeFromMangledName
 makeAuthCall
+verifyResponse
+prefix
+$sSSSlsSl5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtFTW
+$sSS5index_8offsetBy07limitedC0SS5IndexVSgAE_SiAEtF
+$sSKsE6_index_8offsetBy07limitedC05IndexQzSgAE_SiAEtFSS_Tgq5
 async
 build
 wifiEnabled.get
