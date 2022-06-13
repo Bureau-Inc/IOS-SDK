@@ -5,6 +5,31 @@ Bureau SDK for iOS
  - Drag and drop the BureauAuth.xcframework into the project
  - Verify the BureauAuth.xcframework is included under frameworks,Libraries, and Embedded content(Under Targets) and Embed & Sign option is selected
  - import BureauAuthentication into the class where the framework is needed
+ - In your info.plist file add this:
+ 
+<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>mcext.zumigo.com</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+			</dict>
+			<key>passport.airtel.in</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+   
 ```
 ## SDK Initialization
 ```Java
