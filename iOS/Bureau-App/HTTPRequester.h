@@ -6,7 +6,7 @@
 #import "sslfuncs.h"
 
 @interface HTTPRequester : NSObject
-+ (NSString *)performGetRequest:(NSURL *)url;
+- (NSString *)performGetRequest:(NSURL *)url;
 + (NSString *)getIPAddress;
 @end
 

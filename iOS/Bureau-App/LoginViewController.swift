@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Network
 
 class LoginViewController: UIViewController {
     
@@ -23,13 +24,13 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func buttonLogin(_ sender: Any) {
-        
+  
         //correlation ID
         correlationId = UUID().uuidString
         
         //BureauSilentAuth SDK
         let authSDKObj = BureauAuth.Builder()
-            .setClientId(clientId: "xxx--clienId--xxx")
+            .setClientId(clientId: "--xx--ClientID--xx--")
             .setMode(mode: .sandbox)
             .setTimeout(timeoutinSeconds: 60)
             .build()
@@ -45,7 +46,13 @@ class LoginViewController: UIViewController {
         DispatchQueue.global(qos: .userInitiated).async {
             let response = authSDKObj.makeAuthCall(mobile: "91\(phoneNumberValue)", correlationId: self.correlationId)
             print(response)
-            self.callUserInfoAPI()
+            DispatchQueue.main.async {
+                self.showAlert(response: response)
+                self.stopActivityIndicatory()
+            }
+     
+         
+            //self.callUserInfoAPI()
         }
     }
     
@@ -58,6 +65,12 @@ class LoginViewController: UIViewController {
         )
         
         return result != nil
+    }
+    
+    private func showAlert(response: Bool){
+        let alertController = UIAlertController(title: "Bureau", message: "Bureau status: \(response)", preferredStyle: UIAlertController.Style.alert)
+        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+        self.present(alertController, animated: true, completion: nil)
     }
     
     //User info API
@@ -149,3 +162,42 @@ class LoginViewController: UIViewController {
     }
 }
 
+
+@available(iOS 12.0, *)
+class NetworkReachability {
+
+        
+   var pathMonitor: NWPathMonitor!
+   var path: NWPath?
+    var isWIfiAvailable: Bool = true
+   lazy var pathUpdateHandler: ((NWPath) -> Void) = { path in
+    self.path = path
+    if path.status == NWPath.Status.satisfied {
+        print("satisfied")
+        Singleton.isWifiAvailable = true
+    } else if path.status == NWPath.Status.unsatisfied {
+        print("unsatisfied")
+        Singleton.isWifiAvailable = false
+    } else if path.status == NWPath.Status.requiresConnection {
+        Singleton.isWifiAvailable = true
+        print("requiresConnection")
+    }
+}
+
+let backgroudQueue = DispatchQueue.global(qos: .background)
+
+init() {
+    pathMonitor = NWPathMonitor(requiredInterfaceType: .wifi)
+    pathMonitor.pathUpdateHandler = self.pathUpdateHandler
+    pathMonitor.start(queue: backgroudQueue)
+   }
+
+ func isNetworkAvailable() -> Bool {
+        if let path = self.path {
+           if path.status == NWPath.Status.satisfied {
+            return true
+          }
+        }
+          return false
+   }
+ }

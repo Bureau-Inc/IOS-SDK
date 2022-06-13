@@ -3,6 +3,7 @@
 // swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BureauAuthentication
 @_exported import BureauAuthentication
 import Foundation
+import Network
 import Swift
 import _Concurrency
 @_hasMissingDesignatedInitializers public class BureauAuth {

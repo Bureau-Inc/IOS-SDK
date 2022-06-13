@@ -77,6 +77,9 @@ public class BureauAuth {
             self.callBackUrl = String()
             self.timeOut = 10
             self.wifiEnabled = true
+            if #available(iOS 12.0, *) {
+            _ = NetworkReachability()
+            }
         }
         
         public func setClientId(clientId: String) -> Builder {
@@ -120,10 +123,14 @@ public class BureauAuth {
     public func makeAuthCall(mobile: String,correlationId: String) -> Bool{
         var response = ""
         let semaphore = DispatchSemaphore(value: 0)
-        if mode==Mode.sandbox{
+        
+        if mode == Mode.sandbox{
             print("Bureau SDK:","Bureau SDK Transaction Mobile: ",mobile," CorrelationID: ",correlationId," clientID: ",clientId ?? "DEFCLIENTID"," timeout: ",timeOut ?? -1);
         }
-        if wifiEnabled ?? false{
+        
+        ///if wifi is turned on, trigger wifi-cellular switch-over
+        ///if wifi is turned off, trigger api call using URLRequest
+        if ((wifiEnabled ?? false) && Singleton.isWifiAvailable){
             DispatchQueue.global(qos: .background).async {
                 print("Bureau SDK:","Wifi Enabled")
                 //Initiate URL - fireURL API with finalise Bool as False
@@ -146,9 +153,10 @@ public class BureauAuth {
             }
             
         }
+        
         let timeoutInSeconds = timeOut ?? 10
         if semaphore.wait(timeout: .now() + .seconds(timeoutInSeconds)) == .timedOut {
-            if mode==Mode.sandbox{
+            if mode == Mode.sandbox{
                 print("Bureau SDK:","Timeout Exiting")
             }
             print("Bureau SDK:","Timeout Exiting")
@@ -156,6 +164,7 @@ public class BureauAuth {
         }
         
         let responseString = String(response.prefix(20))
+        NSLog(responseString)
         
         if verifyResponse(response: responseString){
             return true
@@ -166,7 +175,7 @@ public class BureauAuth {
     
     private func fireNormalURl(mobileNumber: String, correlationId: String) -> String{
         
-        if mode==Mode.sandbox{
+        if mode == Mode.sandbox{
             print("Bureau SDK:","fireNormalURL correlationID : ", correlationId);
         }
         
@@ -200,18 +209,21 @@ public class BureauAuth {
     }
     
     private func fireURL(mobileNumber: String,correlationId: String,completionHandler: @escaping FireAPICompletion){
-        if mode==Mode.sandbox{
+        if mode == Mode.sandbox{
         print("Bureau SDK:","fireURL: correlationID : ", correlationId);
         }
+        
         var response = "ERROR: Unknown HTTP Response"
         let queryItems = [URLQueryItem(name: "clientId", value: clientId), URLQueryItem(name: "correlationId", value: correlationId),URLQueryItem(name: "msisdn", value: mobileNumber),URLQueryItem(name: "callbackUrl", value: callBackUrl)]
         var urlComps = URLComponents(string: "\(components.host ?? "https://api.bureau.id/v2/auth/")initiate")!
         urlComps.queryItems = queryItems
         let finalUrl = urlComps.url!.absoluteString
         response = HTTPRequester.performGetRequest(URL(string: finalUrl))
+        
         if mode==Mode.sandbox{
         print("Bureau SDK:","FireURL Get Request Completed. Response: ",response)
         }
+        
         if response.range(of:"REDIRECT:") != nil {
         // Get redirect link
         let redirectRange = response.index(response.startIndex, offsetBy: 9)...
@@ -226,16 +238,24 @@ public class BureauAuth {
     }
     
     private func fireRedirectURL(url:String) -> String {
-        if mode==Mode.sandbox{
+        if mode == Mode.sandbox{
             print("Bureau SDK:","Bureau SDK Logs - fireURLRedirect: ", url);
         }
         var response = "ERROR: Unknown HTTP Response"
+        
         if let urlValue = URL(string: url){
+            NSLog("FireURLRedirect: \(url)")
             response = HTTPRequester.performGetRequest(urlValue)
+        }else{
+            NSLog("ERROR: corrupted url: \(url)")
         }
-        if mode==Mode.sandbox{
+        
+        if mode == Mode.sandbox{
             print("Bureau SDK:","FireURLRedirect Get Request Completed. Response: ",response)
         }
+        
+        NSLog("FireURLRedirect Get Request Completed. Response: \(response)")
+        
         if response.range(of:"REDIRECT:") != nil {
             // Get redirect link
             let redirectRange = response.index(response.startIndex, offsetBy: 9)...
@@ -259,3 +279,5 @@ public class BureauAuth {
         return result != nil
     }
 }
+
+

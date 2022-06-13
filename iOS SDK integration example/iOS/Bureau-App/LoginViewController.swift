@@ -30,8 +30,8 @@ class LoginViewController: UIViewController {
         
         //BureauSilentAuth SDK
         let authSDKObj = BureauAuth.Builder()
-            .setClientId(clientId: "xxx--clientId--xxx")
-            .setMode(mode: .sandbox)
+            .setClientId(clientId: "--xx--ClientID--xx--")
+            .setMode(mode: .production)
             .setTimeout(timeoutinSeconds: 60)
             .build()
         
@@ -46,9 +46,20 @@ class LoginViewController: UIViewController {
         DispatchQueue.global(qos: .userInitiated).async {
             let response = authSDKObj.makeAuthCall(mobile: "91\(phoneNumberValue)", correlationId: self.correlationId)
             print("Response: ",response)
-            self.callUserInfoAPI()
+            //self.callUserInfoAPI()
+            DispatchQueue.main.async {
+                self.showAlert(response: response)
+                self.stopActivityIndicatory()
+            }
         }
     }
+    
+    private func showAlert(response: Bool){
+        let alertController = UIAlertController(title: "Bureau", message: "Bureau status: \(response)", preferredStyle: UIAlertController.Style.alert)
+        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+        self.present(alertController, animated: true, completion: nil)
+    }
+    
     
     //User info API
     func callUserInfoAPI(){
