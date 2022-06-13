@@ -19,6 +19,12 @@ class LoginViewController: UIViewController {
     var correlationId = String()
     var count = 1
     
+    let authSDKObj = BureauAuth.Builder()
+        .setClientId(clientId: "7ae7fc8b-032b-49fe-b8b6-20c18fb7b114")
+        .setMode(mode: .sandbox)
+        .setTimeout(timeoutinSeconds: 60)
+        .build()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -29,11 +35,7 @@ class LoginViewController: UIViewController {
         correlationId = UUID().uuidString
         
         //BureauSilentAuth SDK
-        let authSDKObj = BureauAuth.Builder()
-            .setClientId(clientId: "xxx--clientId--xxx")
-            .setMode(mode: .sandbox)
-            .setTimeout(timeoutinSeconds: 60)
-            .build()
+      
         
         guard let phoneNumberValue = self.textFieldPhoneNumber.text else {
             self.showAlert(message: "Enter valid mobile Number")
@@ -44,11 +46,22 @@ class LoginViewController: UIViewController {
         showActivityIndicatory()
         // Call this API in background thread, otherwise it will freeze the UI, since semaphore is used for timeout
         DispatchQueue.global(qos: .userInitiated).async {
-            let response = authSDKObj.makeAuthCall(mobile: "91\(phoneNumberValue)", correlationId: self.correlationId)
+            let response = self.authSDKObj.makeAuthCall(mobile: "91\(phoneNumberValue)", correlationId: self.correlationId)
             print("Response: ",response)
-            self.callUserInfoAPI()
+            //self.callUserInfoAPI()
+            DispatchQueue.main.async {
+                self.showAlert(response: response)
+                self.stopActivityIndicatory()
+            }
         }
     }
+    
+    private func showAlert(response: Bool){
+        let alertController = UIAlertController(title: "Bureau", message: "Bureau status: \(response)", preferredStyle: UIAlertController.Style.alert)
+        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+        self.present(alertController, animated: true, completion: nil)
+    }
+    
     
     //User info API
     func callUserInfoAPI(){

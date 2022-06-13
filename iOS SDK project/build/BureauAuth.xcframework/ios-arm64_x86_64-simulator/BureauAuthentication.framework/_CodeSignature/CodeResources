@@ -26,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		wu5ckf2Dn2YEC+jf5JPnXCyq7Ew=
+		XP1qTxQRgFSWl/spx+HtTGCMy8w=
 		</data>
 		<key>Modules/BureauAuthentication.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/BureauAuthentication.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		VnGhppVcAQP3P+4KrxWzEHVgDE8=
+		Hndb2bDhtpy0pf/kYb4Pwy/6wCk=
 		</data>
 		<key>Modules/BureauAuthentication.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		r+p0eCAuz5vB91Tblhcdcs9Ibv0=
+		1dq2EQLuCm7AYZCszLZfB6c9Dts=
 		</data>
 		<key>Modules/BureauAuthentication.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/BureauAuthentication.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		UEKLYMMfg9UZNgwf7u6ktPnSoeM=
+		EbIr9lgNYAkv6BcxMwB4+koCmNw=
 		</data>
 		<key>Modules/BureauAuthentication.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		qPnOxgAHNyp41YxflZt+C7F4Tzs=
+		kDBNgrsqiKI7Xaj5W8k2KiTKzSQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -105,14 +105,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lnJPNzyoCY1DexjGCm+Wfi9NotFzuQW5CJsEuvzlJiM=
+			HaReDYLLcBM0SxiD4PcSH87wscQ9QBYpHabkvx9Tq2w=
 			</data>
 		</dict>
 		<key>Modules/BureauAuthentication.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ioFRniTqUvT7FRSPeRI2UTMLFWKIhaCU5hplN8aMmdE=
+			DLc3d48lb8k5AngUeykNufDScCSFaDwTFEoHU32uDpo=
 			</data>
 		</dict>
 		<key>Modules/BureauAuthentication.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -126,14 +126,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KF172nqo0YIUDoHfuH2mEtwIpG/FTUghCXUHLbpD+GE=
+			KR6oNgDEtZrIetwQBzdoRp3OlCW1f6RlfXb0CnEr+64=
 			</data>
 		</dict>
 		<key>Modules/BureauAuthentication.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Kv5TuzUZTphbjv1JPRwo9628Yc256nk5PRkY5STEY1Q=
+			tK7NOcZ+zdsEZpSuJEkmx3RgST5e9tEGz98WwvOqC/8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

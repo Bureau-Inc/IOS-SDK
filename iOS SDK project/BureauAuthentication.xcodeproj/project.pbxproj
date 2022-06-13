@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B320C35428571CF00007364B /* NetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = B320C35328571CF00007364B /* NetworkReachability.swift */; };
 		D22F78DA252FAB7E00FC3DC9 /* BureauAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22F78D0252FAB7D00FC3DC9 /* BureauAuthentication.framework */; };
 		D22F78DF252FAB7E00FC3DC9 /* BureauAuthenticationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22F78DE252FAB7E00FC3DC9 /* BureauAuthenticationTests.swift */; };
 		D22F78E1252FAB7E00FC3DC9 /* BureauAuthentication.h in Headers */ = {isa = PBXBuildFile; fileRef = D22F78D3252FAB7D00FC3DC9 /* BureauAuthentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B320C35328571CF00007364B /* NetworkReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachability.swift; sourceTree = "<group>"; };
 		D22F78D0252FAB7D00FC3DC9 /* BureauAuthentication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BureauAuthentication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D22F78D3252FAB7D00FC3DC9 /* BureauAuthentication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BureauAuthentication.h; sourceTree = "<group>"; };
 		D22F78D4252FAB7D00FC3DC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				D2A7AA0D2548A79600D5DBA0 /* sslfuncs.c */,
 				D2A7AA122548A79600D5DBA0 /* sslfuncs.h */,
 				D22F78D4252FAB7D00FC3DC9 /* Info.plist */,
+				B320C35328571CF00007364B /* NetworkReachability.swift */,
 			);
 			path = BureauAuthentication;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 				D2A7AA172548A79700D5DBA0 /* HTTPRequester.m in Sources */,
 				D2A7AA1A2548A79700D5DBA0 /* SocketAddress.m in Sources */,
 				D2A7AA142548A79700D5DBA0 /* sslfuncs.c in Sources */,
+				B320C35428571CF00007364B /* NetworkReachability.swift in Sources */,
 				D2A7AA162548A79700D5DBA0 /* BureauAuth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

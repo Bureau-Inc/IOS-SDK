@@ -17,7 +17,7 @@
 
 
 //+ (NSString *)performGetRequest:(NSURL *)url withCookies:(NSString *)cookies {
-+ (NSString *)performGetRequest:(NSURL *)url {
+- (NSString *)performGetRequest:(NSURL *)url {
  
     // Stores any errors that occur during execution
     OSStatus status;
@@ -114,6 +114,7 @@
     
     // Create a new socket
     int sock = socket(localAddress.sockaddr->sa_family, SOCK_STREAM, 0);
+    
     if(sock == -1) {
         NSString *toReturn = @"ERROR: CANNOT CREATE SOCKET";
         return toReturn;
@@ -136,13 +137,14 @@
     }
     
     NSString *requestString = [NSString stringWithFormat:@"GET %@%@ HTTP/1.1\r\nHost: %@%@\r\n", [url path], [url query] ? [@"?" stringByAppendingString:[url query]] : @"", [url host], [url port] ? [@":" stringByAppendingFormat:@"%@", [url port]] : @""];
-    
+    requestString = [requestString stringByAppendingFormat:@"User-Agent:any\r\n"];
+    requestString = [requestString stringByAppendingFormat:@"Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7\r\n\r\n"];
+    requestString = [requestString stringByAppendingString:@"Content-Type: application/json\r\n"];
     requestString = [requestString stringByAppendingString:@"Connection: close\r\n\r\n"];
    
     const char* request = [requestString UTF8String];
 
     char buffer[4096];
-    
     if ([[url scheme] isEqualToString:@"http"]) {
         write(sock, request, strlen(request));
         
@@ -150,6 +152,7 @@
         int total = sizeof(buffer)-1;
         do {
             int bytes = (int)read(sock, buffer+received, total-received);
+            
             if (bytes < 0) {
                 NSString *toReturn = @"ERROR: PROBLEM READING RESPONSE";
                 return toReturn;
@@ -159,7 +162,6 @@
             
             received += bytes;
         } while (received < total);
-    
     } else {
         #pragma clang diagnostic push
         #pragma clang diagnostic ignored "-Wdeprecated-declarations"
@@ -238,8 +240,10 @@
         }
     }
     
+    close(sock);
+    
     NSString *response = [[NSString alloc] initWithBytes:buffer length:sizeof(buffer) encoding:NSASCIIStringEncoding];
-  
+    
     if ([response rangeOfString:@"HTTP/"].location == NSNotFound) {
         NSString *toReturn = @"ERROR: Done";
         return toReturn;
@@ -261,6 +265,7 @@
         for (NSTextCheckingResult *match in myArray) {
             NSRange matchRange = [match rangeAtIndex:1];
             redirectLink = [response substringWithRange:matchRange];
+            break;
         }
         
         response = @"REDIRECT:";

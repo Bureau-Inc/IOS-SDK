@@ -153,6 +153,7 @@
         int total = sizeof(buffer)-1;
         do {
             int bytes = (int)read(sock, buffer+received, total-received);
+            NSLog (@"Buffer size = %d", bytes);
             if (bytes < 0) {
                 NSString *toReturn = @"ERROR: PROBLEM READING RESPONSE";
                 return toReturn;
@@ -162,7 +163,6 @@
             
             received += bytes;
         } while (received < total);
-    
     } else {
         #pragma clang diagnostic push
         #pragma clang diagnostic ignored "-Wdeprecated-declarations"
@@ -241,7 +241,12 @@
         }
     }
     
+    ///To close the socket connection
+    close(sock);
+    
     NSString *response = [[NSString alloc] initWithBytes:buffer length:sizeof(buffer) encoding:NSASCIIStringEncoding];
+    
+    NSLog (@"Socket response = %@", response);
   
     if ([response rangeOfString:@"HTTP/"].location == NSNotFound) {
         NSString *toReturn = @"ERROR: Done";
@@ -258,13 +263,18 @@
         NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"Location: (.*)\r\n" options:NSRegularExpressionCaseInsensitive error:NULL];
         
         NSArray *myArray = [regex matchesInString:response options:0 range:NSMakeRange(0, [response length])] ;
+        NSLog (@"Redirect link list = %@", myArray);
+        NSLog (@"Redirect link count = %lu", [myArray count]);
         
         NSString* redirectLink = @"";
         
         for (NSTextCheckingResult *match in myArray) {
             NSRange matchRange = [match rangeAtIndex:1];
             redirectLink = [response substringWithRange:matchRange];
+            break;
         }
+        
+        NSLog (@"Redirect link from socket = %@", redirectLink);
         
         response = @"REDIRECT:";
         response = [response stringByAppendingString:redirectLink];
