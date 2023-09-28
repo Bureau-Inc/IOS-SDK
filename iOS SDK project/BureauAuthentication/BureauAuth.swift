@@ -131,7 +131,7 @@ public class BureauAuth {
         ///if wifi is turned on, trigger wifi-cellular switch-over
         ///if wifi is turned off, trigger api call using URLRequest
         if ((wifiEnabled ?? false) && Singleton.isWifiAvailable){
-            DispatchQueue.global(qos: .background).async {
+            //DispatchQueue.global(qos: .background).async {
                 print("Bureau SDK:","Wifi Enabled")
                 //Initiate URL - fireURL API with finalise Bool as False
                 self.fireURL(mobileNumber: mobile, correlationId: correlationId) {(apiResponse, networkError) in
@@ -142,15 +142,15 @@ public class BureauAuth {
                     }
                     semaphore.signal()
                 }
-            }
+           // }
         }else{
             print("Bureau SDK:","Wifi Disabled")
-            DispatchQueue.global(qos: .background).async {
+            //DispatchQueue.global(qos: .background).async {
                 //Initiate URL - fireURL API with finalise Bool as False
                 print("Bureau SDK:","FireNormalURL")
                 response = self.fireNormalURl(mobileNumber: mobile, correlationId: correlationId)
                 semaphore.signal()
-            }
+           // }
             
         }
         
@@ -221,9 +221,9 @@ public class BureauAuth {
         response = HTTPRequester.performGetRequest(URL(string: finalUrl))
         
         if mode==Mode.sandbox{
-        print("Bureau SDK:","FireURL Get Request Completed. Response: ",response)
+            print("Bureau SDK:","FireURL Get Request Completed. Response: ",response)
         }
-        
+        print("Bureau SDK:", response)
         if response.range(of:"REDIRECT:") != nil {
         // Get redirect link
         let redirectRange = response.index(response.startIndex, offsetBy: 9)...

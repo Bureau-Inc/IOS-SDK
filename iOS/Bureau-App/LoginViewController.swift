@@ -30,8 +30,8 @@ class LoginViewController: UIViewController {
         
         //BureauSilentAuth SDK
         let authSDKObj = BureauAuth.Builder()
-            .setClientId(clientId: "--xx--ClientID--xx--")
-            .setMode(mode: .sandbox)
+            .setClientId(clientId: "b4b8ae3c-de9a-4bc0-99ca-566c6031d2c1")
+            .setMode(mode: .production)
             .setTimeout(timeoutinSeconds: 60)
             .build()
         
@@ -44,14 +44,14 @@ class LoginViewController: UIViewController {
         showActivityIndicatory()
         // Call this API in background thread, otherwise it will freeze the UI, since semaphore is used for timeout
         DispatchQueue.global(qos: .userInitiated).async {
-            let response = authSDKObj.makeAuthCall(mobile: "91\(phoneNumberValue)", correlationId: self.correlationId)
+            //9843458799
+            let response = authSDKObj.makeAuthCall(mobile: "919944608585", correlationId: self.correlationId)
+//            let response = authSDKObj.makeAuthCall(mobile: "919843458799", correlationId: self.correlationId)
             print(response)
             DispatchQueue.main.async {
                 self.showAlert(response: response)
                 self.stopActivityIndicatory()
             }
-     
-         
             //self.callUserInfoAPI()
         }
     }
@@ -161,43 +161,3 @@ class LoginViewController: UIViewController {
         activityView.stopAnimating()
     }
 }
-
-
-@available(iOS 12.0, *)
-class NetworkReachability {
-
-        
-   var pathMonitor: NWPathMonitor!
-   var path: NWPath?
-    var isWIfiAvailable: Bool = true
-   lazy var pathUpdateHandler: ((NWPath) -> Void) = { path in
-    self.path = path
-    if path.status == NWPath.Status.satisfied {
-        print("satisfied")
-        Singleton.isWifiAvailable = true
-    } else if path.status == NWPath.Status.unsatisfied {
-        print("unsatisfied")
-        Singleton.isWifiAvailable = false
-    } else if path.status == NWPath.Status.requiresConnection {
-        Singleton.isWifiAvailable = true
-        print("requiresConnection")
-    }
-}
-
-let backgroudQueue = DispatchQueue.global(qos: .background)
-
-init() {
-    pathMonitor = NWPathMonitor(requiredInterfaceType: .wifi)
-    pathMonitor.pathUpdateHandler = self.pathUpdateHandler
-    pathMonitor.start(queue: backgroudQueue)
-   }
-
- func isNetworkAvailable() -> Bool {
-        if let path = self.path {
-           if path.status == NWPath.Status.satisfied {
-            return true
-          }
-        }
-          return false
-   }
- }

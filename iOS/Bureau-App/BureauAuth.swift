@@ -35,17 +35,18 @@ extension URLSession {
     }
 }
 
-//Builder class
+
 public class BureauAuth {
     private let components: URLComponents
-    private let cleintId : String?
+    private let clientId : String?
     private let mode : Mode?
     private let callBackUrl : String?
     private let timeOut: Int?
+    private let wifiEnabled: Bool?
     
-    private init(components: URLComponents,clientId: String?,mode:  Mode?,callBackUrl: String?,timeOut: Int?) {
+    private init(components: URLComponents,clientId: String?,mode:  Mode?,callBackUrl: String?,timeOut: Int?,wifiEnabled: Bool) {
         self.components = components
-        self.cleintId = clientId
+        self.clientId = clientId
         if let modeValue = mode{
             self.mode = modeValue
         }else{
@@ -53,6 +54,7 @@ public class BureauAuth {
         }
         self.callBackUrl = callBackUrl
         self.timeOut = timeOut
+        self.wifiEnabled = wifiEnabled
     }
     
     public enum Mode {
@@ -66,13 +68,15 @@ public class BureauAuth {
         private var mode = Mode.production
         private var callBackUrl : String?
         private var timeOut: Int?
+        private var wifiEnabled: Bool?
         
         public init() {
             self.components = URLComponents()
             self.clientId = ""
-            self.mode = Mode.production
+            self.mode = Mode.sandbox
             self.callBackUrl = String()
             self.timeOut = 10
+            self.wifiEnabled = true
             if #available(iOS 12.0, *) {
             _ = NetworkReachability()
             }
@@ -98,26 +102,39 @@ public class BureauAuth {
             return self
         }
         
+        public func disableWifiSwitchOver() -> Builder{
+            self.wifiEnabled = false
+            return self
+        }
+        
         public func build() -> BureauAuth {
             if self.mode == .production{
                 self.components.host = "https://api.bureau.id/v2/auth/"
             }else{
                 self.components.host = "https://api.sandbox.bureau.id/v2/auth/"
             }
-            return BureauAuth(components: self.components, clientId: self.clientId, mode: self.mode, callBackUrl: self.callBackUrl, timeOut: self.timeOut)
+            return BureauAuth(components: self.components, clientId: self.clientId, mode: self.mode, callBackUrl: self.callBackUrl, timeOut: self.timeOut,wifiEnabled: self.wifiEnabled ?? false)
         }
     }
     
     typealias FireAPICompletion =  (_ respose :String?, _ error: NetworkError?) -> Void
-    /// API exposed to the SDK
+    // API exposed to the SDK
+
     public func makeAuthCall(mobile: String,correlationId: String) -> Bool{
         var response = ""
         let semaphore = DispatchSemaphore(value: 0)
         
-        if(Singleton.isWifiAvailable){
-            DispatchQueue.global(qos: .background).async {
+        if mode == Mode.sandbox{
+            print("Bureau SDK:","Bureau SDK Transaction Mobile: ",mobile," CorrelationID: ",correlationId," clientID: ",clientId ?? "DEFCLIENTID"," timeout: ",timeOut ?? -1);
+        }
+        
+        ///if wifi is turned on, trigger wifi-cellular switch-over
+        ///if wifi is turned off, trigger api call using URLRequest
+        if ((wifiEnabled ?? false) && Singleton.isWifiAvailable){
+           // DispatchQueue.global(qos: .background).async {
+                print("Bureau SDK:","Wifi Enabled")
                 //Initiate URL - fireURL API with finalise Bool as False
-                self.fireURL(mobileNumber: mobile, correlationId: correlationId) { (apiResponse, networkError) in
+                self.fireURL(mobileNumber: mobile, correlationId: correlationId) {(apiResponse, networkError) in
                     if let responseValue = apiResponse {
                         response = responseValue
                     } else {
@@ -125,109 +142,46 @@ public class BureauAuth {
                     }
                     semaphore.signal()
                 }
-            }
+           // }
         }else{
-            NSLog("Bureau SDK:","Wifi Disabled")
-            DispatchQueue.global(qos: .background).async {
+            print("Bureau SDK:","Wifi Disabled")
+           // DispatchQueue.global(qos: .background).async {
                 //Initiate URL - fireURL API with finalise Bool as False
-                NSLog("Bureau SDK:","FireNormalURL")
+                print("Bureau SDK:","FireNormalURL")
                 response = self.fireNormalURl(mobileNumber: mobile, correlationId: correlationId)
                 semaphore.signal()
-            }
+            //}
+            
         }
-
+        
         let timeoutInSeconds = timeOut ?? 10
         if semaphore.wait(timeout: .now() + .seconds(timeoutInSeconds)) == .timedOut {
+            if mode == Mode.sandbox{
+                print("Bureau SDK:","Timeout Exiting")
+            }
+            print("Bureau SDK:","Timeout Exiting")
             response = "timeout"
         }
-
+        
         let responseString = String(response.prefix(20))
-
+        NSLog(responseString)
+        
         if verifyResponse(response: responseString){
             return true
         }else{
             return false
         }
-        
-    }
-    
-    private func verifyResponse(response: String) -> Bool{
-        ///acceptabel response code 200-299
-        let acceptableCodeRegex = ".*[2][0-9][0-9].*"
-        let result = response.range(
-            of: acceptableCodeRegex,
-            options: .regularExpression
-        )
-        
-        return result != nil
-    }
-    
-    //main url function
-//    private func fireURL(mobileNumber: String,correlationId: String,finalise: Bool,completionHandler: @escaping FireAPICompletion){
-//        var response = "ERROR: Unknown HTTP Response"
-//        //initiate api
-//        if !finalise{
-//            let queryItems = [URLQueryItem(name: "clientId", value: cleintId), URLQueryItem(name: "correlationId", value: correlationId),URLQueryItem(name: "msisdn", value: mobileNumber),URLQueryItem(name: "callbackUrl", value: callBackUrl)]
-//            var urlComps = URLComponents(string: "\(components.host ?? "https://api.bureau.id/v2/auth/")initiate")!
-//            urlComps.queryItems = queryItems
-//            let finalUrl = urlComps.url!.absoluteString
-//            response = HTTPRequester.performGetRequest(URL(string: finalUrl))
-//        }else{
-//            //finalise api
-//            let queryItems = [URLQueryItem(name: "clientId", value: cleintId), URLQueryItem(name: "correlationId", value: correlationId)]
-//            var urlComps = URLComponents(string: "\(components.host ?? "https://api.bureau.id/v2/auth/")finalize")!
-//            urlComps.queryItems = queryItems
-//            let finalUrl = urlComps.url!.absoluteString
-//            response = HTTPRequester.performGetRequest(URL(string: finalUrl))
-//        }
-//        if response.range(of:"REDIRECT:") != nil {
-//            // Get redirect link
-//            let redirectRange = response.index(response.startIndex, offsetBy: 9)...
-//            let redirectLink = String(response[redirectRange])
-//
-//            // Make recursive call
-//            response = fireRedirectURL(url: redirectLink)
-//        } else if response.range(of:"ERROR: Done") != nil {
-//            completionHandler(nil, NetworkError.server)
-//        }
-//        completionHandler(response, nil)
-//    }
-    
-    private func fireURL(mobileNumber: String,correlationId: String,completionHandler: @escaping FireAPICompletion){
-        if mode==Mode.sandbox{
-        print("Bureau SDK:","fireURL: correlationID : ", correlationId);
-        }
-        var response = "ERROR: Unknown HTTP Response"
-        let queryItems = [URLQueryItem(name: "clientId", value: cleintId), URLQueryItem(name: "correlationId", value: correlationId),URLQueryItem(name: "msisdn", value: mobileNumber),URLQueryItem(name: "callbackUrl", value: callBackUrl)]
-        var urlComps = URLComponents(string: "\(components.host ?? "https://api.bureau.id/v2/auth/")initiate")!
-        urlComps.queryItems = queryItems
-        let finalUrl = urlComps.url!.absoluteString
-        response = HTTPRequester().performGetRequest(URL(string: finalUrl))
-        if mode==Mode.sandbox{
-        print("Bureau SDK:","FireURL Get Request Completed. Response: ",response)
-        }
-        if response.range(of:"REDIRECT:") != nil {
-        // Get redirect link
-        let redirectRange = response.index(response.startIndex, offsetBy: 9)...
-        let redirectLink = String(response[redirectRange])
-        
-        // Make recursive call
-            response = fireRedirectURL(url: redirectLink)
-        } else if response.range(of:"ERROR: Done") != nil {
-            completionHandler(nil, NetworkError.server)
-        }
-        completionHandler(response, nil)
     }
     
     private func fireNormalURl(mobileNumber: String, correlationId: String) -> String{
         
-        if mode==Mode.sandbox{
+        if mode == Mode.sandbox{
             print("Bureau SDK:","fireNormalURL correlationID : ", correlationId);
         }
         
         let errorResponse = "ERROR: Unknown HTTP Response"
         
-        let queryItems = [URLQueryItem(name: "clientId", value: cleintId), URLQueryItem(name: "correlationId", value: correlationId),URLQueryItem(name: "msisdn", value: mobileNumber),URLQueryItem(name: "callbackUrl", value: callBackUrl)]
+        let queryItems = [URLQueryItem(name: "clientId", value: clientId), URLQueryItem(name: "correlationId", value: correlationId),URLQueryItem(name: "msisdn", value: mobileNumber),URLQueryItem(name: "callbackUrl", value: callBackUrl)]
         
         var urlComps = URLComponents(string: "\(components.host ?? "https://api.bureau.id/v2/auth/")initiate")!
         urlComps.queryItems = queryItems
@@ -254,34 +208,79 @@ public class BureauAuth {
         }
     }
     
-    //redirect url handler
-    private func fireRedirectURL(url:String) -> String {
+    private func fireURL(mobileNumber: String,correlationId: String,completionHandler: @escaping FireAPICompletion){
+        if mode == Mode.sandbox{
+        print("Bureau SDK:","fireURL: correlationID : ", correlationId);
+        }
+        
         var response = "ERROR: Unknown HTTP Response"
+        let queryItems = [URLQueryItem(name: "clientId", value: clientId), URLQueryItem(name: "correlationId", value: correlationId),URLQueryItem(name: "msisdn", value: mobileNumber),URLQueryItem(name: "callbackUrl", value: callBackUrl)]
+        var urlComps = URLComponents(string: "\(components.host ?? "https://api.bureau.id/v2/auth/")initiate")!
+        urlComps.queryItems = queryItems
+        let finalUrl = urlComps.url!.absoluteString
+        print("Bureau SDK:","FireNormalUrl Sending Get request: ",finalUrl)
+
+        response = HTTPRequester.performGetRequest(URL(string: finalUrl))
+        
+        if mode==Mode.sandbox{
+        print("Bureau SDK:","FireURL Get Request Completed. Response: ",response)
+        }
+        
+        if response.range(of:"REDIRECT:") != nil {
+        // Get redirect link
+        let redirectRange = response.index(response.startIndex, offsetBy: 9)...
+        let redirectLink = String(response[redirectRange])
+        
+        // Make recursive call
+            response = fireRedirectURL(url: redirectLink)
+        } else if response.range(of:"ERROR: Done") != nil {
+            completionHandler(nil, NetworkError.server)
+        }
+        completionHandler(response, nil)
+    }
+    
+    private func fireRedirectURL(url:String) -> String {
+        if mode == Mode.sandbox{
+            print("Bureau SDK:","Bureau SDK Logs - fireURLRedirect: ", url);
+        }
+        var response = "ERROR: Unknown HTTP Response"
+        
         if let urlValue = URL(string: url){
-        NSLog("FireURLRedirect: \(url)")
-        response = HTTPRequester().performGetRequest(URL(string: url))
+            NSLog("FireURLRedirect: \(url)")
+            response = HTTPRequester.performGetRequest(urlValue)
         }else{
             NSLog("ERROR: corrupted url: \(url)")
         }
+        
+        if mode == Mode.sandbox{
+            print("Bureau SDK:","FireURLRedirect Get Request Completed. Response: ",response)
+        }
+        
         NSLog("FireURLRedirect Get Request Completed. Response: \(response)")
+        
         if response.range(of:"REDIRECT:") != nil {
             // Get redirect link
             let redirectRange = response.index(response.startIndex, offsetBy: 9)...
             let redirectLink = String(response[redirectRange])
             // Make recursive call
+            //response = fireRedirectURL(url: redirectLink.replacingOccurrences(of: " ", with: ""))
             response = fireRedirectURL(url: redirectLink)
         } else if response.range(of:"ERROR: Done") != nil {
             return "ERROR: Unknown HTTP Response"
         }
         return response
     }
+    
+    private func verifyResponse(response: String) -> Bool{
+        ///acceptabel response code 200-299
+        let acceptableCodeRegex = ".*[2][0-9][0-9].*"
+        let result = response.range(
+            of: acceptableCodeRegex,
+            options: .regularExpression
+        )
+        
+        return result != nil
+    }
 }
-
-
-class Singleton{
-    static var isWifiAvailable: Bool = true
-}
-
-
 
 
