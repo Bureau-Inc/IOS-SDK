@@ -6,6 +6,6 @@ framework module BureauAuthentication {
 }
 
 module BureauAuthentication.Swift {
-    header "BureauAuthentication-Swift.h"
-    requires objc
+  header "BureauAuthentication-Swift.h"
+  requires objc
 }
