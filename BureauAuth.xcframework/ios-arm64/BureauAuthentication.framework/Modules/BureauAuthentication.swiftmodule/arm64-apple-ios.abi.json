@@ -1,0 +1,1152 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BureauAuthentication",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "BureauAuthentication"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BureauAuthentication",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BureauAuth",
+        "printedName": "BureauAuth",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Mode",
+            "printedName": "Mode",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "sandbox",
+                "printedName": "sandbox",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BureauAuthentication.BureauAuth.Mode.Type) -> BureauAuthentication.BureauAuth.Mode",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Mode",
+                        "printedName": "BureauAuthentication.BureauAuth.Mode",
+                        "usr": "s:20BureauAuthentication0A4AuthC4ModeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "BureauAuthentication.BureauAuth.Mode.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Mode",
+                            "printedName": "BureauAuthentication.BureauAuth.Mode",
+                            "usr": "s:20BureauAuthentication0A4AuthC4ModeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:20BureauAuthentication0A4AuthC4ModeO7sandboxyA2EmF",
+                "mangledName": "$s20BureauAuthentication0A4AuthC4ModeO7sandboxyA2EmF",
+                "moduleName": "BureauAuthentication"
+              },
+              {
+                "kind": "Var",
+                "name": "production",
+                "printedName": "production",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BureauAuthentication.BureauAuth.Mode.Type) -> BureauAuthentication.BureauAuth.Mode",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Mode",
+                        "printedName": "BureauAuthentication.BureauAuth.Mode",
+                        "usr": "s:20BureauAuthentication0A4AuthC4ModeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "BureauAuthentication.BureauAuth.Mode.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Mode",
+                            "printedName": "BureauAuthentication.BureauAuth.Mode",
+                            "usr": "s:20BureauAuthentication0A4AuthC4ModeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:20BureauAuthentication0A4AuthC4ModeO10productionyA2EmF",
+                "mangledName": "$s20BureauAuthentication0A4AuthC4ModeO10productionyA2EmF",
+                "moduleName": "BureauAuthentication"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Mode",
+                    "printedName": "BureauAuthentication.BureauAuth.Mode",
+                    "usr": "s:20BureauAuthentication0A4AuthC4ModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Mode",
+                    "printedName": "BureauAuthentication.BureauAuth.Mode",
+                    "usr": "s:20BureauAuthentication0A4AuthC4ModeO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:20BureauAuthentication0A4AuthC4ModeO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s20BureauAuthentication0A4AuthC4ModeO2eeoiySbAE_AEtFZ",
+                "moduleName": "BureauAuthentication",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:20BureauAuthentication0A4AuthC4ModeO9hashValueSivp",
+                "mangledName": "$s20BureauAuthentication0A4AuthC4ModeO9hashValueSivp",
+                "moduleName": "BureauAuthentication",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:20BureauAuthentication0A4AuthC4ModeO9hashValueSivg",
+                    "mangledName": "$s20BureauAuthentication0A4AuthC4ModeO9hashValueSivg",
+                    "moduleName": "BureauAuthentication",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:20BureauAuthentication0A4AuthC4ModeO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s20BureauAuthentication0A4AuthC4ModeO4hash4intoys6HasherVz_tF",
+                "moduleName": "BureauAuthentication",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:20BureauAuthentication0A4AuthC4ModeO",
+            "mangledName": "$s20BureauAuthentication0A4AuthC4ModeO",
+            "moduleName": "BureauAuthentication",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Builder",
+            "printedName": "Builder",
+            "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "BureauAuthentication.BureauAuth.Builder",
+                    "usr": "s:20BureauAuthentication0A4AuthC7BuilderC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:20BureauAuthentication0A4AuthC7BuilderCAEycfc",
+                "mangledName": "$s20BureauAuthentication0A4AuthC7BuilderCAEycfc",
+                "moduleName": "BureauAuthentication",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "setClientId",
+                "printedName": "setClientId(clientId:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "BureauAuthentication.BureauAuth.Builder",
+                    "usr": "s:20BureauAuthentication0A4AuthC7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:20BureauAuthentication0A4AuthC7BuilderC11setClientId06clientG0AESS_tF",
+                "mangledName": "$s20BureauAuthentication0A4AuthC7BuilderC11setClientId06clientG0AESS_tF",
+                "moduleName": "BureauAuthentication",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setCallBackUrl",
+                "printedName": "setCallBackUrl(callBackUrl:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "BureauAuthentication.BureauAuth.Builder",
+                    "usr": "s:20BureauAuthentication0A4AuthC7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:20BureauAuthentication0A4AuthC7BuilderC14setCallBackUrl04callgH0AESS_tF",
+                "mangledName": "$s20BureauAuthentication0A4AuthC7BuilderC14setCallBackUrl04callgH0AESS_tF",
+                "moduleName": "BureauAuthentication",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setTimeout",
+                "printedName": "setTimeout(timeoutinSeconds:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "BureauAuthentication.BureauAuth.Builder",
+                    "usr": "s:20BureauAuthentication0A4AuthC7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:20BureauAuthentication0A4AuthC7BuilderC10setTimeout16timeoutinSecondsAESi_tF",
+                "mangledName": "$s20BureauAuthentication0A4AuthC7BuilderC10setTimeout16timeoutinSecondsAESi_tF",
+                "moduleName": "BureauAuthentication",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setMode",
+                "printedName": "setMode(mode:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "BureauAuthentication.BureauAuth.Builder",
+                    "usr": "s:20BureauAuthentication0A4AuthC7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Mode",
+                    "printedName": "BureauAuthentication.BureauAuth.Mode",
+                    "usr": "s:20BureauAuthentication0A4AuthC4ModeO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:20BureauAuthentication0A4AuthC7BuilderC7setMode4modeAeC0F0O_tF",
+                "mangledName": "$s20BureauAuthentication0A4AuthC7BuilderC7setMode4modeAeC0F0O_tF",
+                "moduleName": "BureauAuthentication",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "disableWifiSwitchOver",
+                "printedName": "disableWifiSwitchOver()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "BureauAuthentication.BureauAuth.Builder",
+                    "usr": "s:20BureauAuthentication0A4AuthC7BuilderC"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:20BureauAuthentication0A4AuthC7BuilderC21disableWifiSwitchOverAEyF",
+                "mangledName": "$s20BureauAuthentication0A4AuthC7BuilderC21disableWifiSwitchOverAEyF",
+                "moduleName": "BureauAuthentication",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "build",
+                "printedName": "build()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BureauAuth",
+                    "printedName": "BureauAuthentication.BureauAuth",
+                    "usr": "s:20BureauAuthentication0A4AuthC"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:20BureauAuthentication0A4AuthC7BuilderC5buildACyF",
+                "mangledName": "$s20BureauAuthentication0A4AuthC7BuilderC5buildACyF",
+                "moduleName": "BureauAuthentication",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:20BureauAuthentication0A4AuthC7BuilderC",
+            "mangledName": "$s20BureauAuthentication0A4AuthC7BuilderC",
+            "moduleName": "BureauAuthentication",
+            "declAttributes": [
+              "AccessControl"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "makeAuthCall",
+            "printedName": "makeAuthCall(mobile:correlationId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20BureauAuthentication0A4AuthC04makeC4Call6mobile13correlationIdSbSS_SStF",
+            "mangledName": "$s20BureauAuthentication0A4AuthC04makeC4Call6mobile13correlationIdSbSS_SStF",
+            "moduleName": "BureauAuthentication",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20BureauAuthentication0A4AuthC",
+        "mangledName": "$s20BureauAuthentication0A4AuthC",
+        "moduleName": "BureauAuthentication",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/NetworkReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 549,
+      "length": 11,
+      "value": "\"satisfied\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/NetworkReachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 598,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/NetworkReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 674,
+      "length": 13,
+      "value": "\"unsatisfied\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/NetworkReachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 725,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/NetworkReachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 831,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/NetworkReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 850,
+      "length": 20,
+      "value": "\"requiresConnection\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/NetworkReachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1268,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/NetworkReachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1312,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/NetworkReachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1420,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "IntegerLiteral",
+      "offset": 701,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 2151,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2258,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2292,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3071,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 3244,
+      "length": 32,
+      "value": "\"https:\/\/api.bureau.id\/v2\/auth\/\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 3335,
+      "length": 40,
+      "value": "\"https:\/\/api.sandbox.bureau.id\/v2\/auth\/\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3577,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 3823,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3875,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 3938,
+      "length": 13,
+      "value": "\"Bureau SDK:\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 3952,
+      "length": 33,
+      "value": "\"Bureau SDK Transaction Mobile: \""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 3993,
+      "length": 18,
+      "value": "\" CorrelationID: \""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 4026,
+      "length": 13,
+      "value": "\" clientID: \""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 4052,
+      "length": 13,
+      "value": "\"DEFCLIENTID\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 4066,
+      "length": 12,
+      "value": "\" timeout: \""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4090,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4277,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 4398,
+      "length": 13,
+      "value": "\"Bureau SDK:\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 4412,
+      "length": 14,
+      "value": "\"Wifi Enabled\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 4784,
+      "length": 7,
+      "value": "\"Error\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 4920,
+      "length": 13,
+      "value": "\"Bureau SDK:\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 4934,
+      "length": 15,
+      "value": "\"Wifi Disabled\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 5107,
+      "length": 13,
+      "value": "\"Bureau SDK:\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 5121,
+      "length": 15,
+      "value": "\"FireNormalURL\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5361,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 5510,
+      "length": 13,
+      "value": "\"Bureau SDK:\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 5524,
+      "length": 17,
+      "value": "\"Timeout Exiting\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 5575,
+      "length": 13,
+      "value": "\"Bureau SDK:\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 5589,
+      "length": 17,
+      "value": "\"Timeout Exiting\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 5631,
+      "length": 9,
+      "value": "\"timeout\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5712,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5828,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5867,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 6041,
+      "length": 13,
+      "value": "\"Bureau SDK:\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 6055,
+      "length": 32,
+      "value": "\"fireNormalURL correlationID : \""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 6152,
+      "length": 30,
+      "value": "\"ERROR: Unknown HTTP Response\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 6237,
+      "length": 10,
+      "value": "\"clientId\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 6286,
+      "length": 15,
+      "value": "\"correlationId\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 6344,
+      "length": 8,
+      "value": "\"msisdn\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 6394,
+      "length": 13,
+      "value": "\"callbackUrl\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 6484,
+      "length": 64,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 6506,
+      "length": 32,
+      "value": "\"https:\/\/api.bureau.id\/v2\/auth\/\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 6539,
+      "length": 8,
+      "value": "\"initiate\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 6801,
+      "length": 13,
+      "value": "\"Bureau SDK:\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 6815,
+      "length": 37,
+      "value": "\"FireNormalUrl Sending Get request: \""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 7029,
+      "length": 13,
+      "value": "\"Bureau SDK:\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 7043,
+      "length": 15,
+      "value": "\"urlresponse: \""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 7071,
+      "length": 14,
+      "value": "\"Nil Response\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7127,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 7180,
+      "length": 13,
+      "value": "\"Bureau SDK:\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 7194,
+      "length": 54,
+      "value": "\"Task ended with status: \""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 7247,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 7348,
+      "length": 14,
+      "value": "\"Bureau SDK: \""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 7363,
+      "length": 24,
+      "value": "\"Transaction Successful\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 7408,
+      "length": 22,
+      "value": "\"HTTP\/1.1 200 success\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 7616,
+      "length": 13,
+      "value": "\"Bureau SDK:\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 7630,
+      "length": 27,
+      "value": "\"fireURL: correlationID : \""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 7717,
+      "length": 30,
+      "value": "\"ERROR: Unknown HTTP Response\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 7793,
+      "length": 10,
+      "value": "\"clientId\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 7842,
+      "length": 15,
+      "value": "\"correlationId\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 7900,
+      "length": 8,
+      "value": "\"msisdn\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 7950,
+      "length": 13,
+      "value": "\"callbackUrl\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 8031,
+      "length": 64,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 8053,
+      "length": 32,
+      "value": "\"https:\/\/api.bureau.id\/v2\/auth\/\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 8086,
+      "length": 8,
+      "value": "\"initiate\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 8323,
+      "length": 13,
+      "value": "\"Bureau SDK:\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 8337,
+      "length": 43,
+      "value": "\"FireURL Get Request Completed. Response: \""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 8415,
+      "length": 13,
+      "value": "\"Bureau SDK:\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 8469,
+      "length": 11,
+      "value": "\"REDIRECT:\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8594,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 8793,
+      "length": 13,
+      "value": "\"ERROR: Done\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 9043,
+      "length": 13,
+      "value": "\"Bureau SDK:\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 9057,
+      "length": 37,
+      "value": "\"Bureau SDK Logs - fireURLRedirect: \""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 9135,
+      "length": 30,
+      "value": "\"ERROR: Unknown HTTP Response\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 9237,
+      "length": 25,
+      "value": "\"FireURLRedirect: \""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 9261,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 9362,
+      "length": 30,
+      "value": "\"ERROR: corrupted url: \""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 9391,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 9464,
+      "length": 13,
+      "value": "\"Bureau SDK:\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 9478,
+      "length": 51,
+      "value": "\"FireURLRedirect Get Request Completed. Response: \""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 9573,
+      "length": 62,
+      "value": "\"FireURLRedirect Get Request Completed. Response: \""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 9634,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 9675,
+      "length": 11,
+      "value": "\"REDIRECT:\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9808,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 10006,
+      "length": 13,
+      "value": "\"ERROR: Done\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 10049,
+      "length": 30,
+      "value": "\"ERROR: Unknown HTTP Response\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 10262,
+      "length": 19,
+      "value": "\".*[2][0-9][0-9].*\""
+    }
+  ]
+}

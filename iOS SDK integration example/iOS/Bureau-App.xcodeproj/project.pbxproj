@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B3890222283FA35900E5D808 /* BureauAuth.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31B4A20281936D80037252B /* BureauAuth.xcframework */; };
-		B3890223283FA35900E5D808 /* BureauAuth.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B31B4A20281936D80037252B /* BureauAuth.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CEAEF3A62AC56A5400A767E7 /* BureauAuth.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAEF3A42AC56A4E00A767E7 /* BureauAuth.xcframework */; };
+		CEAEF3A72AC56A5400A767E7 /* BureauAuth.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEAEF3A42AC56A4E00A767E7 /* BureauAuth.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D282723E252B0108002C9DB5 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D282723D252B0108002C9DB5 /* SuccessViewController.swift */; };
 		D2FC5AE1251F270D00CB060E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FC5AE0251F270D00CB060E /* AppDelegate.swift */; };
 		D2FC5AE3251F270D00CB060E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FC5AE2251F270D00CB060E /* SceneDelegate.swift */; };
@@ -44,7 +44,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B3890223283FA35900E5D808 /* BureauAuth.xcframework in Embed Frameworks */,
+				CEAEF3A72AC56A5400A767E7 /* BureauAuth.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,7 +52,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B31B4A20281936D80037252B /* BureauAuth.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = BureauAuth.xcframework; sourceTree = "<group>"; };
+		CEAEF3A42AC56A4E00A767E7 /* BureauAuth.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = BureauAuth.xcframework; sourceTree = "<group>"; };
 		D282723D252B0108002C9DB5 /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
 		D2FC5ADD251F270D00CB060E /* Bureau-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bureau-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2FC5AE0251F270D00CB060E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3890222283FA35900E5D808 /* BureauAuth.xcframework in Frameworks */,
+				CEAEF3A62AC56A5400A767E7 /* BureauAuth.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,7 +99,7 @@
 		B31B4A1F281936D80037252B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B31B4A20281936D80037252B /* BureauAuth.xcframework */,
+				CEAEF3A42AC56A4E00A767E7 /* BureauAuth.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -470,7 +470,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GS528Q8583;
+				DEVELOPMENT_TEAM = X8VHD2K5NF;
 				INFOPLIST_FILE = "Bureau-App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -494,7 +494,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GS528Q8583;
+				DEVELOPMENT_TEAM = X8VHD2K5NF;
 				INFOPLIST_FILE = "Bureau-App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

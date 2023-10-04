@@ -17,7 +17,7 @@
 
 
 //+ (NSString *)performGetRequest:(NSURL *)url withCookies:(NSString *)cookies {
-- (NSString *)performGetRequest:(NSURL *)url {
++ (NSString *)performGetRequest:(NSURL *)url {
  
     // Stores any errors that occur during execution
     OSStatus status;
@@ -112,24 +112,26 @@
         return toReturn;
     }
     
-    // Create a new socket
-    int sock = socket(localAddress.sockaddr->sa_family, SOCK_STREAM, 0);
-    
-    if(sock == -1) {
-        NSString *toReturn = @"ERROR: CANNOT CREATE SOCKET";
-        return toReturn;
-    }
-    
+
     NSLog (@"Local addresses = %@", localAddresses);
     NSLog (@"Remote addresses = %@", remoteAddresses);
     NSLog (@"Local address = %@", localAddress);
     NSLog (@"Remote address = %@", remoteAddress);
     
+    // Create a new socket
+    int sock = socket(localAddress.sockaddr->sa_family, SOCK_STREAM, 0);
+    if(sock == -1) {
+        NSString *toReturn = @"ERROR: CANNOT CREATE SOCKET";
+        return toReturn;
+    }
+    
     // Bind the socket to the local address
     bind(sock, localAddress.sockaddr, localAddress.size);
     
+    NSLog(@"Trying to estabish socket connection: ");
     // Connect to the remote address using the socket
     status = connect(sock, remoteAddress.sockaddr, remoteAddress.size);
+    
     if (status) {
         freeaddrinfo(addrinfoPointer);
         NSString *toReturn =  @"ERROR: CANNOT CONNECT SOCKET TO REMOTE ADDRESS";
@@ -137,14 +139,13 @@
     }
     
     NSString *requestString = [NSString stringWithFormat:@"GET %@%@ HTTP/1.1\r\nHost: %@%@\r\n", [url path], [url query] ? [@"?" stringByAppendingString:[url query]] : @"", [url host], [url port] ? [@":" stringByAppendingFormat:@"%@", [url port]] : @""];
-    requestString = [requestString stringByAppendingFormat:@"User-Agent:any\r\n"];
-    requestString = [requestString stringByAppendingFormat:@"Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7\r\n\r\n"];
-    requestString = [requestString stringByAppendingString:@"Content-Type: application/json\r\n"];
+    
     requestString = [requestString stringByAppendingString:@"Connection: close\r\n\r\n"];
    
     const char* request = [requestString UTF8String];
 
     char buffer[4096];
+    
     if ([[url scheme] isEqualToString:@"http"]) {
         write(sock, request, strlen(request));
         
@@ -152,7 +153,7 @@
         int total = sizeof(buffer)-1;
         do {
             int bytes = (int)read(sock, buffer+received, total-received);
-            
+            NSLog (@"Buffer size = %d", bytes);
             if (bytes < 0) {
                 NSString *toReturn = @"ERROR: PROBLEM READING RESPONSE";
                 return toReturn;
@@ -240,10 +241,13 @@
         }
     }
     
+    ///To close the socket connection
     close(sock);
     
     NSString *response = [[NSString alloc] initWithBytes:buffer length:sizeof(buffer) encoding:NSASCIIStringEncoding];
     
+    NSLog (@"Socket response = %@", response);
+  
     if ([response rangeOfString:@"HTTP/"].location == NSNotFound) {
         NSString *toReturn = @"ERROR: Done";
         return toReturn;
@@ -259,6 +263,8 @@
         NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"Location: (.*)\r\n" options:NSRegularExpressionCaseInsensitive error:NULL];
         
         NSArray *myArray = [regex matchesInString:response options:0 range:NSMakeRange(0, [response length])] ;
+        NSLog (@"Redirect link list = %@", myArray);
+        NSLog (@"Redirect link count = %lu", [myArray count]);
         
         NSString* redirectLink = @"";
         
@@ -267,6 +273,8 @@
             redirectLink = [response substringWithRange:matchRange];
             break;
         }
+        
+        NSLog (@"Redirect link from socket = %@", redirectLink);
         
         response = @"REDIRECT:";
         response = [response stringByAppendingString:redirectLink];

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEAEF3A32AC5630C00A767E7 /* NetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAEF3A22AC5630C00A767E7 /* NetworkReachability.swift */; };
 		D282723E252B0108002C9DB5 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D282723D252B0108002C9DB5 /* SuccessViewController.swift */; };
 		D2FC5AE1251F270D00CB060E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FC5AE0251F270D00CB060E /* AppDelegate.swift */; };
 		D2FC5AE3251F270D00CB060E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FC5AE2251F270D00CB060E /* SceneDelegate.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CEAEF3A22AC5630C00A767E7 /* NetworkReachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkReachability.swift; sourceTree = "<group>"; };
 		D282723D252B0108002C9DB5 /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
 		D2FC5ADD251F270D00CB060E /* Bureau-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bureau-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2FC5AE0251F270D00CB060E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				D2FC5AE2251F270D00CB060E /* SceneDelegate.swift */,
 				D2FC5AE4251F270D00CB060E /* LoginViewController.swift */,
 				D282723D252B0108002C9DB5 /* SuccessViewController.swift */,
+				CEAEF3A22AC5630C00A767E7 /* NetworkReachability.swift */,
 				D2FC5AE6251F270D00CB060E /* Main.storyboard */,
 				D2FC5AE9251F271000CB060E /* Assets.xcassets */,
 				D2FC5AEB251F271000CB060E /* LaunchScreen.storyboard */,
@@ -290,6 +293,7 @@
 				D2FC5B1E251F272000CB060E /* SocketAddress.m in Sources */,
 				D2FC5B1B251F272000CB060E /* BureauAuth.swift in Sources */,
 				D2FC5AE1251F270D00CB060E /* AppDelegate.swift in Sources */,
+				CEAEF3A32AC5630C00A767E7 /* NetworkReachability.swift in Sources */,
 				D2FC5B1A251F272000CB060E /* HTTPRequester.m in Sources */,
 				D2FC5B1C251F272000CB060E /* sslfuncs.c in Sources */,
 				D2FC5AE3251F270D00CB060E /* SceneDelegate.swift in Sources */,
@@ -468,7 +472,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GS528Q8583;
+				DEVELOPMENT_TEAM = X8VHD2K5NF;
 				INFOPLIST_FILE = "Bureau-App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -491,7 +495,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GS528Q8583;
+				DEVELOPMENT_TEAM = X8VHD2K5NF;
 				INFOPLIST_FILE = "Bureau-App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
