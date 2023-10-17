@@ -8,16 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		B320C35428571CF00007364B /* NetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = B320C35328571CF00007364B /* NetworkReachability.swift */; };
+		CE74048C2ADEA5A1000E9247 /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE74048B2ADEA5A1000E9247 /* ConnectionManager.swift */; };
 		D22F78DA252FAB7E00FC3DC9 /* BureauAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22F78D0252FAB7D00FC3DC9 /* BureauAuthentication.framework */; };
 		D22F78DF252FAB7E00FC3DC9 /* BureauAuthenticationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22F78DE252FAB7E00FC3DC9 /* BureauAuthenticationTests.swift */; };
 		D22F78E1252FAB7E00FC3DC9 /* BureauAuthentication.h in Headers */ = {isa = PBXBuildFile; fileRef = D22F78D3252FAB7D00FC3DC9 /* BureauAuthentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D2A7AA142548A79700D5DBA0 /* sslfuncs.c in Sources */ = {isa = PBXBuildFile; fileRef = D2A7AA0D2548A79600D5DBA0 /* sslfuncs.c */; };
-		D2A7AA152548A79700D5DBA0 /* HTTPRequester.h in Headers */ = {isa = PBXBuildFile; fileRef = D2A7AA0E2548A79600D5DBA0 /* HTTPRequester.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D2A7AA162548A79700D5DBA0 /* BureauAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A7AA0F2548A79600D5DBA0 /* BureauAuth.swift */; };
-		D2A7AA172548A79700D5DBA0 /* HTTPRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A7AA102548A79600D5DBA0 /* HTTPRequester.m */; };
-		D2A7AA182548A79700D5DBA0 /* SocketAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = D2A7AA112548A79600D5DBA0 /* SocketAddress.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D2A7AA192548A79700D5DBA0 /* sslfuncs.h in Headers */ = {isa = PBXBuildFile; fileRef = D2A7AA122548A79600D5DBA0 /* sslfuncs.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D2A7AA1A2548A79700D5DBA0 /* SocketAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A7AA132548A79700D5DBA0 /* SocketAddress.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,19 +27,14 @@
 
 /* Begin PBXFileReference section */
 		B320C35328571CF00007364B /* NetworkReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachability.swift; sourceTree = "<group>"; };
+		CE74048B2ADEA5A1000E9247 /* ConnectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionManager.swift; sourceTree = "<group>"; };
 		D22F78D0252FAB7D00FC3DC9 /* BureauAuthentication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BureauAuthentication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D22F78D3252FAB7D00FC3DC9 /* BureauAuthentication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BureauAuthentication.h; sourceTree = "<group>"; };
 		D22F78D4252FAB7D00FC3DC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D22F78D9252FAB7E00FC3DC9 /* BureauAuthenticationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BureauAuthenticationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D22F78DE252FAB7E00FC3DC9 /* BureauAuthenticationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BureauAuthenticationTests.swift; sourceTree = "<group>"; };
 		D22F78E0252FAB7E00FC3DC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2A7AA0D2548A79600D5DBA0 /* sslfuncs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sslfuncs.c; sourceTree = "<group>"; };
-		D2A7AA0E2548A79600D5DBA0 /* HTTPRequester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPRequester.h; sourceTree = "<group>"; };
 		D2A7AA0F2548A79600D5DBA0 /* BureauAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BureauAuth.swift; sourceTree = "<group>"; };
-		D2A7AA102548A79600D5DBA0 /* HTTPRequester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPRequester.m; sourceTree = "<group>"; };
-		D2A7AA112548A79600D5DBA0 /* SocketAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketAddress.h; sourceTree = "<group>"; };
-		D2A7AA122548A79600D5DBA0 /* sslfuncs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sslfuncs.h; sourceTree = "<group>"; };
-		D2A7AA132548A79700D5DBA0 /* SocketAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketAddress.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,12 +79,7 @@
 			children = (
 				D22F78D3252FAB7D00FC3DC9 /* BureauAuthentication.h */,
 				D2A7AA0F2548A79600D5DBA0 /* BureauAuth.swift */,
-				D2A7AA0E2548A79600D5DBA0 /* HTTPRequester.h */,
-				D2A7AA102548A79600D5DBA0 /* HTTPRequester.m */,
-				D2A7AA112548A79600D5DBA0 /* SocketAddress.h */,
-				D2A7AA132548A79700D5DBA0 /* SocketAddress.m */,
-				D2A7AA0D2548A79600D5DBA0 /* sslfuncs.c */,
-				D2A7AA122548A79600D5DBA0 /* sslfuncs.h */,
+				CE74048B2ADEA5A1000E9247 /* ConnectionManager.swift */,
 				D22F78D4252FAB7D00FC3DC9 /* Info.plist */,
 				B320C35328571CF00007364B /* NetworkReachability.swift */,
 			);
@@ -118,9 +103,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D22F78E1252FAB7E00FC3DC9 /* BureauAuthentication.h in Headers */,
-				D2A7AA152548A79700D5DBA0 /* HTTPRequester.h in Headers */,
-				D2A7AA182548A79700D5DBA0 /* SocketAddress.h in Headers */,
-				D2A7AA192548A79700D5DBA0 /* sslfuncs.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,10 +205,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2A7AA172548A79700D5DBA0 /* HTTPRequester.m in Sources */,
-				D2A7AA1A2548A79700D5DBA0 /* SocketAddress.m in Sources */,
-				D2A7AA142548A79700D5DBA0 /* sslfuncs.c in Sources */,
 				B320C35428571CF00007364B /* NetworkReachability.swift in Sources */,
+				CE74048C2ADEA5A1000E9247 /* ConnectionManager.swift in Sources */,
 				D2A7AA162548A79700D5DBA0 /* BureauAuth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

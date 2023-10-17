@@ -30,7 +30,7 @@ class LoginViewController: UIViewController {
         
         //BureauSilentAuth SDK
         let authSDKObj = BureauAuth.Builder()
-            .setClientId(clientId: "--xx--ClientID--xx--")
+            .setClientId(clientId: "1073a620-cc8d-4557-9792-1619b0f45e3e")
             .setMode(mode: .production)
             .setTimeout(timeoutinSeconds: 60)
             .build()
@@ -46,9 +46,9 @@ class LoginViewController: UIViewController {
         DispatchQueue.global(qos: .userInitiated).async {
             let response = authSDKObj.makeAuthCall(mobile: "91\(phoneNumberValue)", correlationId: self.correlationId)
             print("Response: ",response)
-            //self.callUserInfoAPI()
+            self.callUserInfoAPI()
             DispatchQueue.main.async {
-                self.showAlert(response: response)
+                //self.showAlert(response: response)
                 self.stopActivityIndicatory()
             }
         }
@@ -63,21 +63,25 @@ class LoginViewController: UIViewController {
     
     //User info API
     func callUserInfoAPI(){
-        let queryItems = [URLQueryItem(name: "correlationId", value: correlationId)]
-        var urlComps = URLComponents(string: "https://api.sandbox.bureau.id/v2/auth/userinfo")!
+        print(correlationId)
+        let queryItems = [URLQueryItem(name: "transactionId", value: correlationId)]
+        var urlComps = URLComponents(string: "https://api.bureau.id/v2/auth/userinfo")!
         urlComps.queryItems = queryItems
         let finalUrl = urlComps.url!.absoluteString
         var request = URLRequest(url: URL(string: finalUrl)!)
         request.timeoutInterval = 1
         request.httpMethod = "GET"
-        request.setValue("authorization_token", forHTTPHeaderField: "Authorization")
+        request.setValue("Basic MTA3M2E2MjAtY2M4ZC00NTU3LTk3OTItMTYxOWIwZjQ1ZTNlOjhmOGVkYTVlLWQ3MzQtNDY2ZS05ZjQ1LTIxNjg5ZWQwN2ZmZQ==", forHTTPHeaderField: "authorization")
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")
+        //request.addValue("$6fd8e1b3-0561-4155-bfdc-4a67e1357af6f6dbcf78-5b24-4eb3-b485-50d438266935$", forHTTPHeaderField: "X-Bureau-Auth-API-Key")
+
         
         let session = URLSession.shared
         let task = session.dataTask(with: request, completionHandler: { data, response, error -> Void in
             if error == nil{
                 do {
                     let json = try JSONSerialization.jsonObject(with: data!) as! Dictionary<String, AnyObject>
+                    print(json)
                     if let mobileNumberValue = json["mobileNumber"] as? String{
                         DispatchQueue.main.async {
                             self.stopActivityIndicatory()

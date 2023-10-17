@@ -6,8 +6,18 @@
 import Foundation
 import Network
 import Swift
+import UIKit
 import _Concurrency
 import _StringProcessing
+import os
+public struct RedirectResult {
+  public var url: Foundation.URL?
+  public let cookies: [Foundation.HTTPCookie]?
+}
+public struct ConnectionResponse {
+  public var status: Swift.Int
+  public let body: Foundation.Data?
+}
 @_hasMissingDesignatedInitializers public class BureauAuth {
   public enum Mode {
     case sandbox

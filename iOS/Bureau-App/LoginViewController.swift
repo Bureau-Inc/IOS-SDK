@@ -30,8 +30,11 @@ class LoginViewController: UIViewController {
         
         //BureauSilentAuth SDK
         let authSDKObj = BureauAuth.Builder()
-            .setClientId(clientId: "b4b8ae3c-de9a-4bc0-99ca-566c6031d2c1")
-            .setMode(mode: .production)
+        //07752204-eca0-49c2-bb82-27a579278109 - arindam
+        //512819f8-55a7-467e-a067-a6b7fb0606a3 - parth
+        //72ecd818-fbd6-4e86-b12f-f74f2be872a4
+            .setClientId(clientId: "6fd8e1b3-0561-4155-bfdc-4a67e1357af6")
+            .setMode(mode: .sandbox)
             .setTimeout(timeoutinSeconds: 60)
             .build()
         
@@ -45,14 +48,16 @@ class LoginViewController: UIViewController {
         // Call this API in background thread, otherwise it will freeze the UI, since semaphore is used for timeout
         DispatchQueue.global(qos: .userInitiated).async {
             //9843458799
-            let response = authSDKObj.makeAuthCall(mobile: "919944608585", correlationId: self.correlationId)
-//            let response = authSDKObj.makeAuthCall(mobile: "919843458799", correlationId: self.correlationId)
+//            let response = authSDKObj.makeAuthCall(mobile: "919944608595", correlationId: self.correlationId)
+//            let response = authSDKObj.makeAuthCall(mobile: "919344558795", correlationId: self.correlationId)
+             let response = authSDKObj.makeAuthCall(mobile: "91\(phoneNumberValue)", correlationId: self.correlationId)
+
             print(response)
             DispatchQueue.main.async {
-                self.showAlert(response: response)
+                //self.showAlert(response: response)
                 self.stopActivityIndicatory()
             }
-            //self.callUserInfoAPI()
+            self.callUserInfoAPI()
         }
     }
     
@@ -82,14 +87,15 @@ class LoginViewController: UIViewController {
         var request = URLRequest(url: URL(string: finalUrl)!)
         request.timeoutInterval = 1
         request.httpMethod = "GET"
-        request.setValue("authorization_token", forHTTPHeaderField: "Authorization")
+        //request.setValue("authorization_token", forHTTPHeaderField: "Authorization")
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")
-        
+        request.addValue("$6fd8e1b3-0561-4155-bfdc-4a67e1357af6f6dbcf78-5b24-4eb3-b485-50d438266935$", forHTTPHeaderField: "X-Bureau-Auth-API-Key")
         let session = URLSession.shared
         let task = session.dataTask(with: request, completionHandler: { data, response, error -> Void in
             if error == nil{
                 do {
                     let json = try JSONSerialization.jsonObject(with: data!) as! Dictionary<String, AnyObject>
+                    print(json)
                     if let mobileNumberValue = json["mobileNumber"] as? String{
                         DispatchQueue.main.async {
                             self.stopActivityIndicatory()

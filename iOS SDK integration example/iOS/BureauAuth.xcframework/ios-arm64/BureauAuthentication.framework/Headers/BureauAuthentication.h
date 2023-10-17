@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "HTTPRequester.h"
+//#import "HTTPRequester.h"
 
 //! Project version number for BureauAuthentication.
 FOUNDATION_EXPORT double BureauAuthenticationVersionNumber;
