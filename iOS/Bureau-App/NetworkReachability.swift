@@ -36,9 +36,29 @@ class NetworkReachability {
     }
     
     func checkAvailableNetwork(completionHandler: @escaping (_ respose :Bool) -> Void){
-        if let availInterface = self.path?.availableInterfaces{
-            print("Hari...", availInterface.map({$0.type}))
+        if let monitor = pathMonitor { monitor.cancel() }
+        Singleton.isWifiAvailable = false
+        Singleton.isCellularAvailable = false
+        pathMonitor = NWPathMonitor()
+        var alreadyMonitor = false
+        pathMonitor?.pathUpdateHandler = { path in
+            let interfaceTypes = path.availableInterfaces.map { $0.type }
+            for interfaceType in interfaceTypes {
+                if interfaceType == .wifi{
+                    print("<--Connetion: Wifi Enabled -->")
+                    Singleton.isWifiAvailable = true
+                }
+                if interfaceType == .cellular{
+                    print("<--Connetion: Cellular ipv4 \(path.supportsIPv4.description) ipv6 \(path.supportsIPv6.description) -->")
+                    Singleton.isCellularAvailable = true
+                }
+            }
+            if !alreadyMonitor{
+                completionHandler(true)
+            }
+            alreadyMonitor = true
         }
+        pathMonitor?.start(queue: .main)
     }
 }
 

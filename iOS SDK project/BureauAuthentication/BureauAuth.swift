@@ -130,43 +130,58 @@ public class BureauAuth {
     public func makeAuthCall(mobile: String,correlationId: String) -> Bool{
         var response = ""
         let semaphore = DispatchSemaphore(value: 0)
-        
         if mode == Mode.sandbox{
             print("Bureau SDK:","Bureau SDK Transaction Mobile: ",mobile," CorrelationID: ",correlationId," clientID: ",clientId ?? "DEFCLIENTID"," timeout: ",timeOut ?? -1);
         }
+        let group = DispatchGroup()
+        group.enter()
+        NetworkReachability().checkAvailableNetwork(completionHandler: {(bool) in
+            print(Singleton.isWifiAvailable, Singleton.isCellularAvailable)
+            if Singleton.isWifiAvailable && !Singleton.isCellularAvailable{
+                print("STATUS CODE:", STATUS_ONDIFFERENTNETWORK)
+            }else if !Singleton.isWifiAvailable && !Singleton.isCellularAvailable{
+                print("STATUS CODE:", STATUS_NETWORK_UNAVAILABLE)
+            }
+            group.leave()
+        })
+        group.wait()
         
-        print(Singleton.isWifiAvailable, Singleton.isCellularAvailable)
-        if ((wifiEnabled ?? false) && Singleton.isWifiAvailable){
-            print("Bureau SDK:","Wifi Enabled")
-            self.fireURLWIFI(mobileNumber: mobile, correlationId: correlationId){(apiResponse, networkError) in
-                if let responseValue = apiResponse {
-                    response = responseValue
-                } else {
-                    response = "Error"
+        print("isWifiAvailable: ", Singleton.isWifiAvailable, "isCellularAvailable: ", Singleton.isCellularAvailable)
+        if(response == String(STATUS_ONDIFFERENTNETWORK) || response == String(STATUS_NETWORK_UNAVAILABLE)){
+            return false
+        }else{
+            if ((wifiEnabled ?? false) && Singleton.isWifiAvailable){
+                print("Bureau SDK:","Wifi Enabled")
+                self.fireURLWIFI(mobileNumber: mobile, correlationId: correlationId){(apiResponse, networkError) in
+                    if let responseValue = apiResponse {
+                        response = responseValue
+                    } else {
+                        response = "Error"
+                    }
+                    semaphore.signal()
                 }
+            }else{
+                print("Bureau SDK:","Wifi Disabled")
+                response = self.fireNormalURl(mobileNumber: mobile, correlationId: correlationId)
                 semaphore.signal()
             }
-        }else{
-            print("Bureau SDK:","Wifi Disabled")
-            response = self.fireNormalURl(mobileNumber: mobile, correlationId: correlationId)
-            semaphore.signal()
-        }
-        
-        let timeoutInSeconds = timeOut ?? 20
-        if semaphore.wait(timeout: .now() + .seconds(timeoutInSeconds)) == .timedOut {
-            if mode == Mode.sandbox{
+            
+            let timeoutInSeconds = timeOut ?? 20
+            if semaphore.wait(timeout: .now() + .seconds(timeoutInSeconds)) == .timedOut {
+                if mode == Mode.sandbox{
+                    print("Bureau SDK:","Timeout Exiting")
+                }
                 print("Bureau SDK:","Timeout Exiting")
+                response = "timeout"
             }
-            print("Bureau SDK:","Timeout Exiting")
-            response = "timeout"
         }
-        
         let responseString = String(response.prefix(20))
         NSLog(responseString)
-        
         if verifyResponse(response: responseString){
+            print("STATUS CODE:", STATUS_COMPLETE)
             return true
         }else{
+            print("STATUS CODE:", STATUS_EXCEPTION)
             return false
         }
     }

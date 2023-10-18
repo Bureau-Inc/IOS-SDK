@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE74048F2ADEA70B000E9247 /* BureauAuth.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE74048D2ADEA704000E9247 /* BureauAuth.xcframework */; };
-		CE7404902ADEA70B000E9247 /* BureauAuth.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE74048D2ADEA704000E9247 /* BureauAuth.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CE74049B2ADFDE8F000E9247 /* BureauAuth.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7404992ADFDE87000E9247 /* BureauAuth.xcframework */; };
+		CE74049C2ADFDE8F000E9247 /* BureauAuth.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE7404992ADFDE87000E9247 /* BureauAuth.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D282723E252B0108002C9DB5 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D282723D252B0108002C9DB5 /* SuccessViewController.swift */; };
 		D2FC5AE1251F270D00CB060E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FC5AE0251F270D00CB060E /* AppDelegate.swift */; };
 		D2FC5AE3251F270D00CB060E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FC5AE2251F270D00CB060E /* SceneDelegate.swift */; };
@@ -44,7 +44,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				CE7404902ADEA70B000E9247 /* BureauAuth.xcframework in Embed Frameworks */,
+				CE74049C2ADFDE8F000E9247 /* BureauAuth.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,7 +52,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CE74048D2ADEA704000E9247 /* BureauAuth.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = BureauAuth.xcframework; sourceTree = "<group>"; };
+		CE7404992ADFDE87000E9247 /* BureauAuth.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = BureauAuth.xcframework; sourceTree = "<group>"; };
 		D282723D252B0108002C9DB5 /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
 		D2FC5ADD251F270D00CB060E /* Bureau-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bureau-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2FC5AE0251F270D00CB060E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE74048F2ADEA70B000E9247 /* BureauAuth.xcframework in Frameworks */,
+				CE74049B2ADFDE8F000E9247 /* BureauAuth.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,7 +99,7 @@
 		B31B4A1F281936D80037252B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CE74048D2ADEA704000E9247 /* BureauAuth.xcframework */,
+				CE7404992ADFDE87000E9247 /* BureauAuth.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -469,17 +469,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = X8VHD2K5NF;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = X8VHD2K5NF;
 				INFOPLIST_FILE = "Bureau-App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.SilentAuthCheck.bureau;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bureau.prism-ios-native-sdk-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = PrismSDKDev;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -493,17 +496,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = X8VHD2K5NF;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = X8VHD2K5NF;
 				INFOPLIST_FILE = "Bureau-App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.SilentAuthCheck.bureau;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bureau.prism-ios-native-sdk-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = PrismSDKDev;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

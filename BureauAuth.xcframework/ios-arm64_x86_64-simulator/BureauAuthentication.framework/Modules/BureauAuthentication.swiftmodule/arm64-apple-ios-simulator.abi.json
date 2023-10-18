@@ -873,14 +873,91 @@
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/NetworkReachability.swift",
       "kind": "BooleanLiteral",
-      "offset": 1277,
+      "offset": 1147,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/NetworkReachability.swift",
       "kind": "BooleanLiteral",
-      "offset": 1326,
+      "offset": 1193,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/NetworkReachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1266,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/NetworkReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 1516,
+      "length": 32,
+      "value": "\"<--Connetion: Wifi Enabled -->\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/NetworkReachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1598,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/NetworkReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 1694,
+      "length": 104,
+      "value": "\"<--Connetion: Cellular ipv4 \""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/NetworkReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 1755,
+      "length": 4,
+      "value": "\" ipv6 \""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/NetworkReachability.swift",
+      "kind": "StringLiteral",
+      "offset": 1793,
+      "length": 3,
+      "value": "\" -->\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/NetworkReachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1852,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/NetworkReachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1955,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/NetworkReachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2004,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/NetworkReachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2161,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/NetworkReachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2210,
       "length": 5,
       "value": "false"
     },
@@ -2483,420 +2560,469 @@
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 4198,
+      "offset": 4189,
       "length": 13,
       "value": "\"Bureau SDK:\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 4212,
+      "offset": 4203,
       "length": 33,
       "value": "\"Bureau SDK Transaction Mobile: \""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 4253,
+      "offset": 4244,
       "length": 18,
       "value": "\" CorrelationID: \""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 4286,
+      "offset": 4277,
       "length": 13,
       "value": "\" clientID: \""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 4312,
+      "offset": 4303,
       "length": 13,
       "value": "\"DEFCLIENTID\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 4326,
+      "offset": 4317,
       "length": 12,
       "value": "\" timeout: \""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "IntegerLiteral",
-      "offset": 4350,
+      "offset": 4341,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 4670,
+      "length": 14,
+      "value": "\"STATUS CODE:\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 4818,
+      "length": 14,
+      "value": "\"STATUS CODE:\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 4957,
+      "length": 19,
+      "value": "\"isWifiAvailable: \""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 5005,
+      "length": 23,
+      "value": "\"isCellularAvailable: \""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "BooleanLiteral",
-      "offset": 4474,
+      "offset": 5189,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5242,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 4530,
+      "offset": 5302,
       "length": 13,
       "value": "\"Bureau SDK:\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 4544,
+      "offset": 5316,
       "length": 14,
       "value": "\"Wifi Enabled\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 4826,
+      "offset": 5618,
       "length": 7,
       "value": "\"Error\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 4934,
+      "offset": 5746,
       "length": 13,
       "value": "\"Bureau SDK:\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 4948,
+      "offset": 5760,
       "length": 15,
       "value": "\"Wifi Disabled\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "IntegerLiteral",
-      "offset": 5151,
+      "offset": 5983,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 5300,
+      "offset": 6144,
       "length": 13,
       "value": "\"Bureau SDK:\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 5314,
+      "offset": 6158,
       "length": 17,
       "value": "\"Timeout Exiting\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 5365,
+      "offset": 6217,
       "length": 13,
       "value": "\"Bureau SDK:\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 5379,
+      "offset": 6231,
       "length": 17,
       "value": "\"Timeout Exiting\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 5421,
+      "offset": 6277,
       "length": 9,
       "value": "\"timeout\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "IntegerLiteral",
-      "offset": 5502,
+      "offset": 6363,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 6469,
+      "length": 14,
+      "value": "\"STATUS CODE:\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "BooleanLiteral",
-      "offset": 5618,
+      "offset": 6521,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "StringLiteral",
+      "offset": 6559,
+      "length": 14,
+      "value": "\"STATUS CODE:\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "BooleanLiteral",
-      "offset": 5657,
+      "offset": 6612,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 5831,
+      "offset": 6786,
       "length": 13,
       "value": "\"Bureau SDK:\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 5845,
+      "offset": 6800,
       "length": 32,
       "value": "\"fireNormalURL correlationID : \""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 5942,
+      "offset": 6897,
       "length": 30,
       "value": "\"ERROR: Unknown HTTP Response\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 6027,
+      "offset": 6982,
       "length": 10,
       "value": "\"clientId\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 6076,
+      "offset": 7031,
       "length": 15,
       "value": "\"correlationId\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 6134,
+      "offset": 7089,
       "length": 8,
       "value": "\"msisdn\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 6184,
+      "offset": 7139,
       "length": 13,
       "value": "\"callbackUrl\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 6274,
+      "offset": 7229,
       "length": 64,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 6296,
+      "offset": 7251,
       "length": 32,
       "value": "\"https:\/\/api.bureau.id\/v2\/auth\/\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 6329,
+      "offset": 7284,
       "length": 8,
       "value": "\"initiate\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 6607,
+      "offset": 7562,
       "length": 13,
       "value": "\"Bureau SDK:\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 6621,
+      "offset": 7576,
       "length": 37,
       "value": "\"FireNormalUrl Sending Get request: \""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 6851,
+      "offset": 7806,
       "length": 13,
       "value": "\"Bureau SDK:\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 6865,
+      "offset": 7820,
       "length": 15,
       "value": "\"urlresponse: \""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 6893,
+      "offset": 7848,
       "length": 14,
       "value": "\"Nil Response\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "IntegerLiteral",
-      "offset": 6957,
+      "offset": 7912,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 7010,
+      "offset": 7965,
       "length": 13,
       "value": "\"Bureau SDK:\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 7024,
+      "offset": 7979,
       "length": 54,
       "value": "\"Task ended with status: \""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 7077,
+      "offset": 8032,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 7178,
+      "offset": 8133,
       "length": 14,
       "value": "\"Bureau SDK: \""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 7193,
+      "offset": 8148,
       "length": 24,
       "value": "\"Transaction Successful\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 7238,
+      "offset": 8193,
       "length": 22,
       "value": "\"HTTP\/1.1 200 success\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 7454,
+      "offset": 8409,
       "length": 13,
       "value": "\"Bureau SDK:\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 7468,
+      "offset": 8423,
       "length": 27,
       "value": "\"fireURL: correlationID : \""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 7568,
+      "offset": 8523,
       "length": 10,
       "value": "\"clientId\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 7617,
+      "offset": 8572,
       "length": 15,
       "value": "\"correlationId\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 7675,
+      "offset": 8630,
       "length": 8,
       "value": "\"msisdn\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 7725,
+      "offset": 8680,
       "length": 13,
       "value": "\"callbackUrl\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 7806,
+      "offset": 8761,
       "length": 64,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 7828,
+      "offset": 8783,
       "length": 32,
       "value": "\"https:\/\/api.bureau.id\/v2\/auth\/\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 7861,
+      "offset": 8816,
       "length": 8,
       "value": "\"initiate\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 7980,
+      "offset": 8935,
       "length": 13,
       "value": "\"Bureau SDK:\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 7994,
+      "offset": 8949,
       "length": 37,
       "value": "\"FireNormalUrl Sending Get request: \""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 8218,
+      "offset": 9173,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 8299,
+      "offset": 9254,
       "length": 13,
       "value": "\"http_status\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "IntegerLiteral",
-      "offset": 8325,
+      "offset": 9280,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 8385,
+      "offset": 9340,
       "length": 29,
       "value": "\"Bureau SDK: LOW iOS Version\""
     },
     {
       "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 8574,
+      "offset": 9529,
       "length": 19,
       "value": "\".*[2][0-9][0-9].*\""
     }

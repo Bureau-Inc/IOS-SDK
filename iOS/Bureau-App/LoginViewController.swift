@@ -30,9 +30,6 @@ class LoginViewController: UIViewController {
         
         //BureauSilentAuth SDK
         let authSDKObj = BureauAuth.Builder()
-        //07752204-eca0-49c2-bb82-27a579278109 - arindam
-        //512819f8-55a7-467e-a067-a6b7fb0606a3 - parth
-        //72ecd818-fbd6-4e86-b12f-f74f2be872a4
             .setClientId(clientId: "6fd8e1b3-0561-4155-bfdc-4a67e1357af6")
             .setMode(mode: .sandbox)
             .setTimeout(timeoutinSeconds: 60)
@@ -41,7 +38,6 @@ class LoginViewController: UIViewController {
         guard let phoneNumberValue = self.textFieldPhoneNumber.text else {
             self.showAlert(message: "Enter valid mobile Number")
             return
-            
         }
         
         showActivityIndicatory()
@@ -51,25 +47,14 @@ class LoginViewController: UIViewController {
 //            let response = authSDKObj.makeAuthCall(mobile: "919944608595", correlationId: self.correlationId)
 //            let response = authSDKObj.makeAuthCall(mobile: "919344558795", correlationId: self.correlationId)
              let response = authSDKObj.makeAuthCall(mobile: "91\(phoneNumberValue)", correlationId: self.correlationId)
-
-            print(response)
+            
+            print("makeAuthCall Response: ", response)
             DispatchQueue.main.async {
                 //self.showAlert(response: response)
                 self.stopActivityIndicatory()
             }
             self.callUserInfoAPI()
         }
-    }
-    
-    private func verifyResponse(response: String) -> Bool{
-        ///acceptabel response code 200-299
-        let acceptableCodeRegex = ".*[2][0-9][0-9].*"
-        let result = response.range(
-            of: acceptableCodeRegex,
-            options: .regularExpression
-        )
-        
-        return result != nil
     }
     
     private func showAlert(response: Bool){
@@ -95,7 +80,7 @@ class LoginViewController: UIViewController {
             if error == nil{
                 do {
                     let json = try JSONSerialization.jsonObject(with: data!) as! Dictionary<String, AnyObject>
-                    print(json)
+                    print("callUserInfoAPI:", json)
                     if let mobileNumberValue = json["mobileNumber"] as? String{
                         DispatchQueue.main.async {
                             self.stopActivityIndicatory()

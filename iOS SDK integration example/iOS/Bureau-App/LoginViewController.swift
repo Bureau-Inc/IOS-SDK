@@ -45,12 +45,13 @@ class LoginViewController: UIViewController {
         // Call this API in background thread, otherwise it will freeze the UI, since semaphore is used for timeout
         DispatchQueue.global(qos: .userInitiated).async {
             let response = authSDKObj.makeAuthCall(mobile: "91\(phoneNumberValue)", correlationId: self.correlationId)
-            print("Response: ",response)
-            self.callUserInfoAPI()
+            print("makeAuthCall Response: ",response)
             DispatchQueue.main.async {
                 //self.showAlert(response: response)
                 self.stopActivityIndicatory()
             }
+            self.callUserInfoAPI()
+
         }
     }
     
@@ -74,14 +75,13 @@ class LoginViewController: UIViewController {
         request.setValue("Basic MTA3M2E2MjAtY2M4ZC00NTU3LTk3OTItMTYxOWIwZjQ1ZTNlOjhmOGVkYTVlLWQ3MzQtNDY2ZS05ZjQ1LTIxNjg5ZWQwN2ZmZQ==", forHTTPHeaderField: "authorization")
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")
         //request.addValue("$6fd8e1b3-0561-4155-bfdc-4a67e1357af6f6dbcf78-5b24-4eb3-b485-50d438266935$", forHTTPHeaderField: "X-Bureau-Auth-API-Key")
-
         
         let session = URLSession.shared
         let task = session.dataTask(with: request, completionHandler: { data, response, error -> Void in
             if error == nil{
                 do {
                     let json = try JSONSerialization.jsonObject(with: data!) as! Dictionary<String, AnyObject>
-                    print(json)
+                    print("callUserInfoAPI:", json)
                     if let mobileNumberValue = json["mobileNumber"] as? String{
                         DispatchQueue.main.async {
                             self.stopActivityIndicatory()
