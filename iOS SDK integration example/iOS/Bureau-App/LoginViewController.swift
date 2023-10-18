@@ -30,7 +30,7 @@ class LoginViewController: UIViewController {
         
         //BureauSilentAuth SDK
         let authSDKObj = BureauAuth.Builder()
-            .setClientId(clientId: "1073a620-cc8d-4557-9792-1619b0f45e3e")
+            .setClientId(clientId: "--xx--ClientID--xx--")
             .setMode(mode: .production)
             .setTimeout(timeoutinSeconds: 60)
             .build()
@@ -72,9 +72,8 @@ class LoginViewController: UIViewController {
         var request = URLRequest(url: URL(string: finalUrl)!)
         request.timeoutInterval = 1
         request.httpMethod = "GET"
-        request.setValue("Basic MTA3M2E2MjAtY2M4ZC00NTU3LTk3OTItMTYxOWIwZjQ1ZTNlOjhmOGVkYTVlLWQ3MzQtNDY2ZS05ZjQ1LTIxNjg5ZWQwN2ZmZQ==", forHTTPHeaderField: "authorization")
+        request.setValue("authorization", forHTTPHeaderField: "authorization")
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")
-        //request.addValue("$6fd8e1b3-0561-4155-bfdc-4a67e1357af6f6dbcf78-5b24-4eb3-b485-50d438266935$", forHTTPHeaderField: "X-Bureau-Auth-API-Key")
         
         let session = URLSession.shared
         let task = session.dataTask(with: request, completionHandler: { data, response, error -> Void in

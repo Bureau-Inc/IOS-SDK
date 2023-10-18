@@ -8,7 +8,7 @@ import os
 
 typealias ResultHandler = (ConnectionResult) -> Void
 
-let BureauSdkVersion = "2.0"
+let BureauSdkVersion = "1.1.0"
 
 // Force connectivity to cellular only
 // CellularConnectionManager might switch from tls to non-tls between redirects
