@@ -14,44 +14,56 @@ import Network
 ///handler will be running in background thread
 @available(iOS 12.0, *)
 class NetworkReachability {
-
-   var pathMonitor: NWPathMonitor!
-   var path: NWPath?
     
-   lazy var pathUpdateHandler: ((NWPath) -> Void) = { path in
-    self.path = path
-    if path.status == NWPath.Status.satisfied {
-        NSLog("satisfied")
-        Singleton.isWifiAvailable = true
-    } else if path.status == NWPath.Status.unsatisfied {
-        NSLog("unsatisfied")
+    var pathMonitor: NWPathMonitor!
+    var path: NWPath?
+    
+    var isWifiAvailable = false
+    var isCellularAvailable = false
+    
+    lazy var pathUpdateHandler: ((NWPath) -> Void) = { path in
+        self.path = path
+        Singleton.isCellularAvailable = path.usesInterfaceType(.cellular)
+        Singleton.isWifiAvailable = path.usesInterfaceType(.wifi)
+    }
+    
+    let backgroudQueue = DispatchQueue.global(qos: .background)
+    
+    init() {
+        pathMonitor = NWPathMonitor()
+        pathMonitor.pathUpdateHandler = self.pathUpdateHandler
+        pathMonitor.start(queue: backgroudQueue)
+    }
+    
+    func checkAvailableNetwork(completionHandler: @escaping (_ respose :Bool) -> Void){
+        if let monitor = pathMonitor { monitor.cancel() }
         Singleton.isWifiAvailable = false
-    } else if path.status == NWPath.Status.requiresConnection {
-        Singleton.isWifiAvailable = true
-        NSLog("requiresConnection")
+        Singleton.isCellularAvailable = false
+        pathMonitor = NWPathMonitor()
+        var alreadyMonitor = false
+        pathMonitor?.pathUpdateHandler = { path in
+            let interfaceTypes = path.availableInterfaces.map { $0.type }
+            for interfaceType in interfaceTypes {
+                if interfaceType == .wifi{
+                    print("<--Connetion: Wifi Enabled -->")
+                    Singleton.isWifiAvailable = true
+                }
+                if interfaceType == .cellular{
+                    print("<--Connetion: Cellular ipv4 \(path.supportsIPv4.description) ipv6 \(path.supportsIPv6.description) -->")
+                    Singleton.isCellularAvailable = true
+                }
+            }
+            if !alreadyMonitor{
+                completionHandler(true)
+            }
+            alreadyMonitor = true
+        }
+        pathMonitor?.start(queue: .main)
     }
 }
 
-let backgroudQueue = DispatchQueue.global(qos: .background)
-
-init() {
-    pathMonitor = NWPathMonitor(requiredInterfaceType: .wifi)
-    pathMonitor.pathUpdateHandler = self.pathUpdateHandler
-    pathMonitor.start(queue: backgroudQueue)
-   }
-
- func isNetworkAvailable() -> Bool {
-        if let path = self.path {
-           if path.status == NWPath.Status.satisfied {
-            return true
-          }
-        }
-          return false
-   }
- }
-
-
 class Singleton{
     ///To keep track of wifi status
-    static var isWifiAvailable: Bool = true
+    static var isWifiAvailable: Bool = false
+    static var isCellularAvailable: Bool = false
 }

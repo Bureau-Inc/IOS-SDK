@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "22C48759-BC54-4B2B-A815-5704DC476102"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F8634CF6-82B4-4A0C-93CF-2F5E1F83FA83"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bureau-App/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "callUserInfoAPI()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4864C1C3-315B-428B-8840-9D7E4096A25D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bureau-App/HTTPRequester.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "178"
+            endingLineNumber = "178"
+            landmarkName = "+performGetRequest:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4864C1C3-315B-428B-8840-9D7E4096A25D - abd4e806b569ba45"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[HTTPRequester performGetRequest:]"
+                  moduleName = "Bureau-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/Hari/Bureau%20Git/OTL/iOS/Bureau-App/HTTPRequester.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "176"
+                  endingLineNumber = "176"
+                  offsetFromSymbolStart = "3340">
+               </Location>
+               <Location
+                  uuid = "4864C1C3-315B-428B-8840-9D7E4096A25D - abd4e806b569bad8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[HTTPRequester performGetRequest:]"
+                  moduleName = "Bureau-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/Hari/Bureau%20Git/OTL/iOS/Bureau-App/HTTPRequester.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "179"
+                  endingLineNumber = "179"
+                  offsetFromSymbolStart = "3516">
+               </Location>
+               <Location
+                  uuid = "4864C1C3-315B-428B-8840-9D7E4096A25D - abd4e806b569bad8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[HTTPRequester performGetRequest:]"
+                  moduleName = "Bureau-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/Hari/Bureau%20Git/OTL/iOS/Bureau-App/HTTPRequester.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "179"
+                  endingLineNumber = "179"
+                  offsetFromSymbolStart = "4082">
+               </Location>
+               <Location
+                  uuid = "4864C1C3-315B-428B-8840-9D7E4096A25D - abd4e806b569bad8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[HTTPRequester performGetRequest:]"
+                  moduleName = "Bureau-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/Hari/Bureau%20Git/OTL/iOS/Bureau-App/HTTPRequester.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "179"
+                  endingLineNumber = "179"
+                  offsetFromSymbolStart = "3524">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4C784E51-4F0E-4AFE-A354-A559F9385B88"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bureau-App/HTTPRequester.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "+performGetRequest:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4C784E51-4F0E-4AFE-A354-A559F9385B88 - abd4e806b569ad2c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[HTTPRequester performGetRequest:]"
+                  moduleName = "Bureau-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/Hari/Bureau%20Git/OTL/iOS/Bureau-App/HTTPRequester.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "1100">
+               </Location>
+               <Location
+                  uuid = "4C784E51-4F0E-4AFE-A354-A559F9385B88 - abd4e806b569ad6e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[HTTPRequester performGetRequest:]"
+                  moduleName = "Bureau-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/Hari/Bureau%20Git/OTL/iOS/Bureau-App/HTTPRequester.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "1148">
+               </Location>
+               <Location
+                  uuid = "4C784E51-4F0E-4AFE-A354-A559F9385B88 - abd4e806b569ad6e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[HTTPRequester performGetRequest:]"
+                  moduleName = "Bureau-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/Hari/Bureau%20Git/OTL/iOS/Bureau-App/HTTPRequester.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "1377">
+               </Location>
+               <Location
+                  uuid = "4C784E51-4F0E-4AFE-A354-A559F9385B88 - abd4e806b569ad6e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[HTTPRequester performGetRequest:]"
+                  moduleName = "Bureau-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/Hari/Bureau%20Git/OTL/iOS/Bureau-App/HTTPRequester.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "1164">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B9E18AC7-15BA-4C17-83E9-BEDBFF672E89"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bureau-App/HTTPRequester.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "+performGetRequest:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B9E18AC7-15BA-4C17-83E9-BEDBFF672E89 - abd4e806b569a033"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[HTTPRequester performGetRequest:]"
+                  moduleName = "Bureau-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/Hari/Bureau%20Git/OTL/iOS/Bureau-App/HTTPRequester.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "126"
+                  endingLineNumber = "126"
+                  offsetFromSymbolStart = "1884">
+               </Location>
+               <Location
+                  uuid = "B9E18AC7-15BA-4C17-83E9-BEDBFF672E89 - abd4e806b569a075"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[HTTPRequester performGetRequest:]"
+                  moduleName = "Bureau-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/Hari/Bureau%20Git/OTL/iOS/Bureau-App/HTTPRequester.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "128"
+                  endingLineNumber = "128"
+                  offsetFromSymbolStart = "2036">
+               </Location>
+               <Location
+                  uuid = "B9E18AC7-15BA-4C17-83E9-BEDBFF672E89 - abd4e806b569a075"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[HTTPRequester performGetRequest:]"
+                  moduleName = "Bureau-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/Hari/Bureau%20Git/OTL/iOS/Bureau-App/HTTPRequester.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "128"
+                  endingLineNumber = "128"
+                  offsetFromSymbolStart = "2445">
+               </Location>
+               <Location
+                  uuid = "B9E18AC7-15BA-4C17-83E9-BEDBFF672E89 - abd4e806b569a075"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[HTTPRequester performGetRequest:]"
+                  moduleName = "Bureau-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/Hari/Bureau%20Git/OTL/iOS/Bureau-App/HTTPRequester.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "128"
+                  endingLineNumber = "128"
+                  offsetFromSymbolStart = "2052">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "856A5FE2-A14E-4A33-AAE5-9C004DA32586"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bureau-App/HTTPRequester.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "+performGetRequest:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "856A5FE2-A14E-4A33-AAE5-9C004DA32586 - abd4e806b569ada0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[HTTPRequester performGetRequest:]"
+                  moduleName = "Bureau-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/Hari/Bureau%20Git/OTL/iOS/Bureau-App/HTTPRequester.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "1412">
+               </Location>
+               <Location
+                  uuid = "856A5FE2-A14E-4A33-AAE5-9C004DA32586 - abd4e806b569ada0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[HTTPRequester performGetRequest:]"
+                  moduleName = "Bureau-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/Hari/Bureau%20Git/OTL/iOS/Bureau-App/HTTPRequester.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "1697">
+               </Location>
+               <Location
+                  uuid = "856A5FE2-A14E-4A33-AAE5-9C004DA32586 - abd4e806b569ada0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[HTTPRequester performGetRequest:]"
+                  moduleName = "Bureau-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/Hari/Bureau%20Git/OTL/iOS/Bureau-App/HTTPRequester.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "1428">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE34D03A-AFCD-4E40-9B86-7BD9378D6C7C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bureau-App/ConnectionManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "280"
+            endingLineNumber = "280"
+            landmarkName = "parseRedirect(requestUrl:response:cookies:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FE34D03A-AFCD-4E40-9B86-7BD9378D6C7C - 9f84526448d28b69"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bureau_App.ConnectionManager.parseRedirect(requestUrl: Foundation.URL, response: Swift.String, cookies: Swift.Optional&lt;Swift.Array&lt;__C.NSHTTPCookie&gt;&gt;) -&gt; Swift.Optional&lt;Bureau_App.RedirectResult&gt;"
+                  moduleName = "Bureau-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/Hari/Bureau%20Git/OTL/iOS/Bureau-App/ConnectionManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "289"
+                  endingLineNumber = "289"
+                  offsetFromSymbolStart = "2420">
+               </Location>
+               <Location
+                  uuid = "FE34D03A-AFCD-4E40-9B86-7BD9378D6C7C - 9f84526448d28b48"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bureau_App.ConnectionManager.parseRedirect(requestUrl: Foundation.URL, response: Swift.String, cookies: Swift.Optional&lt;Swift.Array&lt;__C.NSHTTPCookie&gt;&gt;) -&gt; Swift.Optional&lt;Bureau_App.RedirectResult&gt;"
+                  moduleName = "Bureau-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/Hari/Bureau%20Git/OTL/iOS/Bureau-App/ConnectionManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "288"
+                  endingLineNumber = "288"
+                  offsetFromSymbolStart = "1544">
+               </Location>
+               <Location
+                  uuid = "FE34D03A-AFCD-4E40-9B86-7BD9378D6C7C - 9f84526448d28b17"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bureau_App.ConnectionManager.parseRedirect(requestUrl: Foundation.URL, response: Swift.String, cookies: Swift.Optional&lt;Swift.Array&lt;__C.NSHTTPCookie&gt;&gt;) -&gt; Swift.Optional&lt;Bureau_App.RedirectResult&gt;"
+                  moduleName = "Bureau-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/Hari/Bureau%20Git/OTL/iOS/Bureau-App/ConnectionManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "287"
+                  endingLineNumber = "287"
+                  offsetFromSymbolStart = "1544">
+               </Location>
+               <Location
+                  uuid = "FE34D03A-AFCD-4E40-9B86-7BD9378D6C7C - 9f84526448d28830"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bureau_App.ConnectionManager.parseRedirect(requestUrl: Foundation.URL, response: Swift.String, cookies: Swift.Optional&lt;Swift.Array&lt;__C.NSHTTPCookie&gt;&gt;) -&gt; Swift.Optional&lt;Bureau_App.RedirectResult&gt;"
+                  moduleName = "Bureau-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/Hari/Bureau%20Git/OTL/iOS/Bureau-App/ConnectionManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "280"
+                  endingLineNumber = "280"
+                  offsetFromSymbolStart = "1544">
+               </Location>
+               <Location
+                  uuid = "FE34D03A-AFCD-4E40-9B86-7BD9378D6C7C - 9f84526448d28830"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bureau_App.ConnectionManager.parseRedirect(requestUrl: Foundation.URL, response: Swift.String, cookies: Swift.Optional&lt;Swift.Array&lt;__C.NSHTTPCookie&gt;&gt;) -&gt; Swift.Optional&lt;Bureau_App.RedirectResult&gt;"
+                  moduleName = "Bureau-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/Hari/Bureau%20Git/OTL/iOS/Bureau-App/ConnectionManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "280"
+                  endingLineNumber = "280"
+                  offsetFromSymbolStart = "1736">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F82E05F8-BAE0-4C42-B197-C2A8929ABB47"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bureau-App/ConnectionManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "401"
+            endingLineNumber = "401"
+            landmarkName = "sendAndReceiveWithBody(requestUrl:data:cookies:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F82E05F8-BAE0-4C42-B197-C2A8929ABB47 - 2fbdfab1207ea523"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Network.NWError&gt;) -&gt; () in Bureau_App.ConnectionManager.sendAndReceiveWithBody(requestUrl: Foundation.URL, data: Foundation.Data, cookies: Swift.Optional&lt;Swift.Array&lt;__C.NSHTTPCookie&gt;&gt;, completion: (Bureau_App.ConnectionResult) -&gt; ()) -&gt; ()"
+                  moduleName = "Bureau-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/Hari/Bureau%20Git/OTL/iOS/Bureau-App/ConnectionManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "409"
+                  endingLineNumber = "409"
+                  offsetFromSymbolStart = "912">
+               </Location>
+               <Location
+                  uuid = "F82E05F8-BAE0-4C42-B197-C2A8929ABB47 - 2fbdfab1207ea523"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Network.NWError&gt;) -&gt; () in Bureau_App.ConnectionManager.sendAndReceiveWithBody(requestUrl: Foundation.URL, data: Foundation.Data, cookies: Swift.Optional&lt;Swift.Array&lt;__C.NSHTTPCookie&gt;&gt;, completion: (Bureau_App.ConnectionResult) -&gt; ()) -&gt; ()"
+                  moduleName = "Bureau-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/Hari/Bureau%20Git/OTL/iOS/Bureau-App/ConnectionManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "409"
+                  endingLineNumber = "409"
+                  offsetFromSymbolStart = "264">
+               </Location>
+               <Location
+                  uuid = "F82E05F8-BAE0-4C42-B197-C2A8929ABB47 - 2fbdfab1207ea542"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Network.NWError&gt;) -&gt; () in Bureau_App.ConnectionManager.sendAndReceiveWithBody(requestUrl: Foundation.URL, data: Foundation.Data, cookies: Swift.Optional&lt;Swift.Array&lt;__C.NSHTTPCookie&gt;&gt;, completion: (Bureau_App.ConnectionResult) -&gt; ()) -&gt; ()"
+                  moduleName = "Bureau-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/Hari/Bureau%20Git/OTL/iOS/Bureau-App/ConnectionManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "408"
+                  endingLineNumber = "408"
+                  offsetFromSymbolStart = "264">
+               </Location>
+               <Location
+                  uuid = "F82E05F8-BAE0-4C42-B197-C2A8929ABB47 - 2fbdfab1207ea42b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Network.NWError&gt;) -&gt; () in Bureau_App.ConnectionManager.sendAndReceiveWithBody(requestUrl: Foundation.URL, data: Foundation.Data, cookies: Swift.Optional&lt;Swift.Array&lt;__C.NSHTTPCookie&gt;&gt;, completion: (Bureau_App.ConnectionResult) -&gt; ()) -&gt; ()"
+                  moduleName = "Bureau-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/Hari/Bureau%20Git/OTL/iOS/Bureau-App/ConnectionManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "401"
+                  endingLineNumber = "401"
+                  offsetFromSymbolStart = "264">
+               </Location>
+               <Location
+                  uuid = "F82E05F8-BAE0-4C42-B197-C2A8929ABB47 - 2fbdfab1207ea42b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Network.NWError&gt;) -&gt; () in Bureau_App.ConnectionManager.sendAndReceiveWithBody(requestUrl: Foundation.URL, data: Foundation.Data, cookies: Swift.Optional&lt;Swift.Array&lt;__C.NSHTTPCookie&gt;&gt;, completion: (Bureau_App.ConnectionResult) -&gt; ()) -&gt; ()"
+                  moduleName = "Bureau-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/Hari/Bureau%20Git/OTL/iOS/Bureau-App/ConnectionManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "401"
+                  endingLineNumber = "401"
+                  offsetFromSymbolStart = "380">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B48FF646-DA88-47A9-992C-C1147572ED3F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bureau-App/ConnectionManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "convertConnectionResponseToDictionary(resp:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B48FF646-DA88-47A9-992C-C1147572ED3F - d13833126252952b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bureau_App.ConnectionManager.convertConnectionResponseToDictionary(resp: Bureau_App.ConnectionResponse) -&gt; Swift.Dictionary&lt;Swift.String, Any&gt;"
+                  moduleName = "Bureau-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/Hari/Bureau%20Git/OTL/iOS/Bureau-App/ConnectionManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "93"
+                  endingLineNumber = "93"
+                  offsetFromSymbolStart = "284">
+               </Location>
+               <Location
+                  uuid = "B48FF646-DA88-47A9-992C-C1147572ED3F - d13833126252952b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bureau_App.ConnectionManager.convertConnectionResponseToDictionary(resp: Bureau_App.ConnectionResponse) -&gt; Swift.Dictionary&lt;Swift.String, Any&gt;"
+                  moduleName = "Bureau-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/Hari/Bureau%20Git/OTL/iOS/Bureau-App/ConnectionManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "93"
+                  endingLineNumber = "93"
+                  offsetFromSymbolStart = "336">
+               </Location>
+               <Location
+                  uuid = "B48FF646-DA88-47A9-992C-C1147572ED3F - d13833126252952b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bureau_App.ConnectionManager.convertConnectionResponseToDictionary(resp: Bureau_App.ConnectionResponse) -&gt; Swift.Dictionary&lt;Swift.String, Any&gt;"
+                  moduleName = "Bureau-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/Hari/Bureau%20Git/OTL/iOS/Bureau-App/ConnectionManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "93"
+                  endingLineNumber = "93"
+                  offsetFromSymbolStart = "680">
+               </Location>
+               <Location
+                  uuid = "B48FF646-DA88-47A9-992C-C1147572ED3F - d138331262529508"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bureau_App.ConnectionManager.convertConnectionResponseToDictionary(resp: Bureau_App.ConnectionResponse) -&gt; Swift.Dictionary&lt;Swift.String, Any&gt;"
+                  moduleName = "Bureau-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/Hari/Bureau%20Git/OTL/iOS/Bureau-App/ConnectionManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "B48FF646-DA88-47A9-992C-C1147572ED3F - d13833126252944e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bureau_App.ConnectionManager.convertConnectionResponseToDictionary(resp: Bureau_App.ConnectionResponse) -&gt; Swift.Dictionary&lt;Swift.String, Any&gt;"
+                  moduleName = "Bureau-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/Hari/Bureau%20Git/OTL/iOS/Bureau-App/ConnectionManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "128">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "358211A7-5C7A-4B13-A38D-8D63605E11BC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bureau-App/ConnectionManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "convertNetworkErrorToDictionary(err:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "358211A7-5C7A-4B13-A38D-8D63605E11BC - 87e8f2db222cb25b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bureau_App.ConnectionManager.convertNetworkErrorToDictionary(err: Bureau_App.NetworkError) -&gt; Swift.Dictionary&lt;Swift.String, Any&gt;"
+                  moduleName = "Bureau-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/Hari/Bureau%20Git/OTL/iOS/Bureau-App/ConnectionManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "114"
+                  endingLineNumber = "114"
+                  offsetFromSymbolStart = "616">
+               </Location>
+               <Location
+                  uuid = "358211A7-5C7A-4B13-A38D-8D63605E11BC - 87e8f2db222cb238"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bureau_App.ConnectionManager.convertNetworkErrorToDictionary(err: Bureau_App.NetworkError) -&gt; Swift.Dictionary&lt;Swift.String, Any&gt;"
+                  moduleName = "Bureau-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/Hari/Bureau%20Git/OTL/iOS/Bureau-App/ConnectionManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "358211A7-5C7A-4B13-A38D-8D63605E11BC - 87e8f2db222cb362"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bureau_App.ConnectionManager.convertNetworkErrorToDictionary(err: Bureau_App.NetworkError) -&gt; Swift.Dictionary&lt;Swift.String, Any&gt;"
+                  moduleName = "Bureau-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/Hari/Bureau%20Git/OTL/iOS/Bureau-App/ConnectionManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "132">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C284A8C5-0C07-4EC2-9FDD-57C47FD74032"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bureau-App/BureauAuth.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "225"
+            endingLineNumber = "225"
+            landmarkName = "fireURLWIFI(mobileNumber:correlationId:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

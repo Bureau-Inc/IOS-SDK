@@ -30,41 +30,28 @@ class LoginViewController: UIViewController {
         
         //BureauSilentAuth SDK
         let authSDKObj = BureauAuth.Builder()
-            .setClientId(clientId: "b4b8ae3c-de9a-4bc0-99ca-566c6031d2c1")
-            .setMode(mode: .production)
+            .setClientId(clientId: "--xx--ClientID--xx--")
+            .setMode(mode: .sandbox)
             .setTimeout(timeoutinSeconds: 60)
             .build()
         
         guard let phoneNumberValue = self.textFieldPhoneNumber.text else {
             self.showAlert(message: "Enter valid mobile Number")
             return
-            
         }
         
         showActivityIndicatory()
         // Call this API in background thread, otherwise it will freeze the UI, since semaphore is used for timeout
         DispatchQueue.global(qos: .userInitiated).async {
-            //9843458799
-            let response = authSDKObj.makeAuthCall(mobile: "919944608585", correlationId: self.correlationId)
-//            let response = authSDKObj.makeAuthCall(mobile: "919843458799", correlationId: self.correlationId)
-            print(response)
+             let response = authSDKObj.makeAuthCall(mobile: "91\(phoneNumberValue)", correlationId: self.correlationId)
+            
+            print("makeAuthCall Response: ", response)
             DispatchQueue.main.async {
-                self.showAlert(response: response)
+                //self.showAlert(response: response)
                 self.stopActivityIndicatory()
             }
-            //self.callUserInfoAPI()
+            self.callUserInfoAPI()
         }
-    }
-    
-    private func verifyResponse(response: String) -> Bool{
-        ///acceptabel response code 200-299
-        let acceptableCodeRegex = ".*[2][0-9][0-9].*"
-        let result = response.range(
-            of: acceptableCodeRegex,
-            options: .regularExpression
-        )
-        
-        return result != nil
     }
     
     private func showAlert(response: Bool){
@@ -82,14 +69,14 @@ class LoginViewController: UIViewController {
         var request = URLRequest(url: URL(string: finalUrl)!)
         request.timeoutInterval = 1
         request.httpMethod = "GET"
-        request.setValue("authorization_token", forHTTPHeaderField: "Authorization")
+        //request.setValue("authorization_token", forHTTPHeaderField: "Authorization")
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")
-        
         let session = URLSession.shared
         let task = session.dataTask(with: request, completionHandler: { data, response, error -> Void in
             if error == nil{
                 do {
                     let json = try JSONSerialization.jsonObject(with: data!) as! Dictionary<String, AnyObject>
+                    print("callUserInfoAPI:", json)
                     if let mobileNumberValue = json["mobileNumber"] as? String{
                         DispatchQueue.main.async {
                             self.stopActivityIndicatory()

@@ -45,12 +45,13 @@ class LoginViewController: UIViewController {
         // Call this API in background thread, otherwise it will freeze the UI, since semaphore is used for timeout
         DispatchQueue.global(qos: .userInitiated).async {
             let response = authSDKObj.makeAuthCall(mobile: "91\(phoneNumberValue)", correlationId: self.correlationId)
-            print("Response: ",response)
-            //self.callUserInfoAPI()
+            print("makeAuthCall Response: ",response)
             DispatchQueue.main.async {
-                self.showAlert(response: response)
+                //self.showAlert(response: response)
                 self.stopActivityIndicatory()
             }
+            self.callUserInfoAPI()
+
         }
     }
     
@@ -63,14 +64,15 @@ class LoginViewController: UIViewController {
     
     //User info API
     func callUserInfoAPI(){
-        let queryItems = [URLQueryItem(name: "correlationId", value: correlationId)]
-        var urlComps = URLComponents(string: "https://api.sandbox.bureau.id/v2/auth/userinfo")!
+        print(correlationId)
+        let queryItems = [URLQueryItem(name: "transactionId", value: correlationId)]
+        var urlComps = URLComponents(string: "https://api.bureau.id/v2/auth/userinfo")!
         urlComps.queryItems = queryItems
         let finalUrl = urlComps.url!.absoluteString
         var request = URLRequest(url: URL(string: finalUrl)!)
         request.timeoutInterval = 1
         request.httpMethod = "GET"
-        request.setValue("authorization_token", forHTTPHeaderField: "Authorization")
+        request.setValue("authorization", forHTTPHeaderField: "authorization")
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")
         
         let session = URLSession.shared
@@ -78,6 +80,7 @@ class LoginViewController: UIViewController {
             if error == nil{
                 do {
                     let json = try JSONSerialization.jsonObject(with: data!) as! Dictionary<String, AnyObject>
+                    print("callUserInfoAPI:", json)
                     if let mobileNumberValue = json["mobileNumber"] as? String{
                         DispatchQueue.main.async {
                             self.stopActivityIndicatory()

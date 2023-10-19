@@ -27,6 +27,13 @@ Bureau SDK for iOS
 				<key>NSIncludesSubdomains</key>
 				<true/>
 			</dict>
+			<key>partnerapi.jio.com</key>
+			<dict>
+                		<key>NSExceptionAllowsInsecureHTTPLoads</key>
+                		<true/>
+                		<key>NSIncludesSubdomains</key>
+                		<true/>
+            		</dict>
 		</dict>
 	</dict>
    
@@ -53,4 +60,4 @@ let response = bureauObj.makeAuthCall(mobile: "", correlationId: "")
 If makeAuthCall() method returns 'True' you can go ahead and wait for the callback from Bureau servers or poll the [userinfo API](https://docs.bureau.id/openapi/pin-point/tag/PinPoint/paths/~1userinfo/get/).
 For an example SDK usage, please take a look [here](https://github.com/Bureau-Inc/IOS-SDK/tree/master/iOS%20SDK%20integration%20example)
 ## Minimum iOS Version
-iOS 11
+iOS 13.0
