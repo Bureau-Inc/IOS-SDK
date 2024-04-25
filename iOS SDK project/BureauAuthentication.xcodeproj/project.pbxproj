@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B320C35428571CF00007364B /* NetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = B320C35328571CF00007364B /* NetworkReachability.swift */; };
+		CE4783842BDA454D00CC1226 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = CE4783832BDA454D00CC1226 /* PrivacyInfo.xcprivacy */; };
 		CE74048C2ADEA5A1000E9247 /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE74048B2ADEA5A1000E9247 /* ConnectionManager.swift */; };
 		D22F78DA252FAB7E00FC3DC9 /* BureauAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22F78D0252FAB7D00FC3DC9 /* BureauAuthentication.framework */; };
 		D22F78DF252FAB7E00FC3DC9 /* BureauAuthenticationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22F78DE252FAB7E00FC3DC9 /* BureauAuthenticationTests.swift */; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		B320C35328571CF00007364B /* NetworkReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachability.swift; sourceTree = "<group>"; };
+		CE4783832BDA454D00CC1226 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		CE74048B2ADEA5A1000E9247 /* ConnectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionManager.swift; sourceTree = "<group>"; };
 		D22F78D0252FAB7D00FC3DC9 /* BureauAuthentication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BureauAuthentication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D22F78D3252FAB7D00FC3DC9 /* BureauAuthentication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BureauAuthentication.h; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				CE74048B2ADEA5A1000E9247 /* ConnectionManager.swift */,
 				D22F78D4252FAB7D00FC3DC9 /* Info.plist */,
 				B320C35328571CF00007364B /* NetworkReachability.swift */,
+				CE4783832BDA454D00CC1226 /* PrivacyInfo.xcprivacy */,
 			);
 			path = BureauAuthentication;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE4783842BDA454D00CC1226 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

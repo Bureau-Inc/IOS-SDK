@@ -58,7 +58,7 @@ class NetworkReachability {
             }
             alreadyMonitor = true
         }
-        pathMonitor?.start(queue: .main)
+        pathMonitor?.start(queue: backgroudQueue)
     }
 }
 
