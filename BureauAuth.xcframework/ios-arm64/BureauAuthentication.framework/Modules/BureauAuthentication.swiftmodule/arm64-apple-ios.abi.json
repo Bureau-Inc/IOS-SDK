@@ -857,2172 +857,2172 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/NetworkReachability.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/NetworkReachability.swift",
       "kind": "BooleanLiteral",
       "offset": 436,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/NetworkReachability.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/NetworkReachability.swift",
       "kind": "BooleanLiteral",
       "offset": 472,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/NetworkReachability.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/NetworkReachability.swift",
       "kind": "BooleanLiteral",
       "offset": 1147,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/NetworkReachability.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/NetworkReachability.swift",
       "kind": "BooleanLiteral",
       "offset": 1193,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/NetworkReachability.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/NetworkReachability.swift",
       "kind": "BooleanLiteral",
       "offset": 1266,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/NetworkReachability.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/NetworkReachability.swift",
       "kind": "StringLiteral",
       "offset": 1516,
       "length": 32,
       "value": "\"<--Connetion: Wifi Enabled -->\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/NetworkReachability.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/NetworkReachability.swift",
       "kind": "BooleanLiteral",
       "offset": 1598,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/NetworkReachability.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/NetworkReachability.swift",
       "kind": "StringLiteral",
       "offset": 1694,
       "length": 104,
       "value": "\"<--Connetion: Cellular ipv4 \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/NetworkReachability.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/NetworkReachability.swift",
       "kind": "StringLiteral",
       "offset": 1755,
       "length": 4,
       "value": "\" ipv6 \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/NetworkReachability.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/NetworkReachability.swift",
       "kind": "StringLiteral",
       "offset": 1793,
       "length": 3,
       "value": "\" -->\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/NetworkReachability.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/NetworkReachability.swift",
       "kind": "BooleanLiteral",
       "offset": 1852,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/NetworkReachability.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/NetworkReachability.swift",
       "kind": "BooleanLiteral",
       "offset": 1955,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/NetworkReachability.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/NetworkReachability.swift",
       "kind": "BooleanLiteral",
       "offset": 2004,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/NetworkReachability.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/NetworkReachability.swift",
       "kind": "BooleanLiteral",
-      "offset": 2161,
+      "offset": 2170,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/NetworkReachability.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/NetworkReachability.swift",
       "kind": "BooleanLiteral",
-      "offset": 2210,
+      "offset": 2219,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 168,
       "length": 5,
       "value": "\"2.0\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "FloatLiteral",
       "offset": 554,
       "length": 3,
       "value": "5.0"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 590,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 1148,
       "length": 25,
       "value": "\"No scheme or host found\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 1243,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 1485,
       "length": 7,
       "value": "\"error\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 1496,
       "length": 11,
       "value": "\"sdk_error\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 1529,
       "length": 19,
       "value": "\"error_description\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 1552,
       "length": 20,
       "value": "\"Unable to carry on\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 1817,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "Dictionary",
       "offset": 3435,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 3452,
       "length": 13,
       "value": "\"http_status\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 3716,
       "length": 15,
       "value": "\"response_body\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 3837,
       "length": 19,
       "value": "\"response_raw_body\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 3965,
       "length": 22,
       "value": "\"JSON deserializarion\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 4258,
       "length": 7,
       "value": "\"error\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 4269,
       "length": 20,
       "value": "\"sdk_redirect_error\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 4307,
       "length": 19,
       "value": "\"error_description\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 4386,
       "length": 7,
       "value": "\"error\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 4397,
       "length": 20,
       "value": "\"sdk_redirect_error\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 4435,
       "length": 19,
       "value": "\"error_description\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 4458,
       "length": 20,
       "value": "\"Too many redirects\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 4540,
       "length": 7,
       "value": "\"error\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 4551,
       "length": 22,
       "value": "\"sdk_connection_error\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 4591,
       "length": 19,
       "value": "\"error_description\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 4689,
       "length": 7,
       "value": "\"error\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 4700,
       "length": 22,
       "value": "\"sdk_connection_error\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 4740,
       "length": 19,
       "value": "\"error_description\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 4820,
       "length": 7,
       "value": "\"error\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 4831,
       "length": 11,
       "value": "\"sdk_error\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 4860,
       "length": 19,
       "value": "\"error_description\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 5437,
       "length": 27,
       "value": "\"Connection State: Setup\n\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 5517,
       "length": 31,
       "value": "\"Connection State: Preparing\n\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 5638,
       "length": 23,
       "value": "\"No connection details\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 5684,
       "length": 34,
       "value": "\"Connection State: Ready \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 5715,
       "length": 1,
       "value": "\"\n\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 5835,
       "length": 60,
       "value": "\"Connection State: Waiting \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 5891,
       "length": 1,
       "value": "\" \n\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 5948,
       "length": 31,
       "value": "\"Connection State: Cancelled\n\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 6069,
       "length": 56,
       "value": "\"Connection State: Failed \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 6124,
       "length": 4,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 6181,
       "length": 38,
       "value": "\"Connection ERROR State not defined\n\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 6272,
       "length": 39,
       "value": "\"Connection State: Unknown \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 6310,
       "length": 4,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 6753,
       "length": 3,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 6781,
       "length": 3,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 6809,
       "length": 3,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 6850,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 6874,
       "length": 3,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 6922,
       "length": 8,
       "value": "\"GET %@\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 7011,
       "length": 5,
       "value": "\"?%@\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 7069,
       "length": 23,
       "value": "\" HTTP\/1.1\r\nHost: %@\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 7131,
       "length": 7,
       "value": "\"https\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 7174,
       "length": 3,
       "value": "443"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 7214,
       "length": 5,
       "value": "\":%d\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 7270,
       "length": 6,
       "value": "\"http\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 7312,
       "length": 2,
       "value": "80"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 7351,
       "length": 5,
       "value": "\":%d\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 7435,
       "length": 57,
       "value": "\"\r\nAuthorization: Bearer \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 7490,
       "length": 1,
       "value": "\" \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 7555,
       "length": 55,
       "value": "\"\r\nx-bureau-sdk-request: \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 7608,
       "length": 1,
       "value": "\" \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 7672,
       "length": 46,
       "value": "\"\r\nx-bureau-ops: \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 7716,
       "length": 1,
       "value": "\" \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 7878,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 7941,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 8016,
       "length": 7,
       "value": "\"https\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 8077,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 8105,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 8169,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 8253,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 8298,
       "length": 4,
       "value": "\"; \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 8375,
       "length": 7,
       "value": "\"%@=%@\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 8454,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 8525,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 8553,
       "length": 49,
       "value": "\"\r\nCookie: \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 8601,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 8642,
       "length": 38,
       "value": "\"\r\nUser-Agent: \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 8678,
       "length": 1,
       "value": "\" \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 8696,
       "length": 65,
       "value": "\"\r\nAccept: text\/html,application\/xhtml+xml,application\/xml,*\/*\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 8777,
       "length": 31,
       "value": "\"\r\nConnection: close\r\n\r\n\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 9020,
       "length": 6,
       "value": "\"http\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 9062,
       "length": 7,
       "value": "\"https\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 9204,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "BooleanLiteral",
       "offset": 9250,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 9486,
       "length": 7,
       "value": "\"https\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "BooleanLiteral",
       "offset": 9706,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "BooleanLiteral",
       "offset": 10072,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 10422,
       "length": 1,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 10473,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 10508,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 11210,
       "length": 21,
       "value": "\"ocation: (.*)\\r\\n\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 11389,
       "length": 1,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 11438,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 11570,
       "length": 3,
       "value": "\" \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 11581,
       "length": 3,
       "value": "\"+\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 12198,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 12375,
       "length": 19,
       "value": "\"ookie: (.*)\\r\\n\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 12591,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 12632,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 12778,
       "length": 12,
       "value": "\"Set-Cookie\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 13223,
       "length": 33,
       "value": "\"Invalidating the existing timer\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 13337,
       "length": 22,
       "value": "\"Starting a new timer\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "BooleanLiteral",
       "offset": 13700,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 13846,
       "length": 33,
       "value": "\"Connection cancelled - time out\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 14287,
       "length": 32,
       "value": "\"<--Connetion: Wifi Enabled -->\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 14379,
       "length": 104,
       "value": "\"<--Connetion: Cellular ipv4 \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 14440,
       "length": 4,
       "value": "\" ipv6 \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 14478,
       "length": 3,
       "value": "\" -->\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 14548,
       "length": 32,
       "value": "\"<--Connetion:Wired Ethernet-->\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 14640,
       "length": 27,
       "value": "\"<--Connetion: Loopback-->\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 14724,
       "length": 24,
       "value": "\"<--Connetion: other-->\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 14801,
       "length": 26,
       "value": "\"<--Connetion: unknown-->\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 15552,
       "length": 27,
       "value": "\"URL has no Host or Scheme\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 15872,
       "length": 39,
       "value": "\"Unable to create HTTP Request command\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 16502,
       "length": 32,
       "value": "\"Problem creating a connection \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 16621,
       "length": 53,
       "value": "\"Problem creating a connection \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 16673,
       "length": 4,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 16989,
       "length": 18,
       "value": "\"Sending error %s\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 17354,
       "length": 24,
       "value": "\"Receive isComplete: %s\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 17693,
       "length": 16,
       "value": "\"Response:\n %s\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 17835,
       "length": 25,
       "value": "\"\n----\nHTTP status: %s\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 17948,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 17954,
       "length": 3,
       "value": "202"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 18285,
       "length": 3,
       "value": "204"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 18398,
       "length": 3,
       "value": "301"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 18404,
       "length": 3,
       "value": "303"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 18409,
       "length": 3,
       "value": "307"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 18415,
       "length": 3,
       "value": "308"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 18615,
       "length": 39,
       "value": "\"Invalid URL - unable to parseRecirect\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 18776,
       "length": 3,
       "value": "400"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 18782,
       "length": 3,
       "value": "451"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 19038,
       "length": 34,
       "value": "\"Unexpected HTTP Status \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 19071,
       "length": 4,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 19119,
       "length": 3,
       "value": "500"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 19125,
       "length": 3,
       "value": "511"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 19381,
       "length": 34,
       "value": "\"Unexpected HTTP Status \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 19414,
       "length": 4,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 19521,
       "length": 34,
       "value": "\"Unexpected HTTP Status \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 19554,
       "length": 4,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 19649,
       "length": 33,
       "value": "\"Response has no data or corrupt\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 19828,
       "length": 26,
       "value": "\"Content-Type: (.*)\\r\\n\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 20068,
       "length": 1,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 20123,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 20158,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 20195,
       "length": 22,
       "value": "\"application\/hal+json\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 20236,
       "length": 26,
       "value": "\"application\/problem+json\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 20317,
       "length": 10,
       "value": "\"\r\n\r\n\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 20401,
       "length": 34,
       "value": "\"Transfer-Encoding: chunked\\r\\n\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 20589,
       "length": 10,
       "value": "\"\r\n\r\n\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 20630,
       "length": 11,
       "value": "\"\r\n0\r\n\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 20789,
       "length": 3,
       "value": "\"{\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 20883,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 20930,
       "length": 10,
       "value": "\"json: %s\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 21468,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 21530,
       "length": 3,
       "value": "\"{\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 21632,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 21667,
       "length": 10,
       "value": "\"json: %s\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 22298,
       "length": 25,
       "value": "\"No scheme or host found\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 22605,
       "length": 7,
       "value": "\"error\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 22616,
       "length": 11,
       "value": "\"sdk_error\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 22649,
       "length": 19,
       "value": "\"error_description\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 22672,
       "length": 20,
       "value": "\"Unable to carry on\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 22954,
       "length": 19,
       "value": "\"Unexpected status\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 24153,
       "length": 3,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 24181,
       "length": 3,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 24209,
       "length": 3,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 24256,
       "length": 9,
       "value": "\"POST %@\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 24346,
       "length": 5,
       "value": "\"?%@\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 24404,
       "length": 23,
       "value": "\" HTTP\/1.1\r\nHost: %@\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 24466,
       "length": 7,
       "value": "\"https\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 24509,
       "length": 3,
       "value": "443"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 24549,
       "length": 5,
       "value": "\":%d\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 24605,
       "length": 6,
       "value": "\"http\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 24647,
       "length": 2,
       "value": "80"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 24686,
       "length": 5,
       "value": "\":%d\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 24771,
       "length": 22,
       "value": "\"\r\n\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 24782,
       "length": 1,
       "value": "\": \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 24792,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 24861,
       "length": 35,
       "value": "\"\r\nContent-Length: \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 24895,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 24916,
       "length": 31,
       "value": "\"\r\nConnection: close\r\n\r\n\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 24967,
       "length": 17,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 24975,
       "length": 1,
       "value": "\"\r\n\r\n\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 25021,
       "length": 23,
       "value": "\"\r\nContent-Length: 0\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 25064,
       "length": 31,
       "value": "\"\r\nConnection: close\r\n\r\n\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 25440,
       "length": 27,
       "value": "\"URL has no Host or Scheme\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 25702,
       "length": 39,
       "value": "\"Unable to create HTTP Request command\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 26315,
       "length": 32,
       "value": "\"Problem creating a connection \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 26434,
       "length": 53,
       "value": "\"Problem creating a connection \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 26486,
       "length": 4,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 26778,
       "length": 18,
       "value": "\"Sending error %s\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 27142,
       "length": 24,
       "value": "\"Receive isComplete: %s\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 27481,
       "length": 16,
       "value": "\"Response:\n %s\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 27623,
       "length": 25,
       "value": "\"\n----\nHTTP status: %s\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 27736,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 27742,
       "length": 3,
       "value": "202"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 28073,
       "length": 3,
       "value": "204"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 28186,
       "length": 3,
       "value": "301"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 28192,
       "length": 3,
       "value": "399"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 28252,
       "length": 34,
       "value": "\"Unexpected HTTP Status \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 28285,
       "length": 4,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 28311,
       "length": 3,
       "value": "400"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 28317,
       "length": 3,
       "value": "451"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 28573,
       "length": 34,
       "value": "\"Unexpected HTTP Status \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 28606,
       "length": 4,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 28654,
       "length": 3,
       "value": "500"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 28660,
       "length": 3,
       "value": "511"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 28916,
       "length": 34,
       "value": "\"Unexpected HTTP Status \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 28949,
       "length": 4,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 29056,
       "length": 34,
       "value": "\"Unexpected HTTP Status \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 29089,
       "length": 4,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/ConnectionManager.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
       "kind": "StringLiteral",
       "offset": 29184,
       "length": 33,
       "value": "\"Response has no data or corrupt\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "IntegerLiteral",
       "offset": 477,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "IntegerLiteral",
       "offset": 521,
       "length": 2,
       "value": "-2"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "IntegerLiteral",
       "offset": 565,
       "length": 2,
       "value": "-3"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "IntegerLiteral",
       "offset": 601,
       "length": 2,
       "value": "-4"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "IntegerLiteral",
       "offset": 635,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "IntegerLiteral",
       "offset": 916,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 2402,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "IntegerLiteral",
       "offset": 2509,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "BooleanLiteral",
       "offset": 2543,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "BooleanLiteral",
       "offset": 3326,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 3499,
       "length": 32,
       "value": "\"https:\/\/api.bureau.id\/v2\/auth\/\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 3590,
       "length": 40,
       "value": "\"https:\/\/api.sandbox.bureau.id\/v2\/auth\/\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "BooleanLiteral",
       "offset": 3832,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 4083,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "IntegerLiteral",
       "offset": 4135,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 4189,
       "length": 13,
       "value": "\"Bureau SDK:\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 4203,
       "length": 33,
       "value": "\"Bureau SDK Transaction Mobile: \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 4244,
       "length": 18,
       "value": "\" CorrelationID: \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 4277,
       "length": 13,
       "value": "\" clientID: \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 4303,
       "length": 13,
       "value": "\"DEFCLIENTID\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 4317,
       "length": 12,
       "value": "\" timeout: \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "IntegerLiteral",
       "offset": 4341,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 4670,
       "length": 14,
       "value": "\"STATUS CODE:\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 4818,
       "length": 14,
       "value": "\"STATUS CODE:\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 4957,
       "length": 19,
       "value": "\"isWifiAvailable: \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 5005,
       "length": 23,
       "value": "\"isCellularAvailable: \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "BooleanLiteral",
       "offset": 5189,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "BooleanLiteral",
       "offset": 5242,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 5302,
       "length": 13,
       "value": "\"Bureau SDK:\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 5316,
       "length": 14,
       "value": "\"Wifi Enabled\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 5618,
       "length": 7,
       "value": "\"Error\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 5746,
       "length": 13,
       "value": "\"Bureau SDK:\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 5760,
       "length": 15,
       "value": "\"Wifi Disabled\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "IntegerLiteral",
       "offset": 5983,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 6144,
       "length": 13,
       "value": "\"Bureau SDK:\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 6158,
       "length": 17,
       "value": "\"Timeout Exiting\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 6217,
       "length": 13,
       "value": "\"Bureau SDK:\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 6231,
       "length": 17,
       "value": "\"Timeout Exiting\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 6277,
       "length": 9,
       "value": "\"timeout\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "IntegerLiteral",
       "offset": 6363,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 6469,
       "length": 14,
       "value": "\"STATUS CODE:\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "BooleanLiteral",
       "offset": 6521,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 6559,
       "length": 14,
       "value": "\"STATUS CODE:\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "BooleanLiteral",
       "offset": 6612,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 6786,
       "length": 13,
       "value": "\"Bureau SDK:\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 6800,
       "length": 32,
       "value": "\"fireNormalURL correlationID : \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 6897,
       "length": 30,
       "value": "\"ERROR: Unknown HTTP Response\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 6982,
       "length": 10,
       "value": "\"clientId\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 7031,
       "length": 15,
       "value": "\"correlationId\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 7089,
       "length": 8,
       "value": "\"msisdn\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 7139,
       "length": 13,
       "value": "\"callbackUrl\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 7229,
       "length": 64,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 7251,
       "length": 32,
       "value": "\"https:\/\/api.bureau.id\/v2\/auth\/\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 7284,
       "length": 8,
       "value": "\"initiate\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 7562,
       "length": 13,
       "value": "\"Bureau SDK:\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 7576,
       "length": 37,
       "value": "\"FireNormalUrl Sending Get request: \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 7806,
       "length": 13,
       "value": "\"Bureau SDK:\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 7820,
       "length": 15,
       "value": "\"urlresponse: \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 7848,
       "length": 14,
       "value": "\"Nil Response\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "IntegerLiteral",
       "offset": 7912,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 7965,
       "length": 13,
       "value": "\"Bureau SDK:\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 7979,
       "length": 54,
       "value": "\"Task ended with status: \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 8032,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 8133,
       "length": 14,
       "value": "\"Bureau SDK: \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 8148,
       "length": 24,
       "value": "\"Transaction Successful\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 8193,
       "length": 22,
       "value": "\"HTTP\/1.1 200 success\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 8409,
       "length": 13,
       "value": "\"Bureau SDK:\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 8423,
       "length": 27,
       "value": "\"fireURL: correlationID : \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 8523,
       "length": 10,
       "value": "\"clientId\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 8572,
       "length": 15,
       "value": "\"correlationId\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 8630,
       "length": 8,
       "value": "\"msisdn\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 8680,
       "length": 13,
       "value": "\"callbackUrl\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 8761,
       "length": 64,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 8783,
       "length": 32,
       "value": "\"https:\/\/api.bureau.id\/v2\/auth\/\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 8816,
       "length": 8,
       "value": "\"initiate\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 8935,
       "length": 13,
       "value": "\"Bureau SDK:\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
       "offset": 8949,
-      "length": 37,
-      "value": "\"FireNormalUrl Sending Get request: \""
+      "length": 35,
+      "value": "\"fireURLWIFI Sending Get request: \""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 9173,
+      "offset": 9171,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 9254,
+      "offset": 9252,
       "length": 13,
       "value": "\"http_status\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "IntegerLiteral",
-      "offset": 9280,
+      "offset": 9278,
       "length": 3,
       "value": "400"
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 9340,
+      "offset": 9338,
       "length": 29,
       "value": "\"Bureau SDK: LOW iOS Version\""
     },
     {
-      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/BureauAuthentication\/BureauAuthentication\/BureauAuth.swift",
+      "filePath": "\/Users\/user\/Documents\/Hari\/Bureau Git\/OTL\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
       "kind": "StringLiteral",
-      "offset": 9529,
+      "offset": 9527,
       "length": 19,
       "value": "\".*[2][0-9][0-9].*\""
     }
