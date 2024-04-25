@@ -229,7 +229,7 @@ public class BureauAuth {
         var urlComps = URLComponents(string: "\(components.host ?? "https://api.bureau.id/v2/auth/")initiate")!
         urlComps.queryItems = queryItems
         let finalUrl = urlComps.url!.absoluteString
-        print("Bureau SDK:","FireNormalUrl Sending Get request: ",finalUrl)
+        print("Bureau SDK:","fireURLWIFI Sending Get request: ",finalUrl)
         if #available(iOS 12.0, *) {
             let connectionManager = ConnectionManager()
             connectionManager.open(url: urlComps.url!, accessToken: nil, operators:"", completion: {(response) in
