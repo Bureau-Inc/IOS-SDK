@@ -44,7 +44,7 @@ class LoginViewController: UIViewController {
         showActivityIndicatory()
         // Call this API in background thread, otherwise it will freeze the UI, since semaphore is used for timeout
         DispatchQueue.global(qos: .userInitiated).async {
-            let response = authSDKObj.makeAuthCall(mobile: "91\(phoneNumberValue)", correlationId: self.correlationId)
+            let response: BureauAuthentication.AuthenticationStatus  = authSDKObj.makeAuthCall(mobile: "91\(phoneNumberValue)", correlationId: self.correlationId)
             print("makeAuthCall Response: ",response)
             DispatchQueue.main.async {
                 //self.showAlert(response: response)
