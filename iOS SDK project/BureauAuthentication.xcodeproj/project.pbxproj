@@ -14,6 +14,7 @@
 		D22F78DF252FAB7E00FC3DC9 /* BureauAuthenticationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22F78DE252FAB7E00FC3DC9 /* BureauAuthenticationTests.swift */; };
 		D22F78E1252FAB7E00FC3DC9 /* BureauAuthentication.h in Headers */ = {isa = PBXBuildFile; fileRef = D22F78D3252FAB7D00FC3DC9 /* BureauAuthentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D2A7AA162548A79700D5DBA0 /* BureauAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A7AA0F2548A79600D5DBA0 /* BureauAuth.swift */; };
+		E00D950D2CA57C26001B7439 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00D950C2CA57C14001B7439 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		D22F78DE252FAB7E00FC3DC9 /* BureauAuthenticationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BureauAuthenticationTests.swift; sourceTree = "<group>"; };
 		D22F78E0252FAB7E00FC3DC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2A7AA0F2548A79600D5DBA0 /* BureauAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BureauAuth.swift; sourceTree = "<group>"; };
+		E00D950C2CA57C14001B7439 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		D22F78D2252FAB7D00FC3DC9 /* BureauAuthentication */ = {
 			isa = PBXGroup;
 			children = (
+				E00D950C2CA57C14001B7439 /* Constants.swift */,
 				D22F78D3252FAB7D00FC3DC9 /* BureauAuthentication.h */,
 				D2A7AA0F2548A79600D5DBA0 /* BureauAuth.swift */,
 				CE74048B2ADEA5A1000E9247 /* ConnectionManager.swift */,
@@ -212,6 +215,7 @@
 				B320C35428571CF00007364B /* NetworkReachability.swift in Sources */,
 				CE74048C2ADEA5A1000E9247 /* ConnectionManager.swift in Sources */,
 				D2A7AA162548A79700D5DBA0 /* BureauAuth.swift in Sources */,
+				E00D950D2CA57C26001B7439 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
