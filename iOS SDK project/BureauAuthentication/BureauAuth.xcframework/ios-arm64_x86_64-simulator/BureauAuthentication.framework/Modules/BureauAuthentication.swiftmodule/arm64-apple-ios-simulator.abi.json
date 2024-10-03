@@ -1,0 +1,1353 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "BureauAuthentication",
+    "printedName": "BureauAuthentication",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BureauAuthentication",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "BureauAuthentication"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BureauAuthentication"
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "BureauAuthentication"
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "BureauAuthentication"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RedirectResult",
+        "printedName": "RedirectResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "url",
+            "printedName": "url",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20BureauAuthentication14RedirectResultV3url10Foundation3URLVSgvp",
+            "mangledName": "$s20BureauAuthentication14RedirectResultV3url10Foundation3URLVSgvp",
+            "moduleName": "BureauAuthentication",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URL?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20BureauAuthentication14RedirectResultV3url10Foundation3URLVSgvg",
+                "mangledName": "$s20BureauAuthentication14RedirectResultV3url10Foundation3URLVSgvg",
+                "moduleName": "BureauAuthentication",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URL?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20BureauAuthentication14RedirectResultV3url10Foundation3URLVSgvs",
+                "mangledName": "$s20BureauAuthentication14RedirectResultV3url10Foundation3URLVSgvs",
+                "moduleName": "BureauAuthentication",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20BureauAuthentication14RedirectResultV3url10Foundation3URLVSgvM",
+                "mangledName": "$s20BureauAuthentication14RedirectResultV3url10Foundation3URLVSgvM",
+                "moduleName": "BureauAuthentication",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cookies",
+            "printedName": "cookies",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Foundation.HTTPCookie]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Foundation.HTTPCookie]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPCookie",
+                        "printedName": "Foundation.HTTPCookie",
+                        "usr": "c:objc(cs)NSHTTPCookie"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20BureauAuthentication14RedirectResultV7cookiesSaySo12NSHTTPCookieCGSgvp",
+            "mangledName": "$s20BureauAuthentication14RedirectResultV7cookiesSaySo12NSHTTPCookieCGSgvp",
+            "moduleName": "BureauAuthentication",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Foundation.HTTPCookie]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Foundation.HTTPCookie]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "HTTPCookie",
+                            "printedName": "Foundation.HTTPCookie",
+                            "usr": "c:objc(cs)NSHTTPCookie"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20BureauAuthentication14RedirectResultV7cookiesSaySo12NSHTTPCookieCGSgvg",
+                "mangledName": "$s20BureauAuthentication14RedirectResultV7cookiesSaySo12NSHTTPCookieCGSgvg",
+                "moduleName": "BureauAuthentication",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:20BureauAuthentication14RedirectResultV",
+        "mangledName": "$s20BureauAuthentication14RedirectResultV",
+        "moduleName": "BureauAuthentication",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConnectionResponse",
+        "printedName": "ConnectionResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20BureauAuthentication18ConnectionResponseV6statusSivp",
+            "mangledName": "$s20BureauAuthentication18ConnectionResponseV6statusSivp",
+            "moduleName": "BureauAuthentication",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20BureauAuthentication18ConnectionResponseV6statusSivg",
+                "mangledName": "$s20BureauAuthentication18ConnectionResponseV6statusSivg",
+                "moduleName": "BureauAuthentication",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20BureauAuthentication18ConnectionResponseV6statusSivs",
+                "mangledName": "$s20BureauAuthentication18ConnectionResponseV6statusSivs",
+                "moduleName": "BureauAuthentication",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20BureauAuthentication18ConnectionResponseV6statusSivM",
+                "mangledName": "$s20BureauAuthentication18ConnectionResponseV6statusSivM",
+                "moduleName": "BureauAuthentication",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20BureauAuthentication18ConnectionResponseV4body10Foundation4DataVSgvp",
+            "mangledName": "$s20BureauAuthentication18ConnectionResponseV4body10Foundation4DataVSgvp",
+            "moduleName": "BureauAuthentication",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20BureauAuthentication18ConnectionResponseV4body10Foundation4DataVSgvg",
+                "mangledName": "$s20BureauAuthentication18ConnectionResponseV4body10Foundation4DataVSgvg",
+                "moduleName": "BureauAuthentication",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:20BureauAuthentication18ConnectionResponseV",
+        "mangledName": "$s20BureauAuthentication18ConnectionResponseV",
+        "moduleName": "BureauAuthentication",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BureauAuthentication",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "BureauAuthentication"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BureauAuth",
+        "printedName": "BureauAuth",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Mode",
+            "printedName": "Mode",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "sandbox",
+                "printedName": "sandbox",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BureauAuthentication.BureauAuth.Mode.Type) -> BureauAuthentication.BureauAuth.Mode",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Mode",
+                        "printedName": "BureauAuthentication.BureauAuth.Mode",
+                        "usr": "s:20BureauAuthentication0A4AuthC4ModeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "BureauAuthentication.BureauAuth.Mode.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Mode",
+                            "printedName": "BureauAuthentication.BureauAuth.Mode",
+                            "usr": "s:20BureauAuthentication0A4AuthC4ModeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:20BureauAuthentication0A4AuthC4ModeO7sandboxyA2EmF",
+                "mangledName": "$s20BureauAuthentication0A4AuthC4ModeO7sandboxyA2EmF",
+                "moduleName": "BureauAuthentication"
+              },
+              {
+                "kind": "Var",
+                "name": "production",
+                "printedName": "production",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BureauAuthentication.BureauAuth.Mode.Type) -> BureauAuthentication.BureauAuth.Mode",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Mode",
+                        "printedName": "BureauAuthentication.BureauAuth.Mode",
+                        "usr": "s:20BureauAuthentication0A4AuthC4ModeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "BureauAuthentication.BureauAuth.Mode.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Mode",
+                            "printedName": "BureauAuthentication.BureauAuth.Mode",
+                            "usr": "s:20BureauAuthentication0A4AuthC4ModeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:20BureauAuthentication0A4AuthC4ModeO10productionyA2EmF",
+                "mangledName": "$s20BureauAuthentication0A4AuthC4ModeO10productionyA2EmF",
+                "moduleName": "BureauAuthentication"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Mode",
+                    "printedName": "BureauAuthentication.BureauAuth.Mode",
+                    "usr": "s:20BureauAuthentication0A4AuthC4ModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Mode",
+                    "printedName": "BureauAuthentication.BureauAuth.Mode",
+                    "usr": "s:20BureauAuthentication0A4AuthC4ModeO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:20BureauAuthentication0A4AuthC4ModeO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s20BureauAuthentication0A4AuthC4ModeO2eeoiySbAE_AEtFZ",
+                "moduleName": "BureauAuthentication",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:20BureauAuthentication0A4AuthC4ModeO9hashValueSivp",
+                "mangledName": "$s20BureauAuthentication0A4AuthC4ModeO9hashValueSivp",
+                "moduleName": "BureauAuthentication",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:20BureauAuthentication0A4AuthC4ModeO9hashValueSivg",
+                    "mangledName": "$s20BureauAuthentication0A4AuthC4ModeO9hashValueSivg",
+                    "moduleName": "BureauAuthentication",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:20BureauAuthentication0A4AuthC4ModeO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s20BureauAuthentication0A4AuthC4ModeO4hash4intoys6HasherVz_tF",
+                "moduleName": "BureauAuthentication",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:20BureauAuthentication0A4AuthC4ModeO",
+            "mangledName": "$s20BureauAuthentication0A4AuthC4ModeO",
+            "moduleName": "BureauAuthentication",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Builder",
+            "printedName": "Builder",
+            "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "BureauAuthentication.BureauAuth.Builder",
+                    "usr": "s:20BureauAuthentication0A4AuthC7BuilderC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:20BureauAuthentication0A4AuthC7BuilderCAEycfc",
+                "mangledName": "$s20BureauAuthentication0A4AuthC7BuilderCAEycfc",
+                "moduleName": "BureauAuthentication",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "setClientId",
+                "printedName": "setClientId(clientId:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "BureauAuthentication.BureauAuth.Builder",
+                    "usr": "s:20BureauAuthentication0A4AuthC7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:20BureauAuthentication0A4AuthC7BuilderC11setClientId06clientG0AESS_tF",
+                "mangledName": "$s20BureauAuthentication0A4AuthC7BuilderC11setClientId06clientG0AESS_tF",
+                "moduleName": "BureauAuthentication",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setCallBackUrl",
+                "printedName": "setCallBackUrl(callBackUrl:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "BureauAuthentication.BureauAuth.Builder",
+                    "usr": "s:20BureauAuthentication0A4AuthC7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:20BureauAuthentication0A4AuthC7BuilderC14setCallBackUrl04callgH0AESS_tF",
+                "mangledName": "$s20BureauAuthentication0A4AuthC7BuilderC14setCallBackUrl04callgH0AESS_tF",
+                "moduleName": "BureauAuthentication",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setTimeout",
+                "printedName": "setTimeout(timeoutinSeconds:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "BureauAuthentication.BureauAuth.Builder",
+                    "usr": "s:20BureauAuthentication0A4AuthC7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:20BureauAuthentication0A4AuthC7BuilderC10setTimeout16timeoutinSecondsAESi_tF",
+                "mangledName": "$s20BureauAuthentication0A4AuthC7BuilderC10setTimeout16timeoutinSecondsAESi_tF",
+                "moduleName": "BureauAuthentication",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setMode",
+                "printedName": "setMode(mode:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "BureauAuthentication.BureauAuth.Builder",
+                    "usr": "s:20BureauAuthentication0A4AuthC7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Mode",
+                    "printedName": "BureauAuthentication.BureauAuth.Mode",
+                    "usr": "s:20BureauAuthentication0A4AuthC4ModeO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:20BureauAuthentication0A4AuthC7BuilderC7setMode4modeAeC0F0O_tF",
+                "mangledName": "$s20BureauAuthentication0A4AuthC7BuilderC7setMode4modeAeC0F0O_tF",
+                "moduleName": "BureauAuthentication",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "disableWifiSwitchOver",
+                "printedName": "disableWifiSwitchOver()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "BureauAuthentication.BureauAuth.Builder",
+                    "usr": "s:20BureauAuthentication0A4AuthC7BuilderC"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:20BureauAuthentication0A4AuthC7BuilderC21disableWifiSwitchOverAEyF",
+                "mangledName": "$s20BureauAuthentication0A4AuthC7BuilderC21disableWifiSwitchOverAEyF",
+                "moduleName": "BureauAuthentication",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "build",
+                "printedName": "build()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BureauAuth",
+                    "printedName": "BureauAuthentication.BureauAuth",
+                    "usr": "s:20BureauAuthentication0A4AuthC"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:20BureauAuthentication0A4AuthC7BuilderC5buildACyF",
+                "mangledName": "$s20BureauAuthentication0A4AuthC7BuilderC5buildACyF",
+                "moduleName": "BureauAuthentication",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:20BureauAuthentication0A4AuthC7BuilderC",
+            "mangledName": "$s20BureauAuthentication0A4AuthC7BuilderC",
+            "moduleName": "BureauAuthentication",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "makeAuthCall",
+            "printedName": "makeAuthCall(mobile:correlationId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AuthenticationStatus",
+                "printedName": "BureauAuthentication.AuthenticationStatus",
+                "usr": "s:20BureauAuthentication0B6StatusO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20BureauAuthentication0A4AuthC04makeC4Call6mobile13correlationIdAA0B6StatusOSS_SStF",
+            "mangledName": "$s20BureauAuthentication0A4AuthC04makeC4Call6mobile13correlationIdAA0B6StatusOSS_SStF",
+            "moduleName": "BureauAuthentication",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeAuthCall",
+            "printedName": "makeAuthCall(mobile:correlationId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20BureauAuthentication0A4AuthC04makeC4Call6mobile13correlationIdSbSS_SStF",
+            "mangledName": "$s20BureauAuthentication0A4AuthC04makeC4Call6mobile13correlationIdSbSS_SStF",
+            "moduleName": "BureauAuthentication",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20BureauAuthentication0A4AuthC",
+        "mangledName": "$s20BureauAuthentication0A4AuthC",
+        "moduleName": "BureauAuthentication",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BureauAuthentication",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AuthenticationStatus",
+        "printedName": "AuthenticationStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "completed",
+            "printedName": "completed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BureauAuthentication.AuthenticationStatus.Type) -> BureauAuthentication.AuthenticationStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AuthenticationStatus",
+                    "printedName": "BureauAuthentication.AuthenticationStatus",
+                    "usr": "s:20BureauAuthentication0B6StatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BureauAuthentication.AuthenticationStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AuthenticationStatus",
+                        "printedName": "BureauAuthentication.AuthenticationStatus",
+                        "usr": "s:20BureauAuthentication0B6StatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20BureauAuthentication0B6StatusO9completedyA2CmF",
+            "mangledName": "$s20BureauAuthentication0B6StatusO9completedyA2CmF",
+            "moduleName": "BureauAuthentication"
+          },
+          {
+            "kind": "Var",
+            "name": "networkUnavailable",
+            "printedName": "networkUnavailable",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BureauAuthentication.AuthenticationStatus.Type) -> BureauAuthentication.AuthenticationStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AuthenticationStatus",
+                    "printedName": "BureauAuthentication.AuthenticationStatus",
+                    "usr": "s:20BureauAuthentication0B6StatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BureauAuthentication.AuthenticationStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AuthenticationStatus",
+                        "printedName": "BureauAuthentication.AuthenticationStatus",
+                        "usr": "s:20BureauAuthentication0B6StatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20BureauAuthentication0B6StatusO18networkUnavailableyA2CmF",
+            "mangledName": "$s20BureauAuthentication0B6StatusO18networkUnavailableyA2CmF",
+            "moduleName": "BureauAuthentication"
+          },
+          {
+            "kind": "Var",
+            "name": "onDifferentNetwork",
+            "printedName": "onDifferentNetwork",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BureauAuthentication.AuthenticationStatus.Type) -> BureauAuthentication.AuthenticationStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AuthenticationStatus",
+                    "printedName": "BureauAuthentication.AuthenticationStatus",
+                    "usr": "s:20BureauAuthentication0B6StatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BureauAuthentication.AuthenticationStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AuthenticationStatus",
+                        "printedName": "BureauAuthentication.AuthenticationStatus",
+                        "usr": "s:20BureauAuthentication0B6StatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20BureauAuthentication0B6StatusO18onDifferentNetworkyA2CmF",
+            "mangledName": "$s20BureauAuthentication0B6StatusO18onDifferentNetworkyA2CmF",
+            "moduleName": "BureauAuthentication"
+          },
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BureauAuthentication.AuthenticationStatus.Type) -> BureauAuthentication.AuthenticationStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AuthenticationStatus",
+                    "printedName": "BureauAuthentication.AuthenticationStatus",
+                    "usr": "s:20BureauAuthentication0B6StatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BureauAuthentication.AuthenticationStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AuthenticationStatus",
+                        "printedName": "BureauAuthentication.AuthenticationStatus",
+                        "usr": "s:20BureauAuthentication0B6StatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20BureauAuthentication0B6StatusO7unknownyA2CmF",
+            "mangledName": "$s20BureauAuthentication0B6StatusO7unknownyA2CmF",
+            "moduleName": "BureauAuthentication"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AuthenticationStatus",
+                "printedName": "BureauAuthentication.AuthenticationStatus",
+                "usr": "s:20BureauAuthentication0B6StatusO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AuthenticationStatus",
+                "printedName": "BureauAuthentication.AuthenticationStatus",
+                "usr": "s:20BureauAuthentication0B6StatusO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20BureauAuthentication0B6StatusO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s20BureauAuthentication0B6StatusO2eeoiySbAC_ACtFZ",
+            "moduleName": "BureauAuthentication",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20BureauAuthentication0B6StatusO9hashValueSivp",
+            "mangledName": "$s20BureauAuthentication0B6StatusO9hashValueSivp",
+            "moduleName": "BureauAuthentication",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20BureauAuthentication0B6StatusO9hashValueSivg",
+                "mangledName": "$s20BureauAuthentication0B6StatusO9hashValueSivg",
+                "moduleName": "BureauAuthentication",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20BureauAuthentication0B6StatusO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s20BureauAuthentication0B6StatusO4hash4intoys6HasherVz_tF",
+            "moduleName": "BureauAuthentication",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:20BureauAuthentication0B6StatusO",
+        "mangledName": "$s20BureauAuthentication0B6StatusO",
+        "moduleName": "BureauAuthentication",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/IOS-SDK\/iOS SDK project\/BureauAuthentication\/NetworkReachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 436,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/IOS-SDK\/iOS SDK project\/BureauAuthentication\/NetworkReachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 472,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/IOS-SDK\/iOS SDK project\/BureauAuthentication\/NetworkReachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2170,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/IOS-SDK\/iOS SDK project\/BureauAuthentication\/NetworkReachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2219,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/IOS-SDK\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 168,
+      "length": 5,
+      "value": "\"2.0\""
+    },
+    {
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/IOS-SDK\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 554,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/IOS-SDK\/iOS SDK project\/BureauAuthentication\/ConnectionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 590,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/IOS-SDK\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "IntegerLiteral",
+      "offset": 477,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/IOS-SDK\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "IntegerLiteral",
+      "offset": 521,
+      "length": 2,
+      "value": "-2"
+    },
+    {
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/IOS-SDK\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "IntegerLiteral",
+      "offset": 565,
+      "length": 2,
+      "value": "-3"
+    },
+    {
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/IOS-SDK\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "IntegerLiteral",
+      "offset": 601,
+      "length": 2,
+      "value": "-4"
+    },
+    {
+      "filePath": "\/Users\/suryakantsharma\/Workspace\/SDK-iOS\/IOS-SDK\/iOS SDK project\/BureauAuthentication\/BureauAuth.swift",
+      "kind": "IntegerLiteral",
+      "offset": 635,
+      "length": 1,
+      "value": "0"
+    }
+  ]
+}
