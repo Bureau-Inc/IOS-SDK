@@ -1,0 +1,60 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name BureauAuthentication
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+@_exported import BureauAuthentication
+import Foundation
+import Network
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import os
+public struct RedirectResult {
+  public var url: Foundation.URL?
+  public let cookies: [Foundation.HTTPCookie]?
+}
+public struct ConnectionResponse {
+  public var status: Swift.Int
+  public let body: Foundation.Data?
+}
+@_hasMissingDesignatedInitializers public class BureauAuth {
+  public enum Mode {
+    case sandbox
+    case production
+    public static func == (a: BureauAuthentication.BureauAuth.Mode, b: BureauAuthentication.BureauAuth.Mode) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public class Builder {
+    public init()
+    public func setClientId(clientId: Swift.String) -> BureauAuthentication.BureauAuth.Builder
+    public func setCallBackUrl(callBackUrl: Swift.String) -> BureauAuthentication.BureauAuth.Builder
+    public func setTimeout(timeoutinSeconds: Swift.Int) -> BureauAuthentication.BureauAuth.Builder
+    public func setMode(mode: BureauAuthentication.BureauAuth.Mode) -> BureauAuthentication.BureauAuth.Builder
+    public func disableWifiSwitchOver() -> BureauAuthentication.BureauAuth.Builder
+    public func build() -> BureauAuthentication.BureauAuth
+    @objc deinit
+  }
+  public func makeAuthCall(mobile: Swift.String, correlationId: Swift.String) -> BureauAuthentication.AuthenticationStatus
+  public func makeAuthCall(mobile: Swift.String, correlationId: Swift.String) -> Swift.Bool
+  @objc deinit
+}
+public enum AuthenticationStatus {
+  case completed
+  case networkUnavailable
+  case onDifferentNetwork
+  case unknown
+  public static func == (a: BureauAuthentication.AuthenticationStatus, b: BureauAuthentication.AuthenticationStatus) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension BureauAuthentication.BureauAuth.Mode : Swift.Equatable {}
+extension BureauAuthentication.BureauAuth.Mode : Swift.Hashable {}
+extension BureauAuthentication.AuthenticationStatus : Swift.Equatable {}
+extension BureauAuthentication.AuthenticationStatus : Swift.Hashable {}
