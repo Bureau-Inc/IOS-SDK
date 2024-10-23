@@ -53,17 +53,10 @@
                                     <constraint firstAttribute="width" constant="120" id="kvc-sQ-TxL"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cna-AS-Dg3">
-                                <rect key="frame" x="207" y="434" width="0.0" height="0.0"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Cna-AS-Dg3" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="0fl-nf-HW3"/>
                             <constraint firstItem="sDX-3A-CHP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="76" id="6Dh-Gl-DaO"/>
                             <constraint firstItem="zX9-eE-iuS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="147" id="9YH-SM-wE4"/>
                             <constraint firstItem="R8b-6g-o9j" firstAttribute="leading" secondItem="ATD-N3-aBD" secondAttribute="trailing" constant="12" id="CwO-f8-rma"/>
@@ -71,7 +64,6 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="R8b-6g-o9j" secondAttribute="trailing" constant="20" id="Fbu-wY-xnU"/>
                             <constraint firstItem="R8b-6g-o9j" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="43" id="Ngq-vT-pcH"/>
                             <constraint firstItem="ATD-N3-aBD" firstAttribute="centerY" secondItem="R8b-6g-o9j" secondAttribute="centerY" id="P6F-Kl-XZ2"/>
-                            <constraint firstItem="Cna-AS-Dg3" firstAttribute="top" secondItem="sDX-3A-CHP" secondAttribute="bottom" constant="51" id="agl-bp-drv"/>
                             <constraint firstItem="R8b-6g-o9j" firstAttribute="top" secondItem="zX9-eE-iuS" secondAttribute="bottom" constant="80" id="bLq-Yt-BEs"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zX9-eE-iuS" secondAttribute="trailing" constant="147" id="bdp-qQ-fME"/>
                             <constraint firstItem="zX9-eE-iuS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="24" id="kIG-Rl-GbM"/>
@@ -79,7 +71,6 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="responseLabel" destination="Cna-AS-Dg3" id="L35-ML-Mv5"/>
                         <outlet property="textFieldPhoneNumber" destination="R8b-6g-o9j" id="hcn-Ai-AAc"/>
                     </connections>
                 </viewController>
