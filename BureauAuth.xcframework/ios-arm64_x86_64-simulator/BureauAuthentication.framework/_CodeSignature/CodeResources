@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/BureauAuthentication-Swift.h</key>
 		<data>
-		hhh2W4YL6bZ96z5aFZSO2BNc40g=
+		soC8FCaJ0o/PX96sSK/iyyPxXlg=
 		</data>
 		<key>Headers/BureauAuthentication.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1yiEJLArR7zI+RUQyL6/R4hlNzc=
+		8qCAndhoDtxmQPp7EkgSTh+fAnk=
 		</data>
 		<key>Modules/BureauAuthentication.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		2kTMRNYh1XJO95HMHkM3NthnrdI=
+		BOoA6PbdNxfxvhkmibHKtnkUkOo=
 		</data>
 		<key>Modules/BureauAuthentication.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		6oMn9ysS7bP5fuoncbXbvga0Xso=
+		5HvWlHcoBmqPfoANpK/9/xKXcsY=
 		</data>
 		<key>Modules/BureauAuthentication.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		jCyBDhLX83rL2kGPR+Ru65ezaU4=
+		Cx9lF3g9GRel3WDPYh+SYyCGuzA=
 		</data>
 		<key>Modules/BureauAuthentication.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		6oMn9ysS7bP5fuoncbXbvga0Xso=
+		5HvWlHcoBmqPfoANpK/9/xKXcsY=
 		</data>
 		<key>Modules/BureauAuthentication.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		lBqhimsNpvGCrGPmXTTOBSHQkgg=
+		Cq60XJqkCjCP1udr/RBlJN8QIQ8=
 		</data>
 		<key>Modules/BureauAuthentication.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		2kTMRNYh1XJO95HMHkM3NthnrdI=
+		BOoA6PbdNxfxvhkmibHKtnkUkOo=
 		</data>
 		<key>Modules/BureauAuthentication.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		h4Q+QgfjdMTVafWbCdw5XwQl3a8=
+		IGeLjlEQACqe7Ai3ojbDMBgsd/E=
 		</data>
 		<key>Modules/BureauAuthentication.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		BkmQa46Kf8BtJ2VuTCLPYV2UkTI=
+		zuqtOaKhKOmft9lxQ68v/L36t2I=
 		</data>
 		<key>Modules/BureauAuthentication.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		h4Q+QgfjdMTVafWbCdw5XwQl3a8=
+		IGeLjlEQACqe7Ai3ojbDMBgsd/E=
 		</data>
 		<key>Modules/BureauAuthentication.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		JbCcpyhI21irejs8Y2eXWPQ8niU=
+		tHGEQfPJjjxv0MEvURkzfIFN94w=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,7 +71,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cc1giKmaVddwluAdFNmIdjgqvS6BKt8adHQuVktnXhI=
+			KMGdqMissJU2OxH46SCQIt1jsevmIXbYHDstFAsq/9g=
 			</data>
 		</dict>
 		<key>Headers/BureauAuthentication.h</key>
@@ -85,70 +85,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VwmNVeJb/u46im7s9eosYuZH5LhXo7KM6jrCqcGxm9w=
+			Z5rg3a0+KUctbV58kQZREJYL/i/o96c9nsm470+upA4=
 			</data>
 		</dict>
 		<key>Modules/BureauAuthentication.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VP1zIvVE7ck/VG2MiYyqVnD5dRNXttNRj7jirgCRV4E=
+			X9N0NTlqV1uMgTX+mL0eYq4UqCQaClhPhv8iFXV9ke4=
 			</data>
 		</dict>
 		<key>Modules/BureauAuthentication.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0PQNW5u2Ib0wkGWmThyvcgLNhjGCwlf4ikeYpYNfPJ0=
+			c/q4v2/8AjH3mba1dwRxlqDm9182Z3mo3IlQ/UNMeOQ=
 			</data>
 		</dict>
 		<key>Modules/BureauAuthentication.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VP1zIvVE7ck/VG2MiYyqVnD5dRNXttNRj7jirgCRV4E=
+			X9N0NTlqV1uMgTX+mL0eYq4UqCQaClhPhv8iFXV9ke4=
 			</data>
 		</dict>
 		<key>Modules/BureauAuthentication.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6DVk4qu8IOH5Y1i750LHI+fHMtMBFS0TI1n/WGoJBwk=
+			XklHPjA5XocmImuIMxgfyoUK/f3nKkbP3qtryhYL1Mg=
 			</data>
 		</dict>
 		<key>Modules/BureauAuthentication.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VwmNVeJb/u46im7s9eosYuZH5LhXo7KM6jrCqcGxm9w=
+			Z5rg3a0+KUctbV58kQZREJYL/i/o96c9nsm470+upA4=
 			</data>
 		</dict>
 		<key>Modules/BureauAuthentication.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			J/SXstCI5RhYnTc5T4s08GpfEmioNb2bbaybUFh8XeE=
+			PWOYdHeeVuGzGjFA7M+uqjNP/7rSJCTuskZuJvnG7nE=
 			</data>
 		</dict>
 		<key>Modules/BureauAuthentication.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+vGOTj7Q6kqLhsKeRwOIwIh04nFuufOmeUt4VHbNu9s=
+			O1gdo8ETY1+Mf6s2tub5pmFMH1pWwFygMp3QdXf9peU=
 			</data>
 		</dict>
 		<key>Modules/BureauAuthentication.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			J/SXstCI5RhYnTc5T4s08GpfEmioNb2bbaybUFh8XeE=
+			PWOYdHeeVuGzGjFA7M+uqjNP/7rSJCTuskZuJvnG7nE=
 			</data>
 		</dict>
 		<key>Modules/BureauAuthentication.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CJZJtqnzHGYc0nhWyYv89PpRCb8iaVYLjHkqJs1yWOU=
+			4he3G1LpZEBIq5xYW38vgAnusqLFcjT1vsNLfkijyjI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
